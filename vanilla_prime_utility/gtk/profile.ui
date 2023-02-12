@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<interface>
+  <requires lib="gtk" version="4.0"/>
+  <template class="ProfileRow" parent="AdwActionRow">
+    <property name="activatable">True</property>
+    <child type="suffix">
+      <object class="GtkImage" id="img_active">
+        <property name="icon-name">object-select-symbolic</property>
+        <property name="valign">center</property>
+        <property name="visible">False</property>
+      </object>
+    </child>
+  </template>
+</interface>

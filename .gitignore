@@ -1,0 +1,7 @@
+/meson_build/
+/mesonbuild/
+/debian/.debhelper
+/debian/vanilla-prime-utility
+/debian/vanilla-prime-utility.debhelper.log
+/debian/vanilla-prime-utility.substvars
+/obj-x86_64-linux-gnu/
