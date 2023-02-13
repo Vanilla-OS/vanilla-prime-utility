@@ -33,6 +33,7 @@ class PrimeUtilityWindow(Adw.ApplicationWindow):
     btn_cancel = Gtk.Template.Child()
     toasts = Gtk.Template.Child()
     info_bar = Gtk.Template.Child()
+    info_bar_label = Gtk.Template.Child()
     pref_profiles = Gtk.Template.Child()
     group_profiles = Gtk.Template.Child()
 
@@ -49,7 +50,11 @@ class PrimeUtilityWindow(Adw.ApplicationWindow):
         self.btn_cancel.connect("clicked", self.__on_cancel_clicked)
         can_transact = PrimeUtilityWrapper.can_transact
 
-        if not can_transact:
+        if not PrimeUtilityWrapper.is_supported:
+            self.info_bar_label.set_text(_("Your device does not support PRIME profiles."))
+            self.info_bar.show()
+        elif not can_transact:
+            self.info_bar_label.set_text(_("Transactions are locked. Please try again later or restart your device."))
             self.info_bar.show()
         
         for profile in PrimeUtilityWrapper.available_profiles():

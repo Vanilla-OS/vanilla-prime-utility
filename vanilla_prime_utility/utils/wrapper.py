@@ -36,7 +36,7 @@ class PrimeUtilityWrapper:
         return not os.path.exists("/tmp/abroot-transactions.lock")
     
     @property
-    def supported(self) -> bool:
+    def is_supported(self) -> bool:
         if "prime" in os.environ.get("DISABLED_MODULES", []):
             logger.info(_("PRIME module disabled"))
             return False
