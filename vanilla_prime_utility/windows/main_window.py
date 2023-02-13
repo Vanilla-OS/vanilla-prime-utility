@@ -36,6 +36,7 @@ class PrimeUtilityWindow(Adw.ApplicationWindow):
     info_bar_label = Gtk.Template.Child()
     pref_profiles = Gtk.Template.Child()
     group_profiles = Gtk.Template.Child()
+    status_no_support = Gtk.Template.Child()
 
     def __init__(self, embedded, **kwargs):
         super().__init__(**kwargs)
@@ -51,11 +52,11 @@ class PrimeUtilityWindow(Adw.ApplicationWindow):
         can_transact = PrimeUtilityWrapper.can_transact
 
         if not PrimeUtilityWrapper.is_supported:
-            self.info_bar_label.set_text(_("Your device does not support PRIME profiles."))
-            self.info_bar.show()
+            self.status_no_support.show()
+            self.pref_profiles.hide()
         elif not can_transact:
-            self.info_bar_label.set_text(_("Transactions are locked. Please try again later or restart your device."))
             self.info_bar.show()
+            self.status_no_support.hide()
         
         for profile in PrimeUtilityWrapper.available_profiles():
             row = ProfileRow(profile, can_transact)
