@@ -104,8 +104,7 @@ class PrimeUtilityWrapper:
         if profile not in self.__available_profiles:
             raise ValueError(_("Invalid profile name"))
 
-        #return " ".join(["pkexec", "abroot", "exec", "-f", self.__binary, profile])
-        return "ping -c 3 google.com"
+        return " ".join(["pkexec", "abroot", "exec", "-f", self.__binary, profile])
 
     def get_gpus(self) -> dict:
         gpus = {
