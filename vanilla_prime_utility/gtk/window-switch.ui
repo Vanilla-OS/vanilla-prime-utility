@@ -2,8 +2,8 @@
 <interface>
   <requires lib="gtk" version="4.0"/>
   <requires lib="libadwaita" version="1.0"/>
-    <template class="PrimeUtilityWindowInstallation" parent="AdwWindow">
-        <property name="title" translatable="yes">"Installing new Drivers…"</property>
+    <template class="PrimeUtilityWindowSwitch" parent="AdwWindow">
+        <property name="title" translatable="yes">Switching PRIME Profile…</property>
         <property name="default-width">540</property>
         <property name="modal">True</property>
         <property name="deletable">False</property>
@@ -18,8 +18,8 @@
                     </object>
                 </child>
                 <child>
-                    <object class="AdwStatusPage" id="status_install">
-                        <property name="title" translatable="true">Installation in Progress…</property>
+                    <object class="AdwStatusPage" id="status_switch">
+                        <property name="title" translatable="true">Switching PRIME Profile…</property>
                         <property name="description" translatable="true">This may take a while.</property>
                         <property name="valign">center</property>
                         <property name="vexpand">True</property>
@@ -49,8 +49,8 @@
                 <child>
                     <object class="AdwStatusPage" id="status_done">
                         <property name="visible">False</property>
-                        <property name="title" translatable="true">Installation Complete</property>
-                        <property name="description" translatable="true">Restart your device to start using the new drivers.</property>
+                        <property name="title" translatable="true">Profile Switched</property>
+                        <property name="description" translatable="true">Restart your device to apply the changes.</property>
                         <property name="valign">center</property>
                         <property name="vexpand">True</property>
                         <child>

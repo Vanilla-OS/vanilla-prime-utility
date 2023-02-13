@@ -1,4 +1,4 @@
-# installation_window.py
+# switch_window.py
 #
 # Copyright 2023 Mirko Brombin
 #
@@ -20,14 +20,14 @@
 from gi.repository import Gtk, GObject, Gio, Gdk, GLib, Adw, Vte, Pango
 
 
-@Gtk.Template(resource_path='/org/vanillaos/prime-utility/gtk/window-installation.ui')
-class PrimeUtilityWindowInstallation(Adw.Window):
-    __gtype_name__ = 'PrimeUtilityWindowInstallation'
+@Gtk.Template(resource_path='/org/vanillaos/prime-utility/gtk/window-switch.ui')
+class PrimeUtilityWindowSwitch(Adw.Window):
+    __gtype_name__ = 'PrimeUtilityWindowSwitch'
     __gsignals__ = {
         'restart': (GObject.SignalFlags.RUN_FIRST, None, ()),
     }
 
-    status_install = Gtk.Template.Child()
+    status_switch = Gtk.Template.Child()
     status_done = Gtk.Template.Child()
     console_output = Gtk.Template.Child()
     btn_restart = Gtk.Template.Child()
@@ -35,7 +35,7 @@ class PrimeUtilityWindowInstallation(Adw.Window):
     def __init__(self, title, window, command, on_close_fn, **kwargs):
         super().__init__(**kwargs)
         self.set_transient_for(window)
-        self.status_install.set_title(_("Installing '{}'…").format(title))
+        self.status_switch.set_title(_("Switching to '{}'…").format(title))
         self.__window = window
         self.__command = command
         self.__status = 0
@@ -104,12 +104,12 @@ class PrimeUtilityWindowInstallation(Adw.Window):
         self.__status = status
 
         if status:
-            self.status_install.hide()
+            self.status_switch.hide()
             self.status_done.show()
         else:
-            self.set_title(_("Installation Failed"))
-            self.status_install.set_title(_("Installation Failed"))
-            self.status_install.set_description(_("The installation of the driver failed. Please try again later."))
+            self.set_title(_("Switch Failed"))
+            self.status_switch.set_title(_("Switch Failed"))
+            self.status_switch.set_description(_("Something went wrong. Please try again later."))
 
         self.set_deletable(True)
 

@@ -20,6 +20,7 @@
 import os
 import shutil
 import logging
+import subprocess
 
 
 logger = logging.getLogger("PrimeUtility:Wrapper")
@@ -28,7 +29,7 @@ logger = logging.getLogger("PrimeUtility:Wrapper")
 class PrimeUtilityWrapper:
 
     def __init__(self):
-        self.__bin = shutil.which("prime-select")
+        self.__binary = shutil.which("prime-select")
         self.__available_profiles = ["nvidia", "intel", "on-demand"]
 
     @staticmethod
@@ -103,7 +104,8 @@ class PrimeUtilityWrapper:
         if profile not in self.__available_profiles:
             raise ValueError(_("Invalid profile name"))
 
-        return " ".join(["pkexec", "abroot", "exec", "-f", self.__binary, profile])
+        #return " ".join(["pkexec", "abroot", "exec", "-f", self.__binary, profile])
+        return "ping -c 3 google.com"
 
     def get_gpus(self) -> dict:
         gpus = {
