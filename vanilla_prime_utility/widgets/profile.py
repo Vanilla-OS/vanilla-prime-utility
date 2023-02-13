@@ -31,6 +31,7 @@ class ProfileRow(Adw.ActionRow):
         super().__init__(**kwargs)
 
         self.__profile = profile
+        self.__can_transact = can_transact
 
         self.__build_ui()
 
@@ -39,6 +40,12 @@ class ProfileRow(Adw.ActionRow):
         self.set_subtitle(self.__profile.get('description'))
         self.set_activatable(True)
         self.connect("activated", self.__on_activated)
+
+        if not self.__can_transact:
+            self.set_activatable(False)
+            self.set_tooltip_text(
+                _("It is not possible to switch the PRIME profile now. Please restart your device and try again.")
+            )
 
     def __on_activated(self, widget):
         self.emit('switch', self.__profile)
