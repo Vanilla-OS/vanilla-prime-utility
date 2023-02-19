@@ -7,191 +7,200 @@ msgstr ""
 "Project-Id-Version: prime_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:20+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2023-02-20 01:56+0000\n"
+"Last-Translator: Abu Huraira <abuhuraira@tutamail.com>\n"
+"Language-Team: Bengali <https://hosted.weblate.org/projects/vanilla-os/"
+"vanilla-prime-utility/bn/>\n"
 "Language: bn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.16-dev\n"
 
 #: data/org.vanillaos.PrimeUtility.desktop.in:3
 msgid "PRIME Utility"
-msgstr ""
+msgstr "প্রাইম ইউটিলিটি"
 
 #: data/org.vanillaos.PrimeUtility.appdata.xml.in:7
 msgid "No description"
-msgstr ""
+msgstr "কোন বর্ণনা পাওয়া যায়নি"
 
 #: vanilla_prime_utility/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "সাধারণ"
 
 #: vanilla_prime_utility/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr ""
+msgstr "শর্টকাটগুলো দেখান"
 
 #: vanilla_prime_utility/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "বের হোন"
 
 #: vanilla_prime_utility/gtk/profile.ui:17
 #: vanilla_prime_utility/gtk/window-switch.ui:60
 msgid "Restart Now"
-msgstr ""
+msgstr "এখনই রিস্টার্ট করুন"
 
 #: vanilla_prime_utility/gtk/window-main.ui:16
 msgid "Cancel"
-msgstr ""
+msgstr "বাতিল করুন"
 
 #: vanilla_prime_utility/gtk/window-main.ui:30
 msgid "Transactions are locked. Please try again later or restart your device."
 msgstr ""
+"ট্রানজেকশন (কার্যপরিচালনা) লক করা আছে। অনুগ্রহ করে পরে আবার চেষ্টা করুন বা "
+"আপনার ডিভাইসটি রিস্টার্ট করুন।"
 
 #: vanilla_prime_utility/gtk/window-main.ui:47
 msgid "Not Supported"
-msgstr ""
+msgstr "সমর্থিত নয়"
 
 #: vanilla_prime_utility/gtk/window-main.ui:48
 msgid "Your device does not support PRIME switching."
-msgstr ""
+msgstr "আপনার ডিভাইস PRIME স্যুইচিং সমর্থন করে না।"
 
 #: vanilla_prime_utility/gtk/window-main.ui:55
 msgid "Active Profile"
-msgstr ""
+msgstr "সক্রিয় প্রোফাইল"
 
 #: vanilla_prime_utility/gtk/window-main.ui:56
 msgid "Select the PRIME profile to use."
-msgstr ""
+msgstr "যে প্রাইম প্রোফাইলটি ব্যবহার করবেন তা নির্বাচন করুন।"
 
 #: vanilla_prime_utility/gtk/window-main.ui:71
 msgid "_Preferences"
-msgstr ""
+msgstr "_পছন্দসমূহ"
 
 #: vanilla_prime_utility/gtk/window-main.ui:75
 msgid "_Keyboard Shortcuts"
-msgstr ""
+msgstr "_কীবোর্ড শর্টকাটগুলি"
 
 #: vanilla_prime_utility/gtk/window-main.ui:79
 msgid "_About prime_utility"
-msgstr ""
+msgstr "_প্রাইম_ইউটিলিটি_সম্পর্কে"
 
 #: vanilla_prime_utility/gtk/window-switch.ui:6
 #: vanilla_prime_utility/gtk/window-switch.ui:22
 msgid "Switching PRIME Profile…"
-msgstr ""
+msgstr "প্রাইম প্রোফাইল পরিবর্তন করা হচ্ছে…"
 
 #: vanilla_prime_utility/gtk/window-switch.ui:23
 msgid "This may take a while."
-msgstr ""
+msgstr "এটা হতে কিছুটা সময় লাগতে পারে।"
 
 #: vanilla_prime_utility/gtk/window-switch.ui:52
 msgid "Profile Switched"
-msgstr ""
+msgstr "প্রোফাইল সুইচ করা হয়েছে"
 
 #: vanilla_prime_utility/gtk/window-switch.ui:53
 msgid "Restart your device to apply the changes."
-msgstr ""
+msgstr "পরিবর্তনগুলি প্রয়োগ করতে আপনার ডিভাইসটি রিস্টার্ট করুন।"
 
 #: vanilla_prime_utility/utils/wrapper.py:42
 msgid "PRIME module disabled"
-msgstr ""
+msgstr "প্রাইম মডিউল নিষ্ক্রিয় করা হয়েছে"
 
 #: vanilla_prime_utility/utils/wrapper.py:46
 msgid "prime-select not found"
-msgstr ""
+msgstr "প্রাইম-সিলেক্ট খুঁজে পাওয়া যায়নি"
 
 #: vanilla_prime_utility/utils/wrapper.py:50
 msgid "prime-select not supported for this device"
-msgstr ""
+msgstr "প্রাইম-সিলেক্ট এই ডিভাইসের জন্য সমর্থিত নয়"
 
 #: vanilla_prime_utility/utils/wrapper.py:56
 msgid "prime-select is not supported for this setup"
-msgstr ""
+msgstr "এই সেটআপের জন্য প্রাইম-সিলেক্ট সমর্থিত নয়"
 
 #: vanilla_prime_utility/utils/wrapper.py:66
 msgid "Discrete GPU"
-msgstr ""
+msgstr "অসংলগ্ন (ডেডিকেটেড) জিপিইউ"
 
 #: vanilla_prime_utility/utils/wrapper.py:67
 msgid "Use the discrete GPU for all applications."
-msgstr ""
+msgstr "সমস্ত অ্যাপ্লিকেশনের জন্য অসংলগ্ন (ডেডিকেটেড) GPU ব্যবহার করুন।"
 
 #: vanilla_prime_utility/utils/wrapper.py:71
 msgid "Integrated GPU"
-msgstr ""
+msgstr "সংলগ্ন (বিল্টিন) জিপিইউ"
 
 #: vanilla_prime_utility/utils/wrapper.py:72
 msgid "Use the integrated GPU for all applications."
-msgstr ""
+msgstr "সমস্ত অ্যাপ্লিকেশনের জন্য সংলগ্ন (বিল্টিন) GPU ব্যবহার করুন।"
 
 #: vanilla_prime_utility/utils/wrapper.py:76
 msgid "On-demand"
-msgstr ""
+msgstr "চাহিদা সাপেক্ষে"
 
 #: vanilla_prime_utility/utils/wrapper.py:77
 msgid ""
 "Use the integrated GPU for all applications, and the discrete GPU on demand."
 msgstr ""
+"সমস্ত অ্যাপ্লিকেশনের জন্য সংলগ্ন (বিল্টিন) জিপিইউ ব্যবহার করুন, আর চাহিদা "
+"অনুযায়ী অসংলগ্ন (ডেডিকেটেড) জিপিইউ ব্যবহার করুন।"
 
 #: vanilla_prime_utility/utils/wrapper.py:105
 msgid "Invalid profile name"
-msgstr ""
+msgstr "অগ্রহণযোগ্য প্রোফাইল নাম"
 
 #: vanilla_prime_utility/utils/wrapper.py:128
 #: vanilla_prime_utility/utils/wrapper.py:131
 #: vanilla_prime_utility/utils/wrapper.py:134
 msgid "integrated"
-msgstr ""
+msgstr "সংলগ্ন (বিল্টিন)"
 
 #: vanilla_prime_utility/utils/wrapper.py:129
 #: vanilla_prime_utility/utils/wrapper.py:132
 #: vanilla_prime_utility/utils/wrapper.py:135
 msgid "discrete"
-msgstr ""
+msgstr "অসংলগ্ন (ডেডিকেটেড)"
 
 #: vanilla_prime_utility/widgets/profile.py:52
 msgid ""
 "It is not possible to switch the PRIME profile now. Please restart your "
 "device and try again."
 msgstr ""
+"এখন প্রাইম প্রোফাইল পরিবর্তন করা সম্ভব নয়। অনুগ্রহ করে আপনার ডিভাইসটি "
+"রিস্টার্ট করুন এবং আবার চেষ্টা করুন।"
 
 #: vanilla_prime_utility/windows/main_window.py:95
 msgid "Do you want to switch to the '{}' profile?"
-msgstr ""
+msgstr "আপনি কি '{}' প্রোফাইলে স্যুইচ করতে চান?"
 
 #: vanilla_prime_utility/windows/main_window.py:96
 msgid "This will require a restart to apply the changes."
-msgstr ""
+msgstr "এই পরিবর্তনগুলি প্রয়োগ করতে একবার রিস্টার্ট করতে হবে।"
 
 #: vanilla_prime_utility/windows/main_window.py:98
 msgid "_Cancel"
-msgstr ""
+msgstr "_বাতিল করুন"
 
 #: vanilla_prime_utility/windows/main_window.py:99
 msgid "Switch to '{}'"
-msgstr ""
+msgstr "'{}' এ স্যুইচ করুন"
 
 #: vanilla_prime_utility/windows/main_window.py:106
 msgid "Profile switched to {}!"
-msgstr ""
+msgstr "প্রোফাইল {} এ স্যুইচ করা হয়েছে!"
 
 #: vanilla_prime_utility/windows/main_window.py:111
 msgid "Profile switch failed!"
-msgstr ""
+msgstr "প্রোফাইল স্যুইচ করতে ব্যর্থ হয়েছে!"
 
 #: vanilla_prime_utility/windows/switch_window.py:38
 msgid "Switching to '{}'…"
-msgstr ""
+msgstr "'{}'-এ স্যুইচ করা হচ্ছে…"
 
 #: vanilla_prime_utility/windows/switch_window.py:110
 #: vanilla_prime_utility/windows/switch_window.py:111
 msgid "Switch Failed"
-msgstr ""
+msgstr "সুইচ করতে ব্যর্থ হয়েছে"
 
 #: vanilla_prime_utility/windows/switch_window.py:112
 msgid "Something went wrong. Please try again later."
-msgstr ""
+msgstr "কিছু একটা সমস্যা হয়েছে। দয়া করে পরে আবার চেষ্টা করুন।"
