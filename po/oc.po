@@ -1,205 +1,200 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the prime_utility package.
-# azuki <ipadgoogcloud@gmail.com>, 2023.
+# Quentin PAGÈS <quentinantonin@free.fr>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: prime_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:20+0100\n"
-"PO-Revision-Date: 2023-02-19 14:08+0000\n"
-"Last-Translator: azuki <ipadgoogcloud@gmail.com>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/vanilla-os/"
-"vanilla-prime-utility/ja/>\n"
-"Language: ja\n"
+"PO-Revision-Date: 2023-02-19 14:13+0000\n"
+"Last-Translator: Quentin PAGÈS <quentinantonin@free.fr>\n"
+"Language-Team: Occitan <https://hosted.weblate.org/projects/vanilla-os/"
+"vanilla-prime-utility/oc/>\n"
+"Language: oc\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
 "X-Generator: Weblate 4.16-dev\n"
 
 #: data/org.vanillaos.PrimeUtility.desktop.in:3
 msgid "PRIME Utility"
-msgstr "PRIMEユーティリティ"
+msgstr ""
 
 #: data/org.vanillaos.PrimeUtility.appdata.xml.in:7
 msgid "No description"
-msgstr "説明なし"
+msgstr "Cap de descripcion"
 
 #: vanilla_prime_utility/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
-msgstr "全般"
+msgstr "General"
 
 #: vanilla_prime_utility/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr "ショートカットを表示"
+msgstr "Afichar los archis"
 
 #: vanilla_prime_utility/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr "終了"
+msgstr "Quitar"
 
 #: vanilla_prime_utility/gtk/profile.ui:17
 #: vanilla_prime_utility/gtk/window-switch.ui:60
 msgid "Restart Now"
-msgstr "今すぐ再起動"
+msgstr "Reaviar ara"
 
 #: vanilla_prime_utility/gtk/window-main.ui:16
 msgid "Cancel"
-msgstr "キャンセル"
+msgstr "Anullar"
 
 #: vanilla_prime_utility/gtk/window-main.ui:30
 msgid "Transactions are locked. Please try again later or restart your device."
-msgstr "トランザクションがロックされています。あとでもう一度試すかデバイスを再起動し"
-"てください。"
+msgstr ""
 
 #: vanilla_prime_utility/gtk/window-main.ui:47
 msgid "Not Supported"
-msgstr "サポートされていません"
+msgstr "Pas compatible"
 
 #: vanilla_prime_utility/gtk/window-main.ui:48
 msgid "Your device does not support PRIME switching."
-msgstr "あなたのデバイスはPRIME切り替えをサポートしていません。"
+msgstr ""
 
 #: vanilla_prime_utility/gtk/window-main.ui:55
 msgid "Active Profile"
-msgstr "有効なプロファイル"
+msgstr "Perfil actiu"
 
 #: vanilla_prime_utility/gtk/window-main.ui:56
 msgid "Select the PRIME profile to use."
-msgstr "使用するPRIMEプロファイルを選択してください。"
+msgstr ""
 
 #: vanilla_prime_utility/gtk/window-main.ui:71
 msgid "_Preferences"
-msgstr "_環境設定"
+msgstr "_Preferéncias"
 
 #: vanilla_prime_utility/gtk/window-main.ui:75
 msgid "_Keyboard Shortcuts"
-msgstr "_キーボードショートカット"
+msgstr ""
 
 #: vanilla_prime_utility/gtk/window-main.ui:79
 msgid "_About prime_utility"
-msgstr "_prime_utilityの情報"
+msgstr ""
 
 #: vanilla_prime_utility/gtk/window-switch.ui:6
 #: vanilla_prime_utility/gtk/window-switch.ui:22
 msgid "Switching PRIME Profile…"
-msgstr "PRIME プロファイルを切り替えています…"
+msgstr ""
 
 #: vanilla_prime_utility/gtk/window-switch.ui:23
 msgid "This may take a while."
-msgstr "これにはしばらく時間がかかる場合があります。"
+msgstr ""
 
 #: vanilla_prime_utility/gtk/window-switch.ui:52
 msgid "Profile Switched"
-msgstr "プロファイルが切り替えられました"
+msgstr ""
 
 #: vanilla_prime_utility/gtk/window-switch.ui:53
 msgid "Restart your device to apply the changes."
-msgstr "変更を適用するにはデバイスを再起動してください。"
+msgstr ""
 
 #: vanilla_prime_utility/utils/wrapper.py:42
 msgid "PRIME module disabled"
-msgstr "PRIME モジュールが無効化されました"
+msgstr ""
 
 #: vanilla_prime_utility/utils/wrapper.py:46
 msgid "prime-select not found"
-msgstr "prime-selectが存在しません"
+msgstr ""
 
 #: vanilla_prime_utility/utils/wrapper.py:50
 msgid "prime-select not supported for this device"
-msgstr "prime-selectはこのデバイスをサポートしていません"
+msgstr ""
 
 #: vanilla_prime_utility/utils/wrapper.py:56
 msgid "prime-select is not supported for this setup"
-msgstr "prime-selectはこのセットアップをサポートしていません"
+msgstr ""
 
 #: vanilla_prime_utility/utils/wrapper.py:66
-#, fuzzy
 msgid "Discrete GPU"
-msgstr "ディスクリートGPU"
+msgstr ""
 
 #: vanilla_prime_utility/utils/wrapper.py:67
 msgid "Use the discrete GPU for all applications."
-msgstr "すべてのアプリケーションにディスクリートGPUを使用する。"
+msgstr ""
 
 #: vanilla_prime_utility/utils/wrapper.py:71
 msgid "Integrated GPU"
-msgstr "統合されたGPU"
+msgstr ""
 
 #: vanilla_prime_utility/utils/wrapper.py:72
 msgid "Use the integrated GPU for all applications."
-msgstr "すべてのアプリケーションに統合されたGPUを使用する。"
+msgstr ""
 
 #: vanilla_prime_utility/utils/wrapper.py:76
 msgid "On-demand"
-msgstr "必要に応じて"
+msgstr ""
 
 #: vanilla_prime_utility/utils/wrapper.py:77
 msgid ""
 "Use the integrated GPU for all applications, and the discrete GPU on demand."
-msgstr "すべてのアプリケーションに統合されたGPUを使用して、ディスクリートGPUを必要に"
-"応じて使用する。"
+msgstr ""
 
 #: vanilla_prime_utility/utils/wrapper.py:105
 msgid "Invalid profile name"
-msgstr "プロファイル名が無効です"
+msgstr ""
 
 #: vanilla_prime_utility/utils/wrapper.py:128
 #: vanilla_prime_utility/utils/wrapper.py:131
 #: vanilla_prime_utility/utils/wrapper.py:134
 msgid "integrated"
-msgstr "統合された"
+msgstr ""
 
 #: vanilla_prime_utility/utils/wrapper.py:129
 #: vanilla_prime_utility/utils/wrapper.py:132
 #: vanilla_prime_utility/utils/wrapper.py:135
 msgid "discrete"
-msgstr "ディスクリート"
+msgstr ""
 
 #: vanilla_prime_utility/widgets/profile.py:52
 msgid ""
 "It is not possible to switch the PRIME profile now. Please restart your "
 "device and try again."
-msgstr "現在、PRIMEプロファイルを切り替えできません。デバイスを再起動してからもう一度"
-"お試しください。"
+msgstr ""
 
 #: vanilla_prime_utility/windows/main_window.py:95
 msgid "Do you want to switch to the '{}' profile?"
-msgstr "'{}'プロファイルに切り替えますか？"
+msgstr ""
 
 #: vanilla_prime_utility/windows/main_window.py:96
-#, fuzzy
 msgid "This will require a restart to apply the changes."
-msgstr "変更を適用するのに再起動が必要です。"
+msgstr ""
 
 #: vanilla_prime_utility/windows/main_window.py:98
 msgid "_Cancel"
-msgstr "_キャンセル"
+msgstr ""
 
 #: vanilla_prime_utility/windows/main_window.py:99
 msgid "Switch to '{}'"
-msgstr "'{}'に変更"
+msgstr ""
 
 #: vanilla_prime_utility/windows/main_window.py:106
 msgid "Profile switched to {}!"
-msgstr "プロファイルが{}に切り替えられました!"
+msgstr ""
 
 #: vanilla_prime_utility/windows/main_window.py:111
 msgid "Profile switch failed!"
-msgstr "プロファイルの切り替えに失敗しました!"
+msgstr ""
 
 #: vanilla_prime_utility/windows/switch_window.py:38
 msgid "Switching to '{}'…"
-msgstr "'{}'に切り替えています…"
+msgstr ""
 
 #: vanilla_prime_utility/windows/switch_window.py:110
 #: vanilla_prime_utility/windows/switch_window.py:111
 msgid "Switch Failed"
-msgstr "切り替えに失敗しました"
+msgstr ""
 
 #: vanilla_prime_utility/windows/switch_window.py:112
 msgid "Something went wrong. Please try again later."
-msgstr "問題が発生しました。あとでもう一度お試しください。"
+msgstr ""
