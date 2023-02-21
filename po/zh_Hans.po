@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: prime_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:20+0100\n"
-"PO-Revision-Date: 2023-02-20 18:21+0000\n"
+"PO-Revision-Date: 2023-02-21 05:05+0000\n"
 "Last-Translator: lakejason0 <sunliyuan200402@outlook.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
 "vanilla-os/vanilla-prime-utility/zh_Hans/>\n"
@@ -72,15 +72,15 @@ msgstr "选择要使用的 PRIME 配置文件。"
 
 #: vanilla_prime_utility/gtk/window-main.ui:71
 msgid "_Preferences"
-msgstr "_首选项"
+msgstr "首选项(_P)"
 
 #: vanilla_prime_utility/gtk/window-main.ui:75
 msgid "_Keyboard Shortcuts"
-msgstr "_键盘快捷键"
+msgstr "键盘快捷键(_K)"
 
 #: vanilla_prime_utility/gtk/window-main.ui:79
 msgid "_About prime_utility"
-msgstr "_关于 prime_utility"
+msgstr "关于 prime_utility(_A)"
 
 #: vanilla_prime_utility/gtk/window-switch.ui:6
 #: vanilla_prime_utility/gtk/window-switch.ui:22
@@ -172,7 +172,7 @@ msgstr "需要重新启动以应用更改。"
 
 #: vanilla_prime_utility/windows/main_window.py:98
 msgid "_Cancel"
-msgstr "_取消"
+msgstr "取消(_C)"
 
 #: vanilla_prime_utility/windows/main_window.py:99
 msgid "Switch to '{}'"
