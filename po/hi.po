@@ -1,0 +1,198 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the prime_utility package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: prime_utility\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-19 10:20+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: hi\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/org.vanillaos.PrimeUtility.desktop.in:3
+msgid "PRIME Utility"
+msgstr ""
+
+#: data/org.vanillaos.PrimeUtility.appdata.xml.in:7
+msgid "No description"
+msgstr ""
+
+#: vanilla_prime_utility/gtk/help-overlay.ui:11
+msgctxt "shortcut window"
+msgid "General"
+msgstr ""
+
+#: vanilla_prime_utility/gtk/help-overlay.ui:14
+msgctxt "shortcut window"
+msgid "Show Shortcuts"
+msgstr ""
+
+#: vanilla_prime_utility/gtk/help-overlay.ui:20
+msgctxt "shortcut window"
+msgid "Quit"
+msgstr ""
+
+#: vanilla_prime_utility/gtk/profile.ui:17
+#: vanilla_prime_utility/gtk/window-switch.ui:60
+msgid "Restart Now"
+msgstr ""
+
+#: vanilla_prime_utility/gtk/window-main.ui:16
+msgid "Cancel"
+msgstr ""
+
+#: vanilla_prime_utility/gtk/window-main.ui:30
+msgid "Transactions are locked. Please try again later or restart your device."
+msgstr ""
+
+#: vanilla_prime_utility/gtk/window-main.ui:47
+msgid "Not Supported"
+msgstr ""
+
+#: vanilla_prime_utility/gtk/window-main.ui:48
+msgid "Your device does not support PRIME switching."
+msgstr ""
+
+#: vanilla_prime_utility/gtk/window-main.ui:55
+msgid "Active Profile"
+msgstr ""
+
+#: vanilla_prime_utility/gtk/window-main.ui:56
+msgid "Select the PRIME profile to use."
+msgstr ""
+
+#: vanilla_prime_utility/gtk/window-main.ui:71
+msgid "_Preferences"
+msgstr ""
+
+#: vanilla_prime_utility/gtk/window-main.ui:75
+msgid "_Keyboard Shortcuts"
+msgstr ""
+
+#: vanilla_prime_utility/gtk/window-main.ui:79
+msgid "_About prime_utility"
+msgstr ""
+
+#: vanilla_prime_utility/gtk/window-switch.ui:6
+#: vanilla_prime_utility/gtk/window-switch.ui:22
+msgid "Switching PRIME Profile…"
+msgstr ""
+
+#: vanilla_prime_utility/gtk/window-switch.ui:23
+msgid "This may take a while."
+msgstr ""
+
+#: vanilla_prime_utility/gtk/window-switch.ui:52
+msgid "Profile Switched"
+msgstr ""
+
+#: vanilla_prime_utility/gtk/window-switch.ui:53
+msgid "Restart your device to apply the changes."
+msgstr ""
+
+#: vanilla_prime_utility/utils/wrapper.py:42
+msgid "PRIME module disabled"
+msgstr ""
+
+#: vanilla_prime_utility/utils/wrapper.py:46
+msgid "prime-select not found"
+msgstr ""
+
+#: vanilla_prime_utility/utils/wrapper.py:50
+msgid "prime-select not supported for this device"
+msgstr ""
+
+#: vanilla_prime_utility/utils/wrapper.py:56
+msgid "prime-select is not supported for this setup"
+msgstr ""
+
+#: vanilla_prime_utility/utils/wrapper.py:66
+msgid "Discrete GPU"
+msgstr ""
+
+#: vanilla_prime_utility/utils/wrapper.py:67
+msgid "Use the discrete GPU for all applications."
+msgstr ""
+
+#: vanilla_prime_utility/utils/wrapper.py:71
+msgid "Integrated GPU"
+msgstr ""
+
+#: vanilla_prime_utility/utils/wrapper.py:72
+msgid "Use the integrated GPU for all applications."
+msgstr ""
+
+#: vanilla_prime_utility/utils/wrapper.py:76
+msgid "On-demand"
+msgstr ""
+
+#: vanilla_prime_utility/utils/wrapper.py:77
+msgid ""
+"Use the integrated GPU for all applications, and the discrete GPU on demand."
+msgstr ""
+
+#: vanilla_prime_utility/utils/wrapper.py:105
+msgid "Invalid profile name"
+msgstr ""
+
+#: vanilla_prime_utility/utils/wrapper.py:128
+#: vanilla_prime_utility/utils/wrapper.py:131
+#: vanilla_prime_utility/utils/wrapper.py:134
+msgid "integrated"
+msgstr ""
+
+#: vanilla_prime_utility/utils/wrapper.py:129
+#: vanilla_prime_utility/utils/wrapper.py:132
+#: vanilla_prime_utility/utils/wrapper.py:135
+msgid "discrete"
+msgstr ""
+
+#: vanilla_prime_utility/widgets/profile.py:52
+msgid ""
+"It is not possible to switch the PRIME profile now. Please restart your "
+"device and try again."
+msgstr ""
+
+#: vanilla_prime_utility/windows/main_window.py:95
+msgid "Do you want to switch to the '{}' profile?"
+msgstr ""
+
+#: vanilla_prime_utility/windows/main_window.py:96
+msgid "This will require a restart to apply the changes."
+msgstr ""
+
+#: vanilla_prime_utility/windows/main_window.py:98
+msgid "_Cancel"
+msgstr ""
+
+#: vanilla_prime_utility/windows/main_window.py:99
+msgid "Switch to '{}'"
+msgstr ""
+
+#: vanilla_prime_utility/windows/main_window.py:106
+msgid "Profile switched to {}!"
+msgstr ""
+
+#: vanilla_prime_utility/windows/main_window.py:111
+msgid "Profile switch failed!"
+msgstr ""
+
+#: vanilla_prime_utility/windows/switch_window.py:38
+msgid "Switching to '{}'…"
+msgstr ""
+
+#: vanilla_prime_utility/windows/switch_window.py:110
+#: vanilla_prime_utility/windows/switch_window.py:111
+msgid "Switch Failed"
+msgstr ""
+
+#: vanilla_prime_utility/windows/switch_window.py:112
+msgid "Something went wrong. Please try again later."
+msgstr ""
