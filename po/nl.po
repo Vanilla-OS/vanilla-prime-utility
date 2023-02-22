@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: prime_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:20+0100\n"
-"PO-Revision-Date: 2023-02-22 05:14+0000\n"
+"PO-Revision-Date: 2023-02-23 00:29+0000\n"
 "Last-Translator: Philip Goto <philip.goto@gmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-prime-utility/nl/>\n"
@@ -53,6 +53,8 @@ msgstr "Annuleren"
 #: vanilla_prime_utility/gtk/window-main.ui:30
 msgid "Transactions are locked. Please try again later or restart your device."
 msgstr ""
+"Transacties zijn geblokkeerd. Probeer het later nog eens of start uw "
+"apparaat opnieuw op."
 
 #: vanilla_prime_utility/gtk/window-main.ui:47
 msgid "Not Supported"
@@ -60,7 +62,7 @@ msgstr "Niet-ondersteund"
 
 #: vanilla_prime_utility/gtk/window-main.ui:48
 msgid "Your device does not support PRIME switching."
-msgstr ""
+msgstr "Uw apparaat ondersteunt PRIME-wisselen niet."
 
 #: vanilla_prime_utility/gtk/window-main.ui:55
 msgid "Active Profile"
@@ -68,7 +70,7 @@ msgstr "Actief profiel"
 
 #: vanilla_prime_utility/gtk/window-main.ui:56
 msgid "Select the PRIME profile to use."
-msgstr ""
+msgstr "Selecteer het PRIME-profiel om te gebruiken."
 
 #: vanilla_prime_utility/gtk/window-main.ui:71
 msgid "_Preferences"
@@ -85,11 +87,11 @@ msgstr "_Over PRIME-hulpprogramma"
 #: vanilla_prime_utility/gtk/window-switch.ui:6
 #: vanilla_prime_utility/gtk/window-switch.ui:22
 msgid "Switching PRIME Profile…"
-msgstr ""
+msgstr "PRIME-profiel wisselen…"
 
 #: vanilla_prime_utility/gtk/window-switch.ui:23
 msgid "This may take a while."
-msgstr ""
+msgstr "Dit kan even duren."
 
 #: vanilla_prime_utility/gtk/window-switch.ui:52
 msgid "Profile Switched"
@@ -97,23 +99,23 @@ msgstr "Profiel gewisseld"
 
 #: vanilla_prime_utility/gtk/window-switch.ui:53
 msgid "Restart your device to apply the changes."
-msgstr ""
+msgstr "Start uw apparaat opnieuw op om de wijzigingen toe te passen."
 
 #: vanilla_prime_utility/utils/wrapper.py:42
 msgid "PRIME module disabled"
-msgstr ""
+msgstr "PRIME-module uitgeschakeld"
 
 #: vanilla_prime_utility/utils/wrapper.py:46
 msgid "prime-select not found"
-msgstr ""
+msgstr "prime-select niet gevonden"
 
 #: vanilla_prime_utility/utils/wrapper.py:50
 msgid "prime-select not supported for this device"
-msgstr ""
+msgstr "prime-select niet ondersteund op dit apparaat"
 
 #: vanilla_prime_utility/utils/wrapper.py:56
 msgid "prime-select is not supported for this setup"
-msgstr ""
+msgstr "prime-select niet ondersteund in deze omgeving"
 
 #: vanilla_prime_utility/utils/wrapper.py:66
 msgid "Discrete GPU"
@@ -121,7 +123,7 @@ msgstr "Discrete GPU"
 
 #: vanilla_prime_utility/utils/wrapper.py:67
 msgid "Use the discrete GPU for all applications."
-msgstr ""
+msgstr "Gebruik de discrete GPU voor alle apps."
 
 #: vanilla_prime_utility/utils/wrapper.py:71
 msgid "Integrated GPU"
@@ -129,7 +131,7 @@ msgstr "Geïntegreerde GPU"
 
 #: vanilla_prime_utility/utils/wrapper.py:72
 msgid "Use the integrated GPU for all applications."
-msgstr ""
+msgstr "Gebruik de geïntegreerde GPU voor alle apps."
 
 #: vanilla_prime_utility/utils/wrapper.py:76
 msgid "On-demand"
@@ -139,10 +141,11 @@ msgstr "Op aanvraag"
 msgid ""
 "Use the integrated GPU for all applications, and the discrete GPU on demand."
 msgstr ""
+"Gebruik de geïntegreerde GPU voor alle apps, en de discrete GPU op aanvraag."
 
 #: vanilla_prime_utility/utils/wrapper.py:105
 msgid "Invalid profile name"
-msgstr ""
+msgstr "Ongeldige profielnaam"
 
 #: vanilla_prime_utility/utils/wrapper.py:128
 #: vanilla_prime_utility/utils/wrapper.py:131
@@ -161,14 +164,16 @@ msgid ""
 "It is not possible to switch the PRIME profile now. Please restart your "
 "device and try again."
 msgstr ""
+"Het is niet mogelijk om nu het PRIME-profiel te wisselen. Start uw apparaat "
+"opnieuw op en probeer opnieuw."
 
 #: vanilla_prime_utility/windows/main_window.py:95
 msgid "Do you want to switch to the '{}' profile?"
-msgstr ""
+msgstr "Wilt u naar het profiel ‘{}’ wisselen?"
 
 #: vanilla_prime_utility/windows/main_window.py:96
 msgid "This will require a restart to apply the changes."
-msgstr ""
+msgstr "Dit zal een herstart vereisen voor het doorvoeren van de wijzigingen."
 
 #: vanilla_prime_utility/windows/main_window.py:98
 msgid "_Cancel"
@@ -176,19 +181,19 @@ msgstr "_Annuleren"
 
 #: vanilla_prime_utility/windows/main_window.py:99
 msgid "Switch to '{}'"
-msgstr ""
+msgstr "Wisselen naar ‘{}’"
 
 #: vanilla_prime_utility/windows/main_window.py:106
 msgid "Profile switched to {}!"
-msgstr ""
+msgstr "Profiel gewisseld naar ‘{}’!"
 
 #: vanilla_prime_utility/windows/main_window.py:111
 msgid "Profile switch failed!"
-msgstr ""
+msgstr "Profielwissel mislukt!"
 
 #: vanilla_prime_utility/windows/switch_window.py:38
 msgid "Switching to '{}'…"
-msgstr ""
+msgstr "Wisselen naar ‘{}’…"
 
 #: vanilla_prime_utility/windows/switch_window.py:110
 #: vanilla_prime_utility/windows/switch_window.py:111
@@ -197,4 +202,4 @@ msgstr "Wissel mislukt"
 
 #: vanilla_prime_utility/windows/switch_window.py:112
 msgid "Something went wrong. Please try again later."
-msgstr ""
+msgstr "Er ging iets mis, probeer het later opnieuw."
