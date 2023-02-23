@@ -2,13 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the prime_utility package.
 # Felipe Nogueira <contato.fnog@gmail.com>, 2023.
+# Adtora Slonic <adtoraslonic@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: prime_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:20+0100\n"
 "PO-Revision-Date: 2023-02-26 01:40+0000\n"
-"Last-Translator: Felipe Nogueira <contato.fnog@gmail.com>\n"
+"Last-Translator: Adtora Slonic <adtoraslonic@gmail.com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "vanilla-os/vanilla-prime-utility/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -91,7 +92,7 @@ msgstr ""
 
 #: vanilla_prime_utility/gtk/window-switch.ui:23
 msgid "This may take a while."
-msgstr ""
+msgstr "Isso pode demorar um pouco."
 
 #: vanilla_prime_utility/gtk/window-switch.ui:52
 msgid "Profile Switched"
