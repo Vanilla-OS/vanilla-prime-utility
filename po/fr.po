@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: prime_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:20+0100\n"
-"PO-Revision-Date: 2023-02-28 19:26+0000\n"
+"PO-Revision-Date: 2023-03-04 18:39+0000\n"
 "Last-Translator: \"Alexandre BOYER (Alex)\" <alexandre.boyer29@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-prime-utility/fr/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.16-rc\n"
+"X-Generator: Weblate 4.16.2-dev\n"
 
 #: data/org.vanillaos.PrimeUtility.desktop.in:3
 msgid "PRIME Utility"
@@ -62,9 +62,8 @@ msgid "Not Supported"
 msgstr "Non Supporté"
 
 #: vanilla_prime_utility/gtk/window-main.ui:48
-#, fuzzy
 msgid "Your device does not support PRIME switching."
-msgstr "Votre appareil ne prend pas en charge la passage à PRIME."
+msgstr "Votre appareil ne prend pas en charge le passage à PRIME."
 
 #: vanilla_prime_utility/gtk/window-main.ui:55
 msgid "Active Profile"
@@ -80,11 +79,11 @@ msgstr "_Préférences"
 
 #: vanilla_prime_utility/gtk/window-main.ui:75
 msgid "_Keyboard Shortcuts"
-msgstr ""
+msgstr "_Raccourcis clavier"
 
 #: vanilla_prime_utility/gtk/window-main.ui:79
 msgid "_About prime_utility"
-msgstr ""
+msgstr "_À propos de prime_utility"
 
 #: vanilla_prime_utility/gtk/window-switch.ui:6
 #: vanilla_prime_utility/gtk/window-switch.ui:22
