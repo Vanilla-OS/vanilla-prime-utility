@@ -10,7 +10,8 @@ Build-Depends:
             libadwaita-1-dev,
             gettext,
             desktop-file-utils,
-            make
+            make,
+            libjpeg-dev
 Homepage: https://github.com/vanilla-os/vanilla-prime-utility/
 Vcs-Browser: hhttps://github.com/vanilla-os/vanilla-prime-utility
 Vcs-Git: https://github.com/vanilla-os/vanilla-prime-utility.git
