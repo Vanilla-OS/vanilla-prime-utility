@@ -2,13 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the prime_utility package.
 # Shirosaka <teht0x1c@outlook.de>, 2023.
+# nautilusx <translate@disroot.org>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: prime_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:20+0100\n"
-"PO-Revision-Date: 2023-02-21 05:05+0000\n"
-"Last-Translator: Shirosaka <teht0x1c@outlook.de>\n"
+"PO-Revision-Date: 2023-03-20 15:01+0000\n"
+"Last-Translator: nautilusx <translate@disroot.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-prime-utility/de/>\n"
 "Language: de\n"
@@ -16,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16-dev\n"
+"X-Generator: Weblate 4.16.2-dev\n"
 
 #: data/org.vanillaos.PrimeUtility.desktop.in:3
 msgid "PRIME Utility"
@@ -34,7 +35,7 @@ msgstr "Allgemein"
 #: vanilla_prime_utility/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr "Shortcuts anzeigen"
+msgstr "Tastenkombinationen anzeigen"
 
 #: vanilla_prime_utility/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
@@ -78,11 +79,11 @@ msgstr "_Einstellungen"
 
 #: vanilla_prime_utility/gtk/window-main.ui:75
 msgid "_Keyboard Shortcuts"
-msgstr "_Tastaturkürzel"
+msgstr "_Tastenkombinationen"
 
 #: vanilla_prime_utility/gtk/window-main.ui:79
 msgid "_About prime_utility"
-msgstr "_Über prime_utility"
+msgstr "_Über PRIME-Werkzeug"
 
 #: vanilla_prime_utility/gtk/window-switch.ui:6
 #: vanilla_prime_utility/gtk/window-switch.ui:22
@@ -123,7 +124,7 @@ msgstr "Diskrete GPU"
 
 #: vanilla_prime_utility/utils/wrapper.py:67
 msgid "Use the discrete GPU for all applications."
-msgstr "Verwenden Sie die diskrete GPU für alle Applikationen."
+msgstr "Verwenden Sie die diskrete GPU für alle Anwendungen."
 
 #: vanilla_prime_utility/utils/wrapper.py:71
 msgid "Integrated GPU"
@@ -131,7 +132,7 @@ msgstr "Integrierte GPU"
 
 #: vanilla_prime_utility/utils/wrapper.py:72
 msgid "Use the integrated GPU for all applications."
-msgstr "Verwenden Sie die integrierte GPU für alle Applikationen."
+msgstr "Verwenden Sie die integrierte GPU für alle Anwendungen."
 
 #: vanilla_prime_utility/utils/wrapper.py:76
 msgid "On-demand"
@@ -141,8 +142,8 @@ msgstr "Nach Bedarf"
 msgid ""
 "Use the integrated GPU for all applications, and the discrete GPU on demand."
 msgstr ""
-"Verwenden Sie die integrierte GPU für alle Applikationen, und die diskrete "
-"GPU nach Bedarf."
+"Verwenden Sie die integrierte GPU für alle Anwendungen, und die diskrete GPU "
+"nach Bedarf."
 
 #: vanilla_prime_utility/utils/wrapper.py:105
 msgid "Invalid profile name"
