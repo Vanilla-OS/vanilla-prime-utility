@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: prime_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:20+0100\n"
-"PO-Revision-Date: 2023-03-17 09:40+0000\n"
+"PO-Revision-Date: 2023-03-20 15:01+0000\n"
 "Last-Translator: Trond Kjetil Bremnes <tk@bremnes.email>\n"
 "Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/"
 "vanilla-os/vanilla-prime-utility/nb_NO/>\n"
@@ -48,7 +48,7 @@ msgstr ""
 
 #: vanilla_prime_utility/gtk/window-main.ui:16
 msgid "Cancel"
-msgstr ""
+msgstr "Avbryt"
 
 #: vanilla_prime_utility/gtk/window-main.ui:30
 msgid "Transactions are locked. Please try again later or restart your device."
