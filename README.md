@@ -1,9 +1,15 @@
 <div align="center">
     <img src="data/icons/hicolor/scalable/apps/org.vanillaos.PrimeUtility.svg" height="64">
     <h1>Vanilla PRIME Utility</h1>
-    <p>A frontend in GTK 4 and Libadwaita to switch PRIME profiles.</p>
-    <br />
-    <img src="data/screenshot.png">
+    
+[![Translation Status][weblate-image]][weblate-url]
+
+[weblate-url]: https://hosted.weblate.org/engage/vanilla-os/
+[weblate-image]: https://hosted.weblate.org/widgets/vanilla-os/-/vanilla-prime-utility/svg-badge.svg
+
+<p>A frontend in GTK 4 and Libadwaita to switch PRIME profiles.</p>
+<br />
+<img src="data/screenshot.png">
 </div>
 
 ## Build
