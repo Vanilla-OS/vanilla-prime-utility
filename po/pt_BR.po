@@ -3,13 +3,15 @@
 # This file is distributed under the same license as the prime_utility package.
 # Felipe Nogueira <contato.fnog@gmail.com>, 2023.
 # Adtora Slonic <adtoraslonic@gmail.com>, 2023.
+# Fernando Lopes <118869201+plasmus777@users.noreply.github.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: prime_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:20+0100\n"
-"PO-Revision-Date: 2023-03-11 10:41+0000\n"
-"Last-Translator: Felipe Nogueira <contato.fnog@gmail.com>\n"
+"PO-Revision-Date: 2023-03-23 01:37+0000\n"
+"Last-Translator: Fernando Lopes <118869201+plasmus777@users.noreply.github."
+"com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
 "vanilla-os/vanilla-prime-utility/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -63,11 +65,11 @@ msgstr "Não Suportado"
 
 #: vanilla_prime_utility/gtk/window-main.ui:48
 msgid "Your device does not support PRIME switching."
-msgstr ""
+msgstr "Seu dispositivo não suporta comutação PRIME."
 
 #: vanilla_prime_utility/gtk/window-main.ui:55
 msgid "Active Profile"
-msgstr "Perfil ativo"
+msgstr "Perfil Ativo"
 
 #: vanilla_prime_utility/gtk/window-main.ui:56
 msgid "Select the PRIME profile to use."
@@ -83,12 +85,12 @@ msgstr "_Teclas de Atalho"
 
 #: vanilla_prime_utility/gtk/window-main.ui:79
 msgid "_About prime_utility"
-msgstr ""
+msgstr "_Sobre o Utilitário PRIME"
 
 #: vanilla_prime_utility/gtk/window-switch.ui:6
 #: vanilla_prime_utility/gtk/window-switch.ui:22
 msgid "Switching PRIME Profile…"
-msgstr "Trocando perfil PRIME…"
+msgstr "Trocando Perfil PRIME…"
 
 #: vanilla_prime_utility/gtk/window-switch.ui:23
 msgid "This may take a while."
@@ -96,7 +98,7 @@ msgstr "Isso pode demorar um pouco."
 
 #: vanilla_prime_utility/gtk/window-switch.ui:52
 msgid "Profile Switched"
-msgstr "Perfil trocado"
+msgstr "Perfil Trocado"
 
 #: vanilla_prime_utility/gtk/window-switch.ui:53
 msgid "Restart your device to apply the changes."
@@ -108,23 +110,23 @@ msgstr "Módulo PRIME desativado"
 
 #: vanilla_prime_utility/utils/wrapper.py:46
 msgid "prime-select not found"
-msgstr ""
+msgstr "prime-select não encontrado"
 
 #: vanilla_prime_utility/utils/wrapper.py:50
 msgid "prime-select not supported for this device"
-msgstr ""
+msgstr "prime-select não suportado para este dispositivo"
 
 #: vanilla_prime_utility/utils/wrapper.py:56
 msgid "prime-select is not supported for this setup"
-msgstr ""
+msgstr "prime-select não é suportado para esta configuração"
 
 #: vanilla_prime_utility/utils/wrapper.py:66
 msgid "Discrete GPU"
-msgstr ""
+msgstr "GPU Discreta"
 
 #: vanilla_prime_utility/utils/wrapper.py:67
 msgid "Use the discrete GPU for all applications."
-msgstr ""
+msgstr "Utilize a GPU discreta para todas as aplicações."
 
 #: vanilla_prime_utility/utils/wrapper.py:71
 msgid "Integrated GPU"
@@ -132,7 +134,7 @@ msgstr "GPU Integrada"
 
 #: vanilla_prime_utility/utils/wrapper.py:72
 msgid "Use the integrated GPU for all applications."
-msgstr ""
+msgstr "Utilize a GPU integrada para todas as aplicações."
 
 #: vanilla_prime_utility/utils/wrapper.py:76
 msgid "On-demand"
@@ -142,6 +144,8 @@ msgstr "Sob demanda"
 msgid ""
 "Use the integrated GPU for all applications, and the discrete GPU on demand."
 msgstr ""
+"Utilize a GPU integrada para todas as aplicações, e a GPU discreta sob "
+"demanda."
 
 #: vanilla_prime_utility/utils/wrapper.py:105
 msgid "Invalid profile name"
@@ -157,7 +161,7 @@ msgstr "integrada"
 #: vanilla_prime_utility/utils/wrapper.py:132
 #: vanilla_prime_utility/utils/wrapper.py:135
 msgid "discrete"
-msgstr ""
+msgstr "discreta"
 
 #: vanilla_prime_utility/widgets/profile.py:52
 msgid ""
@@ -173,7 +177,7 @@ msgstr "Quer trocar para o perfil '{}'?"
 
 #: vanilla_prime_utility/windows/main_window.py:96
 msgid "This will require a restart to apply the changes."
-msgstr ""
+msgstr "Isto exigirá um reinício para aplicar as mudanças."
 
 #: vanilla_prime_utility/windows/main_window.py:98
 msgid "_Cancel"
