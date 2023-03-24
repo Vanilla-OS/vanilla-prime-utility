@@ -181,24 +181,22 @@ msgstr "_İptal"
 
 #: vanilla_prime_utility/windows/main_window.py:99
 msgid "Switch to '{}'"
-msgstr ""
+msgstr "'{}' olarak değiştir"
 
 #: vanilla_prime_utility/windows/main_window.py:106
 msgid "Profile switched to {}!"
-msgstr ""
+msgstr "Profil {} olarak değiştirildi!"
 
 #: vanilla_prime_utility/windows/main_window.py:111
 msgid "Profile switch failed!"
 msgstr "Profil değiştirme başarısız oldu!"
 
 #: vanilla_prime_utility/windows/switch_window.py:38
-#, fuzzy
 msgid "Switching to '{}'…"
-msgstr "'{} geçiyorum…"
+msgstr "'{}' geçiyorum…"
 
 #: vanilla_prime_utility/windows/switch_window.py:110
 #: vanilla_prime_utility/windows/switch_window.py:111
-#, fuzzy
 msgid "Switch Failed"
 msgstr "Geçiş Başarısız"
 
