@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: prime_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:20+0100\n"
-"PO-Revision-Date: 2023-03-24 07:04+0000\n"
+"PO-Revision-Date: 2023-03-26 04:29+0000\n"
 "Last-Translator: Murattut <tutmurattut@outlook.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-prime-utility/tr/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.16.2-dev\n"
+"X-Generator: Weblate 4.17-dev\n"
 
 #: data/org.vanillaos.PrimeUtility.desktop.in:3
 msgid "PRIME Utility"
@@ -70,7 +70,7 @@ msgstr "Aktif Profil"
 
 #: vanilla_prime_utility/gtk/window-main.ui:56
 msgid "Select the PRIME profile to use."
-msgstr "Kullanmak için PRİME profilini seçin."
+msgstr "Kullanılacak PRIME profilini seçin."
 
 #: vanilla_prime_utility/gtk/window-main.ui:71
 msgid "_Preferences"
