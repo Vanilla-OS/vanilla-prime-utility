@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the prime_utility package.
 # Cequal <adityaojha@outlook.in>, 2023.
 # "Alexandre BOYER (Alex)" <alexandre.boyer29@gmail.com>, 2023.
+# Lucas_Strafe <Lucas-Strafe@protonmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: prime_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:20+0100\n"
-"PO-Revision-Date: 2023-03-04 18:39+0000\n"
-"Last-Translator: \"Alexandre BOYER (Alex)\" <alexandre.boyer29@gmail.com>\n"
+"PO-Revision-Date: 2023-04-02 12:39+0000\n"
+"Last-Translator: Lucas_Strafe <Lucas-Strafe@protonmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-prime-utility/fr/>\n"
 "Language: fr\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.16.2-dev\n"
+"X-Generator: Weblate 4.17-dev\n"
 
 #: data/org.vanillaos.PrimeUtility.desktop.in:3
 msgid "PRIME Utility"
@@ -120,11 +121,11 @@ msgstr "Cette configuration ne supporte pas prime-select"
 
 #: vanilla_prime_utility/utils/wrapper.py:66
 msgid "Discrete GPU"
-msgstr ""
+msgstr "GPU discret"
 
 #: vanilla_prime_utility/utils/wrapper.py:67
 msgid "Use the discrete GPU for all applications."
-msgstr ""
+msgstr "Utilisez le GPU discret pour toutes les applications."
 
 #: vanilla_prime_utility/utils/wrapper.py:71
 msgid "Integrated GPU"
