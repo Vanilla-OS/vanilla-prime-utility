@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:20+0100\n"
 "PO-Revision-Date: 2023-04-02 13:31+0000\n"
-"Last-Translator: Lucas_Strafe <Lucas-Strafe@protonmail.com>\n"
+"Last-Translator: \"Alexandre BOYER (Alex)\" <alexandre.boyer29@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-prime-utility/fr/>\n"
 "Language: fr\n"
@@ -160,7 +160,7 @@ msgstr "intégré"
 #: vanilla_prime_utility/utils/wrapper.py:132
 #: vanilla_prime_utility/utils/wrapper.py:135
 msgid "discrete"
-msgstr ""
+msgstr "discret"
 
 #: vanilla_prime_utility/widgets/profile.py:52
 msgid ""
