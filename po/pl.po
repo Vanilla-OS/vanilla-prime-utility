@@ -2,13 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the prime_utility package.
 # gnu-ewm <gnu.ewm@protonmail.com>, 2023.
+# Krzysztof Kuska <kk@fw190.info>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: prime_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:20+0100\n"
-"PO-Revision-Date: 2023-03-23 01:37+0000\n"
-"Last-Translator: gnu-ewm <gnu.ewm@protonmail.com>\n"
+"PO-Revision-Date: 2023-03-30 23:18+0000\n"
+"Last-Translator: Krzysztof Kuska <kk@fw190.info>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-prime-utility/pl/>\n"
 "Language: pl\n"
@@ -17,59 +18,61 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.16.2-dev\n"
+"X-Generator: Weblate 4.17-dev\n"
 
 #: data/org.vanillaos.PrimeUtility.desktop.in:3
 msgid "PRIME Utility"
-msgstr ""
+msgstr "Narzędzie PRIME"
 
 #: data/org.vanillaos.PrimeUtility.appdata.xml.in:7
 msgid "No description"
-msgstr ""
+msgstr "Brak opisu"
 
 #: vanilla_prime_utility/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "Ogólne"
 
 #: vanilla_prime_utility/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr ""
+msgstr "Pokaż skróty"
 
 #: vanilla_prime_utility/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "Wyjdź"
 
 #: vanilla_prime_utility/gtk/profile.ui:17
 #: vanilla_prime_utility/gtk/window-switch.ui:60
 msgid "Restart Now"
-msgstr ""
+msgstr "Uruchom ponownie teraz"
 
 #: vanilla_prime_utility/gtk/window-main.ui:16
 msgid "Cancel"
-msgstr ""
+msgstr "Anuluj"
 
 #: vanilla_prime_utility/gtk/window-main.ui:30
 msgid "Transactions are locked. Please try again later or restart your device."
 msgstr ""
+"Transakcje są zablokowane. Proszę spróbować ponownie później lub uruchomić "
+"ponownie urządzenie."
 
 #: vanilla_prime_utility/gtk/window-main.ui:47
 msgid "Not Supported"
-msgstr ""
+msgstr "Nie obsługiwane"
 
 #: vanilla_prime_utility/gtk/window-main.ui:48
 msgid "Your device does not support PRIME switching."
-msgstr ""
+msgstr "Twoje urządzenie nie obsługuje przełączania PRIME."
 
 #: vanilla_prime_utility/gtk/window-main.ui:55
 msgid "Active Profile"
-msgstr ""
+msgstr "Profil aktywny"
 
 #: vanilla_prime_utility/gtk/window-main.ui:56
 msgid "Select the PRIME profile to use."
-msgstr ""
+msgstr "Wybierz profil PRIME, który ma być użyty."
 
 #: vanilla_prime_utility/gtk/window-main.ui:71
 msgid "_Preferences"
@@ -77,125 +80,129 @@ msgstr "_Preferencje"
 
 #: vanilla_prime_utility/gtk/window-main.ui:75
 msgid "_Keyboard Shortcuts"
-msgstr ""
+msgstr "_Skróty klawiszowe"
 
 #: vanilla_prime_utility/gtk/window-main.ui:79
 msgid "_About prime_utility"
-msgstr ""
+msgstr "_O prime_utility"
 
 #: vanilla_prime_utility/gtk/window-switch.ui:6
 #: vanilla_prime_utility/gtk/window-switch.ui:22
 msgid "Switching PRIME Profile…"
-msgstr ""
+msgstr "Zmienianie Profilu PRIME…"
 
 #: vanilla_prime_utility/gtk/window-switch.ui:23
 msgid "This may take a while."
-msgstr ""
+msgstr "To może zająć trochę czasu."
 
 #: vanilla_prime_utility/gtk/window-switch.ui:52
 msgid "Profile Switched"
-msgstr ""
+msgstr "Profil Przełączony"
 
 #: vanilla_prime_utility/gtk/window-switch.ui:53
 msgid "Restart your device to apply the changes."
-msgstr ""
+msgstr "Uruchom ponownie urządzenie, aby zastosować zmiany."
 
 #: vanilla_prime_utility/utils/wrapper.py:42
 msgid "PRIME module disabled"
-msgstr ""
+msgstr "Moduł PRIME wyłączony"
 
 #: vanilla_prime_utility/utils/wrapper.py:46
 msgid "prime-select not found"
-msgstr ""
+msgstr "nie znaleziono prime-select"
 
 #: vanilla_prime_utility/utils/wrapper.py:50
 msgid "prime-select not supported for this device"
-msgstr ""
+msgstr "prime-select nie jest obsługiwany dla tego urządzenia"
 
 #: vanilla_prime_utility/utils/wrapper.py:56
 msgid "prime-select is not supported for this setup"
-msgstr ""
+msgstr "prime-select nie jest obsługiwany w tej konfiguracji"
 
 #: vanilla_prime_utility/utils/wrapper.py:66
 msgid "Discrete GPU"
-msgstr ""
+msgstr "Dyskretny układ GPU"
 
 #: vanilla_prime_utility/utils/wrapper.py:67
 msgid "Use the discrete GPU for all applications."
-msgstr ""
+msgstr "Wykorzystaj dyskretny układ GPU do wszystkich zastosowań."
 
 #: vanilla_prime_utility/utils/wrapper.py:71
 msgid "Integrated GPU"
-msgstr ""
+msgstr "Zintegrowany procesor graficzny"
 
 #: vanilla_prime_utility/utils/wrapper.py:72
 msgid "Use the integrated GPU for all applications."
-msgstr ""
+msgstr "Wykorzystaj zintegrowany procesor graficzny do wszystkich aplikacji."
 
 #: vanilla_prime_utility/utils/wrapper.py:76
 msgid "On-demand"
-msgstr ""
+msgstr "Na żądanie"
 
 #: vanilla_prime_utility/utils/wrapper.py:77
 msgid ""
 "Use the integrated GPU for all applications, and the discrete GPU on demand."
 msgstr ""
+"Wykorzystaj zintegrowany procesor graficzny we wszystkich aplikacjach, a "
+"dyskretny procesor graficzny w razie potrzeby."
 
 #: vanilla_prime_utility/utils/wrapper.py:105
 msgid "Invalid profile name"
-msgstr ""
+msgstr "Nieprawidłowa nazwa profilu"
 
 #: vanilla_prime_utility/utils/wrapper.py:128
 #: vanilla_prime_utility/utils/wrapper.py:131
 #: vanilla_prime_utility/utils/wrapper.py:134
 msgid "integrated"
-msgstr ""
+msgstr "zintegrowany"
 
 #: vanilla_prime_utility/utils/wrapper.py:129
 #: vanilla_prime_utility/utils/wrapper.py:132
 #: vanilla_prime_utility/utils/wrapper.py:135
 msgid "discrete"
-msgstr ""
+msgstr "dyskretny"
 
 #: vanilla_prime_utility/widgets/profile.py:52
 msgid ""
 "It is not possible to switch the PRIME profile now. Please restart your "
 "device and try again."
 msgstr ""
+"Przełączenie profilu PRIME nie jest teraz możliwe. Proszę ponownie uruchomić "
+"urządzenie i spróbować ponownie."
 
 #: vanilla_prime_utility/windows/main_window.py:95
 msgid "Do you want to switch to the '{}' profile?"
-msgstr ""
+msgstr "Czy chcesz przełączyć się na profil \"{}\"?"
 
 #: vanilla_prime_utility/windows/main_window.py:96
 msgid "This will require a restart to apply the changes."
-msgstr ""
+msgstr "Będzie to wymagało ponownego uruchomienia, aby zastosować zmiany."
 
 #: vanilla_prime_utility/windows/main_window.py:98
 msgid "_Cancel"
-msgstr ""
+msgstr "_Anuluj"
 
 #: vanilla_prime_utility/windows/main_window.py:99
 msgid "Switch to '{}'"
-msgstr ""
+msgstr "Przełącz się na '{}'"
 
 #: vanilla_prime_utility/windows/main_window.py:106
 msgid "Profile switched to {}!"
-msgstr ""
+msgstr "Profil zmieniony na {}!"
 
 #: vanilla_prime_utility/windows/main_window.py:111
 msgid "Profile switch failed!"
-msgstr ""
+msgstr "Przełączanie profili nie powiodło się!"
 
 #: vanilla_prime_utility/windows/switch_window.py:38
 msgid "Switching to '{}'…"
-msgstr ""
+msgstr "Przełączenie na '{}'…"
 
 #: vanilla_prime_utility/windows/switch_window.py:110
 #: vanilla_prime_utility/windows/switch_window.py:111
 msgid "Switch Failed"
-msgstr ""
+msgstr "Zmiana nie powiodła się"
 
 #: vanilla_prime_utility/windows/switch_window.py:112
 msgid "Something went wrong. Please try again later."
-msgstr ""
+msgstr "Coś poszło nie tak. Proszę spróbować ponownie później."
