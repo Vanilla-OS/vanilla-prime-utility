@@ -2,13 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the prime_utility package.
 # Gabriel Girouard <ggirouard@bungeetaco.com>, 2023.
+# Jumpy Game <jumpy634@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: prime_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:20+0100\n"
-"PO-Revision-Date: 2023-06-01 10:50+0000\n"
-"Last-Translator: Gabriel Girouard <ggirouard@bungeetaco.com>\n"
+"PO-Revision-Date: 2023-06-10 20:51+0000\n"
+"Last-Translator: Jumpy Game <jumpy634@gmail.com>\n"
 "Language-Team: French (Canada) <https://hosted.weblate.org/projects/"
 "vanilla-os/vanilla-prime-utility/fr_CA/>\n"
 "Language: fr_CA\n"
@@ -29,17 +30,17 @@ msgstr "Aucune description"
 #: vanilla_prime_utility/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "Général"
 
 #: vanilla_prime_utility/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr ""
+msgstr "Afficher les raccourcis"
 
 #: vanilla_prime_utility/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "Quitter"
 
 #: vanilla_prime_utility/gtk/profile.ui:17
 #: vanilla_prime_utility/gtk/window-switch.ui:60
