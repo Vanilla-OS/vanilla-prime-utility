@@ -2,13 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the prime_utility package.
 # Ibrahim Kaikaa <ibrahimkaikaa@protonmail.com>, 2023.
+# Muhammad Bahaa <muhammad.bahaa1@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: prime_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:20+0100\n"
-"PO-Revision-Date: 2023-03-29 22:56+0000\n"
-"Last-Translator: Ibrahim Kaikaa <ibrahimkaikaa@protonmail.com>\n"
+"PO-Revision-Date: 2023-06-23 22:51+0000\n"
+"Last-Translator: Muhammad Bahaa <muhammad.bahaa1@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-prime-utility/ar/>\n"
 "Language: ar\n"
@@ -17,20 +18,20 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 4.17-dev\n"
+"X-Generator: Weblate 4.18.1\n"
 
 #: data/org.vanillaos.PrimeUtility.desktop.in:3
 msgid "PRIME Utility"
-msgstr ""
+msgstr "فائدة رئيسية"
 
 #: data/org.vanillaos.PrimeUtility.appdata.xml.in:7
 msgid "No description"
-msgstr ""
+msgstr "بدون وصف"
 
 #: vanilla_prime_utility/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "عام"
 
 #: vanilla_prime_utility/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
@@ -45,19 +46,19 @@ msgstr "خروج"
 #: vanilla_prime_utility/gtk/profile.ui:17
 #: vanilla_prime_utility/gtk/window-switch.ui:60
 msgid "Restart Now"
-msgstr ""
+msgstr "اعد التشغيل الان"
 
 #: vanilla_prime_utility/gtk/window-main.ui:16
 msgid "Cancel"
-msgstr ""
+msgstr "إلغاء"
 
 #: vanilla_prime_utility/gtk/window-main.ui:30
 msgid "Transactions are locked. Please try again later or restart your device."
-msgstr ""
+msgstr "المعاملات مقفلة. يرجى المحاولة مرة أخرى لاحقًا أو إعادة تشغيل جهازك."
 
 #: vanilla_prime_utility/gtk/window-main.ui:47
 msgid "Not Supported"
-msgstr ""
+msgstr "غير مدعوم"
 
 #: vanilla_prime_utility/gtk/window-main.ui:48
 msgid "Your device does not support PRIME switching."
