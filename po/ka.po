@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: prime_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:20+0100\n"
-"PO-Revision-Date: 2023-04-14 06:58+0000\n"
+"PO-Revision-Date: 2023-07-16 04:33+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-prime-utility/ka/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.17-dev\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 #: data/org.vanillaos.PrimeUtility.desktop.in:3
 msgid "PRIME Utility"
@@ -53,6 +53,8 @@ msgstr "გაუქმება"
 #: vanilla_prime_utility/gtk/window-main.ui:30
 msgid "Transactions are locked. Please try again later or restart your device."
 msgstr ""
+"ტრანზაქციები დაბლოკილია. გთხოვთ, სცადოთ მოგვიანებით ან გადატვირთეთ თქვენი "
+"მოწყობილობა."
 
 #: vanilla_prime_utility/gtk/window-main.ui:47
 msgid "Not Supported"
@@ -60,7 +62,7 @@ msgstr "მხარდაუჭერელია"
 
 #: vanilla_prime_utility/gtk/window-main.ui:48
 msgid "Your device does not support PRIME switching."
-msgstr ""
+msgstr "თქვენს მოწყობილობას PRIME-ის გადართვის მხარდაჭერა არ გააჩნია."
 
 #: vanilla_prime_utility/gtk/window-main.ui:55
 msgid "Active Profile"
@@ -80,7 +82,7 @@ msgstr "_კლავიატურის მალსახმობები"
 
 #: vanilla_prime_utility/gtk/window-main.ui:79
 msgid "_About prime_utility"
-msgstr ""
+msgstr "Prime_utility-ის შესახებ"
 
 #: vanilla_prime_utility/gtk/window-switch.ui:6
 #: vanilla_prime_utility/gtk/window-switch.ui:22
@@ -97,7 +99,7 @@ msgstr "პროფილი გადართულია"
 
 #: vanilla_prime_utility/gtk/window-switch.ui:53
 msgid "Restart your device to apply the changes."
-msgstr ""
+msgstr "ცვლილებების გადასატარებლად გადატვირთეთ მოწყობილობა."
 
 #: vanilla_prime_utility/utils/wrapper.py:42
 msgid "PRIME module disabled"
@@ -139,6 +141,8 @@ msgstr "საჭიროებისამებრ"
 msgid ""
 "Use the integrated GPU for all applications, and the discrete GPU on demand."
 msgstr ""
+"გამოიყენეთ ინტეგრირებული GPU ყველა პროგრამისთვის, დისკრეტული GPU კი "
+"საჭიროებისამებრ."
 
 #: vanilla_prime_utility/utils/wrapper.py:105
 msgid "Invalid profile name"
@@ -161,6 +165,8 @@ msgid ""
 "It is not possible to switch the PRIME profile now. Please restart your "
 "device and try again."
 msgstr ""
+"ახლა შეუძლებელია PRIME პროფილის გადართვა. გთხოვთ, გადატვირთოთ მოწყობილობა და "
+"სცადოთ თავიდან."
 
 #: vanilla_prime_utility/windows/main_window.py:95
 msgid "Do you want to switch to the '{}' profile?"
@@ -168,7 +174,7 @@ msgstr "გსურთ გადართოთ '{}' პროფილზე?"
 
 #: vanilla_prime_utility/windows/main_window.py:96
 msgid "This will require a restart to apply the changes."
-msgstr ""
+msgstr "ამ ცვლილებების გადასატარებლად აუცილებელია გადატვირთვა."
 
 #: vanilla_prime_utility/windows/main_window.py:98
 msgid "_Cancel"
@@ -197,4 +203,4 @@ msgstr "გადართვის შეცდომა"
 
 #: vanilla_prime_utility/windows/switch_window.py:112
 msgid "Something went wrong. Please try again later."
-msgstr ""
+msgstr "რაღაც არასწორია. მოგვიანებით სცადეთ."

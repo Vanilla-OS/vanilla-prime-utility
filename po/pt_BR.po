@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: prime_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:20+0100\n"
-"PO-Revision-Date: 2023-03-23 01:37+0000\n"
+"PO-Revision-Date: 2023-07-09 22:50+0000\n"
 "Last-Translator: Fernando Lopes <118869201+plasmus777@users.noreply.github."
 "com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.16.2-dev\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 #: data/org.vanillaos.PrimeUtility.desktop.in:3
 msgid "PRIME Utility"
@@ -42,7 +42,7 @@ msgstr "Exibir Atalhos"
 #: vanilla_prime_utility/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr "Fechar"
+msgstr "Sair"
 
 #: vanilla_prime_utility/gtk/profile.ui:17
 #: vanilla_prime_utility/gtk/window-switch.ui:60

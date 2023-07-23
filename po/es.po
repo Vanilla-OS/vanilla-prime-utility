@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the prime_utility package.
 # Juan <benitesjn@gmail.com>, 2023.
 # Juan Benites <benitesjn@gmail.com>, 2023.
+# "K.B.Dharun Krishna" <kbdharunkrishna@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: prime_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:20+0100\n"
-"PO-Revision-Date: 2023-05-23 01:48+0000\n"
-"Last-Translator: Juan Benites <benitesjn@gmail.com>\n"
+"PO-Revision-Date: 2023-07-13 17:49+0000\n"
+"Last-Translator: \"K.B.Dharun Krishna\" <kbdharunkrishna@gmail.com>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-prime-utility/es/>\n"
 "Language: es\n"
@@ -17,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 #: data/org.vanillaos.PrimeUtility.desktop.in:3
 msgid "PRIME Utility"
@@ -79,7 +80,7 @@ msgstr "_Preferencias"
 
 #: vanilla_prime_utility/gtk/window-main.ui:75
 msgid "_Keyboard Shortcuts"
-msgstr "_Atajos de teclado"
+msgstr "Atajos de teclado (_K)"
 
 #: vanilla_prime_utility/gtk/window-main.ui:79
 msgid "_About prime_utility"

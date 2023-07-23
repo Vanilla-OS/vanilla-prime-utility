@@ -2,13 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the prime_utility package.
 # Fjuro <ifjuro@proton.me>, 2023.
+# Michal Walach <misawalach00@seznam.cz>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: prime_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:20+0100\n"
-"PO-Revision-Date: 2023-06-26 04:40+0000\n"
-"Last-Translator: Fjuro <ifjuro@proton.me>\n"
+"PO-Revision-Date: 2023-07-09 22:50+0000\n"
+"Last-Translator: Michal Walach <misawalach00@seznam.cz>\n"
 "Language-Team: Czech <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-prime-utility/cs/>\n"
 "Language: cs\n"
@@ -16,159 +17,164 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.18.1\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 #: data/org.vanillaos.PrimeUtility.desktop.in:3
 msgid "PRIME Utility"
-msgstr ""
+msgstr "PRIME Utility"
 
 #: data/org.vanillaos.PrimeUtility.appdata.xml.in:7
 msgid "No description"
-msgstr ""
+msgstr "Žádný popis"
 
 #: vanilla_prime_utility/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
-msgstr ""
+msgstr "Obecné"
 
 #: vanilla_prime_utility/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
 msgid "Show Shortcuts"
-msgstr ""
+msgstr "Zobrazit zkratky"
 
 #: vanilla_prime_utility/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr ""
+msgstr "Ukončit"
 
 #: vanilla_prime_utility/gtk/profile.ui:17
 #: vanilla_prime_utility/gtk/window-switch.ui:60
 msgid "Restart Now"
-msgstr ""
+msgstr "Restartovat nyní"
 
 #: vanilla_prime_utility/gtk/window-main.ui:16
 msgid "Cancel"
-msgstr ""
+msgstr "Zrušit"
 
 #: vanilla_prime_utility/gtk/window-main.ui:30
 msgid "Transactions are locked. Please try again later or restart your device."
 msgstr ""
+"Transakce jsou uzamčeny. Prosím zkuste to znovu později nebo restartujte "
+"vaše zařízení."
 
 #: vanilla_prime_utility/gtk/window-main.ui:47
 msgid "Not Supported"
-msgstr ""
+msgstr "Není podporováno"
 
 #: vanilla_prime_utility/gtk/window-main.ui:48
 msgid "Your device does not support PRIME switching."
-msgstr ""
+msgstr "Vaše zařízení nepodporuje PRIME switching."
 
 #: vanilla_prime_utility/gtk/window-main.ui:55
 msgid "Active Profile"
-msgstr ""
+msgstr "Aktivní profil"
 
 #: vanilla_prime_utility/gtk/window-main.ui:56
 msgid "Select the PRIME profile to use."
-msgstr ""
+msgstr "Vyberte profil PRIME, který chcete použít."
 
 #: vanilla_prime_utility/gtk/window-main.ui:71
 msgid "_Preferences"
-msgstr ""
+msgstr "_Předvolby"
 
 #: vanilla_prime_utility/gtk/window-main.ui:75
 msgid "_Keyboard Shortcuts"
-msgstr ""
+msgstr "_Klávesové zkratky"
 
 #: vanilla_prime_utility/gtk/window-main.ui:79
 msgid "_About prime_utility"
-msgstr ""
+msgstr "_O prime_utility"
 
 #: vanilla_prime_utility/gtk/window-switch.ui:6
 #: vanilla_prime_utility/gtk/window-switch.ui:22
 msgid "Switching PRIME Profile…"
-msgstr ""
+msgstr "Přepínaní PRIME profilu…"
 
 #: vanilla_prime_utility/gtk/window-switch.ui:23
 msgid "This may take a while."
-msgstr ""
+msgstr "Může to chvíli trvat."
 
 #: vanilla_prime_utility/gtk/window-switch.ui:52
 msgid "Profile Switched"
-msgstr ""
+msgstr "Profil přepnut"
 
 #: vanilla_prime_utility/gtk/window-switch.ui:53
 msgid "Restart your device to apply the changes."
-msgstr ""
+msgstr "Restartujte zařízení, aby se změny uplatnily."
 
 #: vanilla_prime_utility/utils/wrapper.py:42
 msgid "PRIME module disabled"
-msgstr ""
+msgstr "PRIME modul vypnut"
 
 #: vanilla_prime_utility/utils/wrapper.py:46
 msgid "prime-select not found"
-msgstr ""
+msgstr "prime-select nebyl nalezen"
 
 #: vanilla_prime_utility/utils/wrapper.py:50
 msgid "prime-select not supported for this device"
-msgstr ""
+msgstr "prime-select není pro toto zařízení podporován"
 
 #: vanilla_prime_utility/utils/wrapper.py:56
 msgid "prime-select is not supported for this setup"
-msgstr ""
+msgstr "prime-select není pro toto nastavení podporován"
 
 #: vanilla_prime_utility/utils/wrapper.py:66
 msgid "Discrete GPU"
-msgstr ""
+msgstr "Dedikovaná GPU"
 
 #: vanilla_prime_utility/utils/wrapper.py:67
 msgid "Use the discrete GPU for all applications."
-msgstr ""
+msgstr "Použít dedikovanou GPU pro všechny aplikace."
 
 #: vanilla_prime_utility/utils/wrapper.py:71
 msgid "Integrated GPU"
-msgstr ""
+msgstr "Integrovaná GPU"
 
 #: vanilla_prime_utility/utils/wrapper.py:72
 msgid "Use the integrated GPU for all applications."
-msgstr ""
+msgstr "Použít integrovanou GPU pro všechny aplikace."
 
 #: vanilla_prime_utility/utils/wrapper.py:76
 msgid "On-demand"
-msgstr ""
+msgstr "Na vyžádání"
 
 #: vanilla_prime_utility/utils/wrapper.py:77
 msgid ""
 "Use the integrated GPU for all applications, and the discrete GPU on demand."
 msgstr ""
+"Použít integrovanou GPU pro všechny aplikace a dedikovanou GPU na vyžádání."
 
 #: vanilla_prime_utility/utils/wrapper.py:105
 msgid "Invalid profile name"
-msgstr ""
+msgstr "Neplatný název profilu"
 
 #: vanilla_prime_utility/utils/wrapper.py:128
 #: vanilla_prime_utility/utils/wrapper.py:131
 #: vanilla_prime_utility/utils/wrapper.py:134
 msgid "integrated"
-msgstr ""
+msgstr "integrovaná"
 
 #: vanilla_prime_utility/utils/wrapper.py:129
 #: vanilla_prime_utility/utils/wrapper.py:132
 #: vanilla_prime_utility/utils/wrapper.py:135
 msgid "discrete"
-msgstr ""
+msgstr "dedikovaná"
 
 #: vanilla_prime_utility/widgets/profile.py:52
 msgid ""
 "It is not possible to switch the PRIME profile now. Please restart your "
 "device and try again."
 msgstr ""
+"Nyní není možné přepnout profil PRIME. Prosím restartujte zařízení a zkuste "
+"to znovu."
 
 #: vanilla_prime_utility/windows/main_window.py:95
 msgid "Do you want to switch to the '{}' profile?"
-msgstr ""
+msgstr "Chcete přepnout na profil '{}'?"
 
 #: vanilla_prime_utility/windows/main_window.py:96
 msgid "This will require a restart to apply the changes."
-msgstr ""
+msgstr "Pro provedení změn je nutné restartovat počítač."
 
 #: vanilla_prime_utility/windows/main_window.py:98
 msgid "_Cancel"
@@ -176,25 +182,25 @@ msgstr "_Zrušit"
 
 #: vanilla_prime_utility/windows/main_window.py:99
 msgid "Switch to '{}'"
-msgstr ""
+msgstr "Přepnout na '{}'"
 
 #: vanilla_prime_utility/windows/main_window.py:106
 msgid "Profile switched to {}!"
-msgstr ""
+msgstr "Profil přepnut na {}!"
 
 #: vanilla_prime_utility/windows/main_window.py:111
 msgid "Profile switch failed!"
-msgstr ""
+msgstr "Přepnutí profilu selhalo!"
 
 #: vanilla_prime_utility/windows/switch_window.py:38
 msgid "Switching to '{}'…"
-msgstr ""
+msgstr "Přepínání na '{}'…"
 
 #: vanilla_prime_utility/windows/switch_window.py:110
 #: vanilla_prime_utility/windows/switch_window.py:111
 msgid "Switch Failed"
-msgstr ""
+msgstr "Přepnutí selhalo"
 
 #: vanilla_prime_utility/windows/switch_window.py:112
 msgid "Something went wrong. Please try again later."
-msgstr ""
+msgstr "Něco se pokazilo. Zkuste to prosím později."
