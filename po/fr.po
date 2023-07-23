@@ -5,13 +5,14 @@
 # "Alexandre BOYER (Alex)" <alexandre.boyer29@gmail.com>, 2023.
 # Lucas_Strafe <Lucas-Strafe@protonmail.com>, 2023.
 # Adrien SCHNEIDER-NOURY <darkaos006@gmail.com>, 2023.
+# Thual LABART--BARNAGAUD <tlabartbarnagaud@protonmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: prime_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:20+0100\n"
 "PO-Revision-Date: 2023-07-09 22:50+0000\n"
-"Last-Translator: Adrien SCHNEIDER-NOURY <darkaos006@gmail.com>\n"
+"Last-Translator: Thual LABART--BARNAGAUD <tlabartbarnagaud@protonmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-prime-utility/fr/>\n"
 "Language: fr\n"
@@ -42,7 +43,7 @@ msgstr "Montrer les raccourcis"
 #: vanilla_prime_utility/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr "Partir"
+msgstr "Quitter"
 
 #: vanilla_prime_utility/gtk/profile.ui:17
 #: vanilla_prime_utility/gtk/window-switch.ui:60
