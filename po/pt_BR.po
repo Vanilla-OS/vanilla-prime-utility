@@ -81,7 +81,7 @@ msgstr "_Preferências"
 
 #: vanilla_prime_utility/gtk/window-main.ui:75
 msgid "_Keyboard Shortcuts"
-msgstr "_Teclas de Atalho"
+msgstr "Teclas de Atalho (_K)"
 
 #: vanilla_prime_utility/gtk/window-main.ui:79
 msgid "_About prime_utility"

@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the prime_utility package.
 # inal <inaltarba89@gmail.com>, 2023.
 # reflexguru <trianglestudioad@gmail.com>, 2023.
+# Alexei <aleksejfedorov963@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: prime_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:20+0100\n"
-"PO-Revision-Date: 2023-03-26 04:29+0000\n"
-"Last-Translator: reflexguru <trianglestudioad@gmail.com>\n"
+"PO-Revision-Date: 2023-07-09 22:50+0000\n"
+"Last-Translator: Alexei <aleksejfedorov963@gmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-prime-utility/ru/>\n"
 "Language: ru\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.17-dev\n"
+"X-Generator: Weblate 5.0-dev\n"
 
 #: data/org.vanillaos.PrimeUtility.desktop.in:3
 msgid "PRIME Utility"
@@ -31,7 +32,7 @@ msgstr "Нет описания"
 #: vanilla_prime_utility/gtk/help-overlay.ui:11
 msgctxt "shortcut window"
 msgid "General"
-msgstr "Общие"
+msgstr "Основные"
 
 #: vanilla_prime_utility/gtk/help-overlay.ui:14
 msgctxt "shortcut window"
@@ -46,7 +47,7 @@ msgstr "Выйти"
 #: vanilla_prime_utility/gtk/profile.ui:17
 #: vanilla_prime_utility/gtk/window-switch.ui:60
 msgid "Restart Now"
-msgstr "Перезагрузитесь сейчас"
+msgstr "Перезагрузить сейчас"
 
 #: vanilla_prime_utility/gtk/window-main.ui:16
 msgid "Cancel"
@@ -63,7 +64,6 @@ msgid "Not Supported"
 msgstr "Не поддерживается"
 
 #: vanilla_prime_utility/gtk/window-main.ui:48
-#, fuzzy
 msgid "Your device does not support PRIME switching."
 msgstr "Ваше устройство не поддерживает переключение PRIME."
 
@@ -76,18 +76,16 @@ msgid "Select the PRIME profile to use."
 msgstr "Выберите профиль PRIME для использования."
 
 #: vanilla_prime_utility/gtk/window-main.ui:71
-#, fuzzy
 msgid "_Preferences"
-msgstr "_Предложения"
+msgstr "_Параметры"
 
 #: vanilla_prime_utility/gtk/window-main.ui:75
 msgid "_Keyboard Shortcuts"
-msgstr "_Горячие клавиши"
+msgstr "_Сочетания Клавиш"
 
 #: vanilla_prime_utility/gtk/window-main.ui:79
-#, fuzzy
 msgid "_About prime_utility"
-msgstr "_О Prime_utility"
+msgstr "_Об утилите_prime"
 
 #: vanilla_prime_utility/gtk/window-switch.ui:6
 #: vanilla_prime_utility/gtk/window-switch.ui:22
@@ -111,19 +109,16 @@ msgid "PRIME module disabled"
 msgstr "Модуль PRIME отключен"
 
 #: vanilla_prime_utility/utils/wrapper.py:46
-#, fuzzy
 msgid "prime-select not found"
 msgstr "prime-select не найден"
 
 #: vanilla_prime_utility/utils/wrapper.py:50
-#, fuzzy
 msgid "prime-select not supported for this device"
 msgstr "prime-select не поддерживается для этого устройства"
 
 #: vanilla_prime_utility/utils/wrapper.py:56
-#, fuzzy
 msgid "prime-select is not supported for this setup"
-msgstr "prime-select не поддерживается для этой настройки"
+msgstr "prime-select не поддерживается для этих параметров"
 
 #: vanilla_prime_utility/utils/wrapper.py:66
 msgid "Discrete GPU"
