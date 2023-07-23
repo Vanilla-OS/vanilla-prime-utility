@@ -6,13 +6,14 @@
 # Lucas_Strafe <Lucas-Strafe@protonmail.com>, 2023.
 # Adrien SCHNEIDER-NOURY <darkaos006@gmail.com>, 2023.
 # Thual LABART--BARNAGAUD <tlabartbarnagaud@protonmail.com>, 2023.
+# "K.B.Dharun Krishna" <kbdharunkrishna@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: prime_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:20+0100\n"
-"PO-Revision-Date: 2023-07-09 22:50+0000\n"
-"Last-Translator: Thual LABART--BARNAGAUD <tlabartbarnagaud@protonmail.com>\n"
+"PO-Revision-Date: 2023-07-13 17:49+0000\n"
+"Last-Translator: \"K.B.Dharun Krishna\" <kbdharunkrishna@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-prime-utility/fr/>\n"
 "Language: fr\n"
@@ -82,7 +83,7 @@ msgstr "_Préférences"
 
 #: vanilla_prime_utility/gtk/window-main.ui:75
 msgid "_Keyboard Shortcuts"
-msgstr "_Raccourcis clavier"
+msgstr "Raccourcis clavier (_K)"
 
 #: vanilla_prime_utility/gtk/window-main.ui:79
 msgid "_About prime_utility"

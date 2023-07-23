@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the prime_utility package.
 # Matt C <matei.gurzu@gmail.com>, 2023.
 # Gabriel Cozma <me@gabs.eu.org>, 2023.
+# "K.B.Dharun Krishna" <kbdharunkrishna@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: prime_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:20+0100\n"
-"PO-Revision-Date: 2023-07-09 22:50+0000\n"
-"Last-Translator: Gabriel Cozma <me@gabs.eu.org>\n"
+"PO-Revision-Date: 2023-07-13 17:49+0000\n"
+"Last-Translator: \"K.B.Dharun Krishna\" <kbdharunkrishna@gmail.com>\n"
 "Language-Team: Romanian <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-prime-utility/ro/>\n"
 "Language: ro\n"
@@ -79,7 +80,7 @@ msgstr "_Preferințe"
 
 #: vanilla_prime_utility/gtk/window-main.ui:75
 msgid "_Keyboard Shortcuts"
-msgstr "_Comenzi rapide de la tastatură"
+msgstr "Comenzi rapide de la tastatură (_K)"
 
 #: vanilla_prime_utility/gtk/window-main.ui:79
 msgid "_About prime_utility"

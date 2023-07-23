@@ -2,13 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the prime_utility package.
 # Pulkit Krishna <contact@virtualhub.eu.org>, 2023.
+# "K.B.Dharun Krishna" <kbdharunkrishna@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: prime_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:20+0100\n"
-"PO-Revision-Date: 2023-07-09 22:50+0000\n"
-"Last-Translator: Pulkit Krishna <contact@virtualhub.eu.org>\n"
+"PO-Revision-Date: 2023-07-13 17:49+0000\n"
+"Last-Translator: \"K.B.Dharun Krishna\" <kbdharunkrishna@gmail.com>\n"
 "Language-Team: Hindi <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-prime-utility/hi/>\n"
 "Language: hi\n"
@@ -76,7 +77,7 @@ msgstr ""
 
 #: vanilla_prime_utility/gtk/window-main.ui:75
 msgid "_Keyboard Shortcuts"
-msgstr "_कुंजीपटल अल्प मार्ग"
+msgstr "कुंजीपटल अल्प मार्ग (_K)"
 
 #: vanilla_prime_utility/gtk/window-main.ui:79
 msgid "_About prime_utility"
