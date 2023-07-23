@@ -4,13 +4,14 @@
 # inal <inaltarba89@gmail.com>, 2023.
 # reflexguru <trianglestudioad@gmail.com>, 2023.
 # Alexei <aleksejfedorov963@gmail.com>, 2023.
+# Khokhlov Kirill <hkp69@yandex.ru>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: prime_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:20+0100\n"
 "PO-Revision-Date: 2023-07-09 22:50+0000\n"
-"Last-Translator: Alexei <aleksejfedorov963@gmail.com>\n"
+"Last-Translator: Khokhlov Kirill <hkp69@yandex.ru>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-prime-utility/ru/>\n"
 "Language: ru\n"
@@ -122,19 +123,19 @@ msgstr "prime-select не поддерживается для этих пара�
 
 #: vanilla_prime_utility/utils/wrapper.py:66
 msgid "Discrete GPU"
-msgstr "Дискретный GPU"
+msgstr "Дискретная видеокарта"
 
 #: vanilla_prime_utility/utils/wrapper.py:67
 msgid "Use the discrete GPU for all applications."
-msgstr "Используйте дискретный GPU для всех приложений."
+msgstr "Использовать дискретную видеокарту для всех приложений."
 
 #: vanilla_prime_utility/utils/wrapper.py:71
 msgid "Integrated GPU"
-msgstr "Встроенный GPU"
+msgstr "Встроенная видеокарта"
 
 #: vanilla_prime_utility/utils/wrapper.py:72
 msgid "Use the integrated GPU for all applications."
-msgstr "Используйте встроенный GPU для всех приложений."
+msgstr "Использовать встроенную видеокарту для всех приложений."
 
 #: vanilla_prime_utility/utils/wrapper.py:76
 msgid "On-demand"
