@@ -3,13 +3,15 @@
 # This file is distributed under the same license as the prime_utility package.
 # EncryptedEasty <c.zullo08@gmail.com>, 2023.
 # Fedorov Alexei <aleksejfedorov963@gmail.com>, 2023.
+# EncryptedEasty <95353984+EncryptedEasty@users.noreply.github.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: prime_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:20+0100\n"
-"PO-Revision-Date: 2023-07-18 20:04+0000\n"
-"Last-Translator: Fedorov Alexei <aleksejfedorov963@gmail.com>\n"
+"PO-Revision-Date: 2023-08-07 14:09+0000\n"
+"Last-Translator: EncryptedEasty <95353984+EncryptedEasty@users.noreply.github"
+".com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-prime-utility/it/>\n"
 "Language: it\n"
@@ -78,7 +80,7 @@ msgstr "_Preferenze"
 
 #: vanilla_prime_utility/gtk/window-main.ui:75
 msgid "_Keyboard Shortcuts"
-msgstr "Scorciatoie da Tastiera (_K)"
+msgstr "_Scorciatoie da Tastiera"
 
 #: vanilla_prime_utility/gtk/window-main.ui:79
 msgid "_About prime_utility"
