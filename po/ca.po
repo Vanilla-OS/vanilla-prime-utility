@@ -2,13 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the prime_utility package.
 # jolupa <jolupameister@gmail.com>, 2023.
+# Hugopro 22 <hugoncasamayor@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: prime_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:20+0100\n"
-"PO-Revision-Date: 2023-07-09 22:50+0000\n"
-"Last-Translator: jolupa <jolupameister@gmail.com>\n"
+"PO-Revision-Date: 2023-08-22 05:19+0000\n"
+"Last-Translator: Hugopro 22 <hugoncasamayor@gmail.com>\n"
 "Language-Team: Catalan <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-prime-utility/ca/>\n"
 "Language: ca\n"
@@ -20,7 +21,7 @@ msgstr ""
 
 #: data/org.vanillaos.PrimeUtility.desktop.in:3
 msgid "PRIME Utility"
-msgstr ""
+msgstr "Utilitat PRIME"
 
 #: data/org.vanillaos.PrimeUtility.appdata.xml.in:7
 msgid "No description"
