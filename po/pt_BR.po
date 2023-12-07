@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: prime_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:20+0100\n"
-"PO-Revision-Date: 2023-07-09 22:50+0000\n"
+"PO-Revision-Date: 2023-12-05 12:54+0000\n"
 "Last-Translator: Fernando Lopes <118869201+plasmus777@users.noreply.github."
 "com>\n"
 "Language-Team: Portuguese (Brazil) <https://hosted.weblate.org/projects/"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.0-dev\n"
+"X-Generator: Weblate 5.3-dev\n"
 
 #: data/org.vanillaos.PrimeUtility.desktop.in:3
 msgid "PRIME Utility"
@@ -47,7 +47,7 @@ msgstr "Sair"
 #: vanilla_prime_utility/gtk/profile.ui:17
 #: vanilla_prime_utility/gtk/window-switch.ui:60
 msgid "Restart Now"
-msgstr "Reiniciar Agora"
+msgstr "Reinicializar Agora"
 
 #: vanilla_prime_utility/gtk/window-main.ui:16
 msgid "Cancel"
