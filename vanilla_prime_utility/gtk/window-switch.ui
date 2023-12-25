@@ -1,72 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <interface>
   <requires lib="gtk" version="4.0"/>
-  <requires lib="libadwaita" version="1.0"/>
-    <template class="PrimeUtilityWindowSwitch" parent="AdwWindow">
-        <property name="title" translatable="yes">Switching PRIME Profile…</property>
-        <property name="default-width">540</property>
-        <property name="modal">True</property>
-        <property name="deletable">False</property>
-        <child>
-            <object class="GtkBox">
-                <property name="orientation">vertical</property>
-                <child>
-                    <object class="AdwHeaderBar">
-                        <style>
-                            <class name="flat"/>
-                        </style>
-                    </object>
-                </child>
-                <child>
-                    <object class="AdwStatusPage" id="status_switch">
-                        <property name="title" translatable="true">Switching PRIME Profile…</property>
-                        <property name="description" translatable="true">This may take a while.</property>
-                        <property name="valign">center</property>
-                        <property name="vexpand">True</property>
-                        <child>
-                            <object class="GtkBox" id="console_box">
-                                <property name="margin-start">40</property>
-                                <property name="margin-end">40</property>
-                                <property name="margin-top">1</property>
-                                <property name="margin-bottom">18</property>
-                                <property name="height-request">120</property>
-                                <property name="orientation">vertical</property>
-                                <child>
-                                    <object class="GtkBox" id="console_output">
-                                        <property name="margin-top">12</property>
-                                        <property name="margin-start">12</property>
-                                        <property name="margin-end">12</property>
-                                        <property name="orientation">vertical</property>
-                                    </object>
-                                </child>
-                                <style>
-                                    <class name="card"/>
-                                </style>
-                            </object>
-                        </child>
-                    </object>
-                </child>
-                <child>
-                    <object class="AdwStatusPage" id="status_done">
-                        <property name="visible">False</property>
-                        <property name="title" translatable="true">Profile Switched</property>
-                        <property name="description" translatable="true">Restart your device to apply the changes.</property>
-                        <property name="valign">center</property>
-                        <property name="vexpand">True</property>
-                        <child>
-                            <object class="GtkButton" id="btn_restart">
-                                <property name="valign">center</property>
-                                <property name="halign">center</property>
-                                <property name="label" translatable="true">Restart Now</property>
-                                <style>
-                                    <class name="pill"/>
-                                    <class name="suggested-action"/>
-                                </style>
-                            </object>
-                        </child>
-                    </object>
-                </child>
-            </object>
+  <template class="PrimeUtilityWindowSwitch" parent="AdwWindow">
+    <property name="title" translatable="true">Switching PRIME Profile…</property>
+    <property name="default-width">540</property>
+    <property name="modal">true</property>
+    <property name="deletable">false</property>
+    <child>
+      <object class="AdwToolbarView">
+        <child type="top">
+          <object class="AdwHeaderBar"></object>
         </child>
-    </template>
+        <property name="content">
+          <object class="GtkBox">
+            <property name="orientation">1</property>
+            <child>
+              <object class="AdwStatusPage" id="status_switch">
+                <property name="title" translatable="true">Switching PRIME Profile…</property>
+                <property name="description" translatable="true">This may take a while.</property>
+                <property name="valign">3</property>
+                <property name="vexpand">true</property>
+                <child>
+                  <object class="GtkBox" id="console_box">
+                    <property name="margin-start">40</property>
+                    <property name="margin-end">40</property>
+                    <property name="margin-top">1</property>
+                    <property name="margin-bottom">18</property>
+                    <property name="height-request">120</property>
+                    <property name="orientation">1</property>
+                    <child>
+                      <object class="GtkBox" id="console_output">
+                        <property name="margin-top">12</property>
+                        <property name="margin-start">12</property>
+                        <property name="margin-end">12</property>
+                        <property name="orientation">1</property>
+                      </object>
+                    </child>
+                    <style>
+                      <class name="card"/>
+                    </style>
+                  </object>
+                </child>
+              </object>
+            </child>
+            <child>
+              <object class="AdwStatusPage" id="status_done">
+                <property name="visible">false</property>
+                <property name="title" translatable="true">Profile Switched</property>
+                <property name="description" translatable="true">Restart your device to apply the changes.</property>
+                <property name="valign">3</property>
+                <property name="vexpand">true</property>
+                <child>
+                  <object class="GtkButton" id="btn_restart">
+                    <property name="valign">3</property>
+                    <property name="halign">3</property>
+                    <property name="label" translatable="true">Restart Now</property>
+                    <style>
+                      <class name="pill"/>
+                      <class name="suggested-action"/>
+                    </style>
+                  </object>
+                </child>
+              </object>
+            </child>
+          </object>
+        </property>
+      </object>
+    </child>
+  </template>
 </interface>
