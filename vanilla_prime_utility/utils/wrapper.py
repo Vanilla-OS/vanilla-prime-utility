@@ -21,27 +21,30 @@ import os
 import shutil
 import logging
 import subprocess
+import gettext
 
-
+_ = gettext.gettext
 logger = logging.getLogger("PrimeUtility:Wrapper")
 
 
-class PrimeUtilityWrapper:
+class UnsupportedPrimeSetup(Exception):
+    pass
 
+
+class PrimeUtilityWrapper:
     def __init__(self):
-        self.__binary = shutil.which("prime-select")
-        self.__available_profiles = ["nvidia", "intel", "on-demand"]
+        self.__binary = shutil.which("prime-switch")
+        self.__available_profiles = ["nvidia", "integrated", "on-demand"]
 
     @staticmethod
     def can_transact() -> bool:
-        return not os.path.exists("/tmp/abroot-transactions.lock")
-    
-    @property
+        return not os.path.exists("/tmp/ABSystem.Upgrade.lock")
+
     def is_supported(self) -> bool:
         if "prime" in os.environ.get("DISABLED_MODULES", []):
             logger.info(_("PRIME module disabled"))
             return False
-            
+
         if self.__binary is None:
             logger.info(_("prime-select not found"))
             return False
@@ -49,7 +52,7 @@ class PrimeUtilityWrapper:
         if not self.__is_laptop():
             logger.info(_("prime-select not supported for this device"))
             return False
-        
+
         try:
             self.get_gpus()
         except UnsupportedPrimeSetup:
@@ -67,23 +70,25 @@ class PrimeUtilityWrapper:
                 "description": _("Use the discrete GPU for all applications."),
             },
             {
-                "id": "intel",
+                "id": "integrated",
                 "title": _("Integrated GPU"),
                 "description": _("Use the integrated GPU for all applications."),
             },
             {
                 "id": "on-demand",
                 "title": _("On-demand"),
-                "description": _("Use the integrated GPU for all applications, and the discrete GPU on demand."),
-            }
+                "description": _(
+                    "Use the integrated GPU for all applications, and the discrete GPU on demand."
+                ),
+            },
         ]
 
     def __is_laptop(self) -> bool:
-        path = '/sys/devices/virtual/dmi/id/chassis_type'
+        path = "/sys/devices/virtual/dmi/id/chassis_type"
         if not os.path.isfile(path):
             return False
 
-        with open(path, 'r') as f:
+        with open(path, "r") as f:
             if chassis_type := f.read():
                 chassis_type = int(chassis_type.strip())
             else:
@@ -91,7 +96,7 @@ class PrimeUtilityWrapper:
 
             if chassis_type in (8, 9, 10, 31):
                 return True
-                
+
         return False
 
     def get_current(self) -> str:
@@ -104,13 +109,10 @@ class PrimeUtilityWrapper:
         if profile not in self.__available_profiles:
             raise ValueError(_("Invalid profile name"))
 
-        return " ".join(["pkexec", "abroot", "exec", "-f", self.__binary, profile])
+        return " ".join(["pkexec", self.__binary, profile])
 
     def get_gpus(self) -> dict:
-        gpus = {
-            "integrated": "",
-            "discrete": ""
-        }
+        gpus = {"integrated": "", "discrete": ""}
         found = {}
 
         res = subprocess.check_output(["lspci", "-k"], text=True)
