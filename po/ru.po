@@ -4,16 +4,17 @@
 # inal <inaltarba89@gmail.com>, 2023.
 # reflexguru <trianglestudioad@gmail.com>, 2023.
 # Alexei <aleksejfedorov963@gmail.com>, 2023.
-# Khokhlov Kirill <hkp69@yandex.ru>, 2023.
+# Khokhlov Kirill <hkp69@yandex.ru>, 2023, 2024.
 # "K.B.Dharun Krishna" <kbdharunkrishna@gmail.com>, 2023.
 # Fedorov Alexei <aleksejfedorov963@gmail.com>, 2023.
+# Vin <k3kelm4vw@mozmail.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: prime_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:20+0100\n"
-"PO-Revision-Date: 2023-11-19 20:43+0000\n"
-"Last-Translator: Fedorov Alexei <aleksejfedorov963@gmail.com>\n"
+"PO-Revision-Date: 2024-01-09 21:09+0000\n"
+"Last-Translator: Vin <k3kelm4vw@mozmail.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-prime-utility/ru/>\n"
 "Language: ru\n"
@@ -22,11 +23,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.2\n"
+"X-Generator: Weblate 5.4-dev\n"
 
 #: data/org.vanillaos.PrimeUtility.desktop.in:3
 msgid "PRIME Utility"
-msgstr "PRIME Утилита"
+msgstr "Утилита PRIME"
 
 #: data/org.vanillaos.PrimeUtility.appdata.xml.in:7
 msgid "No description"
@@ -45,7 +46,7 @@ msgstr "Показывать горячие клавиши"
 #: vanilla_prime_utility/gtk/help-overlay.ui:20
 msgctxt "shortcut window"
 msgid "Quit"
-msgstr "Завершить"
+msgstr "Выйти"
 
 #: vanilla_prime_utility/gtk/profile.ui:17
 #: vanilla_prime_utility/gtk/window-switch.ui:60
@@ -59,8 +60,8 @@ msgstr "Отменить"
 #: vanilla_prime_utility/gtk/window-main.ui:30
 msgid "Transactions are locked. Please try again later or restart your device."
 msgstr ""
-"Операции заблокированы. Пожалуйста, повторите попытку позже или "
-"перезагрузите свое устройство."
+"Транзакции заблокированы. Пожалуйста, повторите попытку позже или "
+"перезагрузите своё устройство."
 
 #: vanilla_prime_utility/gtk/window-main.ui:47
 msgid "Not Supported"
@@ -170,7 +171,7 @@ msgid ""
 "It is not possible to switch the PRIME profile now. Please restart your "
 "device and try again."
 msgstr ""
-"Сейчас невозможно переключить PRIME профиль. Пожалуйста, перезагрузите свое "
+"Сейчас невозможно переключить профиль PRIME. Пожалуйста, перезагрузите свое "
 "устройство и повторите попытку."
 
 #: vanilla_prime_utility/windows/main_window.py:95
@@ -208,4 +209,4 @@ msgstr "Сбой переключения"
 
 #: vanilla_prime_utility/windows/switch_window.py:112
 msgid "Something went wrong. Please try again later."
-msgstr "Что-то пошло не так. Пожалуйста, попробуйте еще раз позже."
+msgstr "Что-то пошло не так. Пожалуйста, попробуйте снова позже."

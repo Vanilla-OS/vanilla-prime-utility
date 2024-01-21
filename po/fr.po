@@ -8,13 +8,14 @@
 # Thual LABART--BARNAGAUD <tlabartbarnagaud@protonmail.com>, 2023.
 # "K.B.Dharun Krishna" <kbdharunkrishna@gmail.com>, 2023.
 # tachyglossues <tachyglossues@gmail.com>, 2023.
+# Gabin <quagligabin.praud@gmail.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: prime_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:20+0100\n"
-"PO-Revision-Date: 2023-08-31 05:52+0000\n"
-"Last-Translator: tachyglossues <tachyglossues@gmail.com>\n"
+"PO-Revision-Date: 2024-01-03 15:07+0000\n"
+"Last-Translator: Gabin <quagligabin.praud@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-prime-utility/fr/>\n"
 "Language: fr\n"
@@ -22,11 +23,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.0.1-dev\n"
+"X-Generator: Weblate 5.4-dev\n"
 
 #: data/org.vanillaos.PrimeUtility.desktop.in:3
 msgid "PRIME Utility"
-msgstr "Utilité PRIME"
+msgstr "Utilitaire PRIME"
 
 #: data/org.vanillaos.PrimeUtility.appdata.xml.in:7
 msgid "No description"
@@ -50,7 +51,7 @@ msgstr "Quitter"
 #: vanilla_prime_utility/gtk/profile.ui:17
 #: vanilla_prime_utility/gtk/window-switch.ui:60
 msgid "Restart Now"
-msgstr "Redémarrer imédiatement"
+msgstr "Redémarrer maintenant"
 
 #: vanilla_prime_utility/gtk/window-main.ui:16
 msgid "Cancel"
@@ -59,7 +60,7 @@ msgstr "Annuler"
 #: vanilla_prime_utility/gtk/window-main.ui:30
 msgid "Transactions are locked. Please try again later or restart your device."
 msgstr ""
-"Les traductions sont bloquées. Veuillez réessayer plus tard ou redémarrer "
+"Les transactions sont bloquées. Veuillez réessayer plus tard ou redémarrer "
 "votre appareil."
 
 #: vanilla_prime_utility/gtk/window-main.ui:47
@@ -97,7 +98,7 @@ msgstr "Changement de profil PRIME…"
 
 #: vanilla_prime_utility/gtk/window-switch.ui:23
 msgid "This may take a while."
-msgstr "Cela peut durer un moment..."
+msgstr "Cela peut durer un moment."
 
 #: vanilla_prime_utility/gtk/window-switch.ui:52
 msgid "Profile Switched"

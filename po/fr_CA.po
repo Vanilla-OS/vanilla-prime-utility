@@ -3,13 +3,15 @@
 # This file is distributed under the same license as the prime_utility package.
 # Gabriel Girouard <ggirouard@bungeetaco.com>, 2023.
 # Jumpy Game <jumpy634@gmail.com>, 2023.
+# Michaël Tremblay <Tichael@users.noreply.hosted.weblate.org>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: prime_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-19 10:20+0100\n"
-"PO-Revision-Date: 2023-06-10 20:51+0000\n"
-"Last-Translator: Jumpy Game <jumpy634@gmail.com>\n"
+"PO-Revision-Date: 2024-01-11 21:04+0000\n"
+"Last-Translator: Michaël Tremblay <Tichael@users.noreply.hosted.weblate.org>"
+"\n"
 "Language-Team: French (Canada) <https://hosted.weblate.org/projects/"
 "vanilla-os/vanilla-prime-utility/fr_CA/>\n"
 "Language: fr_CA\n"
@@ -17,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.4-dev\n"
 
 #: data/org.vanillaos.PrimeUtility.desktop.in:3
 msgid "PRIME Utility"
@@ -49,7 +51,7 @@ msgstr ""
 
 #: vanilla_prime_utility/gtk/window-main.ui:16
 msgid "Cancel"
-msgstr ""
+msgstr "Annuler"
 
 #: vanilla_prime_utility/gtk/window-main.ui:30
 msgid "Transactions are locked. Please try again later or restart your device."
