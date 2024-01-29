@@ -6,11 +6,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: prime_utility\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-19 10:20+0100\n"
+"POT-Creation-Date: 2024-01-29 22:19+0530\n"
 "PO-Revision-Date: 2023-07-13 17:49+0000\n"
 "Last-Translator: \"K.B.Dharun Krishna\" <kbdharunkrishna@gmail.com>\n"
-"Language-Team: Tamil <https://hosted.weblate.org/projects/vanilla-os/"
-"vanilla-prime-utility/ta/>\n"
+"Language-Team: Tamil <https://hosted.weblate.org/projects/vanilla-os/vanilla-"
+"prime-utility/ta/>\n"
 "Language: ta\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -25,44 +25,6 @@ msgstr "PRIME பயன்பாடு"
 #: data/org.vanillaos.PrimeUtility.appdata.xml.in:7
 msgid "No description"
 msgstr "விளக்கம் இல்லை"
-
-#: vanilla_prime_utility/gtk/help-overlay.ui:11
-msgctxt "shortcut window"
-msgid "General"
-msgstr "பொது"
-
-#: vanilla_prime_utility/gtk/help-overlay.ui:14
-msgctxt "shortcut window"
-msgid "Show Shortcuts"
-msgstr "குறுக்குவழிகளைக் காட்டு"
-
-#: vanilla_prime_utility/gtk/help-overlay.ui:20
-msgctxt "shortcut window"
-msgid "Quit"
-msgstr "வெளியேறு"
-
-#: vanilla_prime_utility/gtk/profile.ui:17
-#: vanilla_prime_utility/gtk/window-switch.ui:60
-msgid "Restart Now"
-msgstr "இப்போது மீண்டும் தொடங்கவும்"
-
-#: vanilla_prime_utility/gtk/window-main.ui:16
-msgid "Cancel"
-msgstr "ரத்துசெய்"
-
-#: vanilla_prime_utility/gtk/window-main.ui:30
-msgid "Transactions are locked. Please try again later or restart your device."
-msgstr ""
-"பரிவர்த்தனைகள் பூட்டப்பட்டுள்ளன. பிறகு முயற்சிக்கவும் அல்லது உங்கள் சாதனத்தை "
-"மறுதொடக்கம் செய்யவும்."
-
-#: vanilla_prime_utility/gtk/window-main.ui:47
-msgid "Not Supported"
-msgstr "ஆதரவு இல்லை"
-
-#: vanilla_prime_utility/gtk/window-main.ui:48
-msgid "Your device does not support PRIME switching."
-msgstr "உங்கள் சாதனம் PRIME மாறுதலை ஆதரிக்கவில்லை."
 
 #: vanilla_prime_utility/gtk/window-main.ui:55
 msgid "Active Profile"
@@ -85,78 +47,64 @@ msgid "_About prime_utility"
 msgstr "_prime_utility பற்றி"
 
 #: vanilla_prime_utility/gtk/window-switch.ui:6
-#: vanilla_prime_utility/gtk/window-switch.ui:22
 msgid "Switching PRIME Profile…"
 msgstr "PRIME சுயவிவரத்தை மாற்றுகிறது…"
 
-#: vanilla_prime_utility/gtk/window-switch.ui:23
-msgid "This may take a while."
-msgstr "இதற்கு சிறிது நேரம் ஆகலாம்."
-
-#: vanilla_prime_utility/gtk/window-switch.ui:52
-msgid "Profile Switched"
-msgstr "சுயவிவரம் மாற்றப்பட்டது"
-
-#: vanilla_prime_utility/gtk/window-switch.ui:53
-msgid "Restart your device to apply the changes."
-msgstr "மாற்றங்களைப் பயன்படுத்த உங்கள் சாதனத்தை மறுதொடக்கம் செய்யவும்."
-
-#: vanilla_prime_utility/utils/wrapper.py:42
+#: vanilla_prime_utility/utils/wrapper.py:45
 msgid "PRIME module disabled"
 msgstr "PRIME தொகுதி முடக்கப்பட்டது"
 
-#: vanilla_prime_utility/utils/wrapper.py:46
+#: vanilla_prime_utility/utils/wrapper.py:49
 msgid "prime-select not found"
 msgstr "prime-select காணப்படவில்லை"
 
-#: vanilla_prime_utility/utils/wrapper.py:50
+#: vanilla_prime_utility/utils/wrapper.py:53
 msgid "prime-select not supported for this device"
 msgstr "prime-select இந்தச் சாதனத்திற்கு ஆதரிக்கப்படவில்லை"
 
-#: vanilla_prime_utility/utils/wrapper.py:56
+#: vanilla_prime_utility/utils/wrapper.py:59
 msgid "prime-select is not supported for this setup"
 msgstr "இந்த அமைப்பிற்கு prime-select ஆதரிக்கப்படவில்லை"
 
-#: vanilla_prime_utility/utils/wrapper.py:66
+#: vanilla_prime_utility/utils/wrapper.py:69
 msgid "Discrete GPU"
 msgstr "தனி GPU"
 
-#: vanilla_prime_utility/utils/wrapper.py:67
+#: vanilla_prime_utility/utils/wrapper.py:70
 msgid "Use the discrete GPU for all applications."
 msgstr "அனைத்து பயன்பாடுகளுக்கும் தனி GPU ஐப் பயன்படுத்தவும்."
 
-#: vanilla_prime_utility/utils/wrapper.py:71
+#: vanilla_prime_utility/utils/wrapper.py:74
 msgid "Integrated GPU"
 msgstr "ஒருங்கிணைந்த GPU"
 
-#: vanilla_prime_utility/utils/wrapper.py:72
+#: vanilla_prime_utility/utils/wrapper.py:75
 msgid "Use the integrated GPU for all applications."
 msgstr "அனைத்து பயன்பாடுகளுக்கும் ஒருங்கிணைந்த GPU ஐப் பயன்படுத்தவும்."
 
-#: vanilla_prime_utility/utils/wrapper.py:76
+#: vanilla_prime_utility/utils/wrapper.py:79
 msgid "On-demand"
 msgstr "தேவைக்கேற்ப"
 
-#: vanilla_prime_utility/utils/wrapper.py:77
+#: vanilla_prime_utility/utils/wrapper.py:81
 msgid ""
 "Use the integrated GPU for all applications, and the discrete GPU on demand."
 msgstr ""
-"அனைத்து பயன்பாடுகளுக்கும் ஒருங்கிணைந்த GPU மற்றும் தேவைக்கேற்ப தனி GPU ஐப் "
-"பயன்படுத்தவும்."
+"அனைத்து பயன்பாடுகளுக்கும் ஒருங்கிணைந்த GPU மற்றும் தேவைக்கேற்ப தனி GPU ஐப் பயன்படுத்தவும்."
 
-#: vanilla_prime_utility/utils/wrapper.py:105
+#: vanilla_prime_utility/utils/wrapper.py:110
 msgid "Invalid profile name"
 msgstr "தவறான சுயவிவரப் பெயர்"
 
-#: vanilla_prime_utility/utils/wrapper.py:128
-#: vanilla_prime_utility/utils/wrapper.py:131
-#: vanilla_prime_utility/utils/wrapper.py:134
+#: vanilla_prime_utility/utils/wrapper.py:130
+#: vanilla_prime_utility/utils/wrapper.py:133
+#: vanilla_prime_utility/utils/wrapper.py:136
 msgid "integrated"
 msgstr "ஒருங்கிணைந்த"
 
-#: vanilla_prime_utility/utils/wrapper.py:129
-#: vanilla_prime_utility/utils/wrapper.py:132
-#: vanilla_prime_utility/utils/wrapper.py:135
+#: vanilla_prime_utility/utils/wrapper.py:131
+#: vanilla_prime_utility/utils/wrapper.py:134
+#: vanilla_prime_utility/utils/wrapper.py:137
 msgid "discrete"
 msgstr "தனித்தனி"
 
@@ -165,8 +113,8 @@ msgid ""
 "It is not possible to switch the PRIME profile now. Please restart your "
 "device and try again."
 msgstr ""
-"PRIME சுயவிவரத்தை இப்போது மாற்ற முடியாது. உங்கள் சாதனத்தை மறுதொடக்கம் செய்து "
-"மீண்டும் முயற்சிக்கவும்."
+"PRIME சுயவிவரத்தை இப்போது மாற்ற முடியாது. உங்கள் சாதனத்தை மறுதொடக்கம் செய்து மீண்டும் "
+"முயற்சிக்கவும்."
 
 #: vanilla_prime_utility/windows/main_window.py:95
 msgid "Do you want to switch to the '{}' profile?"
@@ -204,3 +152,42 @@ msgstr "மாற முடியவில்லை"
 #: vanilla_prime_utility/windows/switch_window.py:112
 msgid "Something went wrong. Please try again later."
 msgstr "ஏதோ தவறு நடந்துவிட்டது. பிறகு முயற்சிக்கவும்."
+
+#~ msgctxt "shortcut window"
+#~ msgid "General"
+#~ msgstr "பொது"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Show Shortcuts"
+#~ msgstr "குறுக்குவழிகளைக் காட்டு"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Quit"
+#~ msgstr "வெளியேறு"
+
+#~ msgid "Restart Now"
+#~ msgstr "இப்போது மீண்டும் தொடங்கவும்"
+
+#~ msgid "Cancel"
+#~ msgstr "ரத்துசெய்"
+
+#~ msgid ""
+#~ "Transactions are locked. Please try again later or restart your device."
+#~ msgstr ""
+#~ "பரிவர்த்தனைகள் பூட்டப்பட்டுள்ளன. பிறகு முயற்சிக்கவும் அல்லது உங்கள் சாதனத்தை மறுதொடக்கம் "
+#~ "செய்யவும்."
+
+#~ msgid "Not Supported"
+#~ msgstr "ஆதரவு இல்லை"
+
+#~ msgid "Your device does not support PRIME switching."
+#~ msgstr "உங்கள் சாதனம் PRIME மாறுதலை ஆதரிக்கவில்லை."
+
+#~ msgid "This may take a while."
+#~ msgstr "இதற்கு சிறிது நேரம் ஆகலாம்."
+
+#~ msgid "Profile Switched"
+#~ msgstr "சுயவிவரம் மாற்றப்பட்டது"
+
+#~ msgid "Restart your device to apply the changes."
+#~ msgstr "மாற்றங்களைப் பயன்படுத்த உங்கள் சாதனத்தை மறுதொடக்கம் செய்யவும்."

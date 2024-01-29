@@ -8,10 +8,10 @@ msgid ""
 msgstr ""
 "Project-Id-Version: prime_utility\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-19 10:20+0100\n"
+"POT-Creation-Date: 2024-01-29 22:19+0530\n"
 "PO-Revision-Date: 2023-08-07 14:09+0000\n"
-"Last-Translator: EncryptedEasty <95353984+EncryptedEasty@users.noreply.github"
-".com>\n"
+"Last-Translator: EncryptedEasty <95353984+EncryptedEasty@users.noreply."
+"github.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-prime-utility/it/>\n"
 "Language: it\n"
@@ -28,43 +28,6 @@ msgstr "Utilità PRIME"
 #: data/org.vanillaos.PrimeUtility.appdata.xml.in:7
 msgid "No description"
 msgstr "Nessuna descrizione"
-
-#: vanilla_prime_utility/gtk/help-overlay.ui:11
-msgctxt "shortcut window"
-msgid "General"
-msgstr "Generale"
-
-#: vanilla_prime_utility/gtk/help-overlay.ui:14
-msgctxt "shortcut window"
-msgid "Show Shortcuts"
-msgstr "Mostra Scorciatoie"
-
-#: vanilla_prime_utility/gtk/help-overlay.ui:20
-msgctxt "shortcut window"
-msgid "Quit"
-msgstr "Esci"
-
-#: vanilla_prime_utility/gtk/profile.ui:17
-#: vanilla_prime_utility/gtk/window-switch.ui:60
-msgid "Restart Now"
-msgstr "Riavvia ora"
-
-#: vanilla_prime_utility/gtk/window-main.ui:16
-msgid "Cancel"
-msgstr "Annulla"
-
-#: vanilla_prime_utility/gtk/window-main.ui:30
-msgid "Transactions are locked. Please try again later or restart your device."
-msgstr ""
-"Le transazioni sono bloccate. Riprova più tardi o riavvia il tuo dispositivo."
-
-#: vanilla_prime_utility/gtk/window-main.ui:47
-msgid "Not Supported"
-msgstr "Non supportato"
-
-#: vanilla_prime_utility/gtk/window-main.ui:48
-msgid "Your device does not support PRIME switching."
-msgstr "Il dispositivo non supporta cambiare i profili PRIME."
 
 #: vanilla_prime_utility/gtk/window-main.ui:55
 msgid "Active Profile"
@@ -87,78 +50,65 @@ msgid "_About prime_utility"
 msgstr "_Informazioni utilità _prime"
 
 #: vanilla_prime_utility/gtk/window-switch.ui:6
-#: vanilla_prime_utility/gtk/window-switch.ui:22
 msgid "Switching PRIME Profile…"
 msgstr "Cambiando Profilo PRIME…"
 
-#: vanilla_prime_utility/gtk/window-switch.ui:23
-msgid "This may take a while."
-msgstr "Potrebbe volerci un po'."
-
-#: vanilla_prime_utility/gtk/window-switch.ui:52
-msgid "Profile Switched"
-msgstr "Profilo cambiato"
-
-#: vanilla_prime_utility/gtk/window-switch.ui:53
-msgid "Restart your device to apply the changes."
-msgstr "Riavvia il dispositivo per applicare le modifiche."
-
-#: vanilla_prime_utility/utils/wrapper.py:42
+#: vanilla_prime_utility/utils/wrapper.py:45
 msgid "PRIME module disabled"
 msgstr "Modulo PRIME disabilitato"
 
-#: vanilla_prime_utility/utils/wrapper.py:46
+#: vanilla_prime_utility/utils/wrapper.py:49
 msgid "prime-select not found"
 msgstr "prime-select non trovato"
 
-#: vanilla_prime_utility/utils/wrapper.py:50
+#: vanilla_prime_utility/utils/wrapper.py:53
 msgid "prime-select not supported for this device"
 msgstr "prime-select non è supportato per questo dispositivo"
 
-#: vanilla_prime_utility/utils/wrapper.py:56
+#: vanilla_prime_utility/utils/wrapper.py:59
 msgid "prime-select is not supported for this setup"
 msgstr "prime-select non è supportato per questo setup"
 
-#: vanilla_prime_utility/utils/wrapper.py:66
+#: vanilla_prime_utility/utils/wrapper.py:69
 msgid "Discrete GPU"
 msgstr "GPU Discreta"
 
-#: vanilla_prime_utility/utils/wrapper.py:67
+#: vanilla_prime_utility/utils/wrapper.py:70
 msgid "Use the discrete GPU for all applications."
 msgstr "Utilizzare la GPU discreta per tutte le applicazioni."
 
-#: vanilla_prime_utility/utils/wrapper.py:71
+#: vanilla_prime_utility/utils/wrapper.py:74
 msgid "Integrated GPU"
 msgstr "GPU Integrata"
 
-#: vanilla_prime_utility/utils/wrapper.py:72
+#: vanilla_prime_utility/utils/wrapper.py:75
 msgid "Use the integrated GPU for all applications."
 msgstr "Usa la GPU integrata per tutte le applicazioni."
 
-#: vanilla_prime_utility/utils/wrapper.py:76
+#: vanilla_prime_utility/utils/wrapper.py:79
 msgid "On-demand"
 msgstr "Su richiesta"
 
-#: vanilla_prime_utility/utils/wrapper.py:77
+#: vanilla_prime_utility/utils/wrapper.py:81
 msgid ""
 "Use the integrated GPU for all applications, and the discrete GPU on demand."
 msgstr ""
 "Usa la GPU integrata per tutte le applicazioni e la GPU discreta su "
 "richiesta."
 
-#: vanilla_prime_utility/utils/wrapper.py:105
+#: vanilla_prime_utility/utils/wrapper.py:110
 msgid "Invalid profile name"
 msgstr "Nome del Profilo Invalido"
 
-#: vanilla_prime_utility/utils/wrapper.py:128
-#: vanilla_prime_utility/utils/wrapper.py:131
-#: vanilla_prime_utility/utils/wrapper.py:134
+#: vanilla_prime_utility/utils/wrapper.py:130
+#: vanilla_prime_utility/utils/wrapper.py:133
+#: vanilla_prime_utility/utils/wrapper.py:136
 msgid "integrated"
 msgstr "Integrata"
 
-#: vanilla_prime_utility/utils/wrapper.py:129
-#: vanilla_prime_utility/utils/wrapper.py:132
-#: vanilla_prime_utility/utils/wrapper.py:135
+#: vanilla_prime_utility/utils/wrapper.py:131
+#: vanilla_prime_utility/utils/wrapper.py:134
+#: vanilla_prime_utility/utils/wrapper.py:137
 msgid "discrete"
 msgstr "Discreta"
 
@@ -206,3 +156,42 @@ msgstr "Passaggio non riuscito"
 #: vanilla_prime_utility/windows/switch_window.py:112
 msgid "Something went wrong. Please try again later."
 msgstr "Qualcosa è andato storto. Riprova più tardi."
+
+#~ msgctxt "shortcut window"
+#~ msgid "General"
+#~ msgstr "Generale"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Show Shortcuts"
+#~ msgstr "Mostra Scorciatoie"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Quit"
+#~ msgstr "Esci"
+
+#~ msgid "Restart Now"
+#~ msgstr "Riavvia ora"
+
+#~ msgid "Cancel"
+#~ msgstr "Annulla"
+
+#~ msgid ""
+#~ "Transactions are locked. Please try again later or restart your device."
+#~ msgstr ""
+#~ "Le transazioni sono bloccate. Riprova più tardi o riavvia il tuo "
+#~ "dispositivo."
+
+#~ msgid "Not Supported"
+#~ msgstr "Non supportato"
+
+#~ msgid "Your device does not support PRIME switching."
+#~ msgstr "Il dispositivo non supporta cambiare i profili PRIME."
+
+#~ msgid "This may take a while."
+#~ msgstr "Potrebbe volerci un po'."
+
+#~ msgid "Profile Switched"
+#~ msgstr "Profilo cambiato"
+
+#~ msgid "Restart your device to apply the changes."
+#~ msgstr "Riavvia il dispositivo per applicare le modifiche."
