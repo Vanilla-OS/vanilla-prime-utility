@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: prime_utility\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-19 10:20+0100\n"
+"POT-Creation-Date: 2024-01-29 22:19+0530\n"
 "PO-Revision-Date: 2023-07-13 17:49+0000\n"
 "Last-Translator: Maksim <maxklezovich@gmail.com>\n"
 "Language-Team: Belarusian <https://hosted.weblate.org/projects/vanilla-os/"
@@ -27,43 +27,6 @@ msgstr "Утыліта PRIME"
 #: data/org.vanillaos.PrimeUtility.appdata.xml.in:7
 msgid "No description"
 msgstr "Без апісання"
-
-#: vanilla_prime_utility/gtk/help-overlay.ui:11
-msgctxt "shortcut window"
-msgid "General"
-msgstr "Галоўная"
-
-#: vanilla_prime_utility/gtk/help-overlay.ui:14
-msgctxt "shortcut window"
-msgid "Show Shortcuts"
-msgstr "Паказаць ярлыкі"
-
-#: vanilla_prime_utility/gtk/help-overlay.ui:20
-msgctxt "shortcut window"
-msgid "Quit"
-msgstr "Выйсці"
-
-#: vanilla_prime_utility/gtk/profile.ui:17
-#: vanilla_prime_utility/gtk/window-switch.ui:60
-msgid "Restart Now"
-msgstr "Перазапусціць"
-
-#: vanilla_prime_utility/gtk/window-main.ui:16
-msgid "Cancel"
-msgstr "Скасаваць"
-
-#: vanilla_prime_utility/gtk/window-main.ui:30
-msgid "Transactions are locked. Please try again later or restart your device."
-msgstr ""
-"Транзакцыі заблакіраваны. Паўтарыце спробу пазней або перазапусціце прыладу."
-
-#: vanilla_prime_utility/gtk/window-main.ui:47
-msgid "Not Supported"
-msgstr "Не падтрымліваецца"
-
-#: vanilla_prime_utility/gtk/window-main.ui:48
-msgid "Your device does not support PRIME switching."
-msgstr "Ваша прылада не падтрымлівае пераключэнне PRIME."
 
 #: vanilla_prime_utility/gtk/window-main.ui:55
 msgid "Active Profile"
@@ -86,78 +49,65 @@ msgid "_About prime_utility"
 msgstr "_Аб прэм'ер-карыснасці"
 
 #: vanilla_prime_utility/gtk/window-switch.ui:6
-#: vanilla_prime_utility/gtk/window-switch.ui:22
 msgid "Switching PRIME Profile…"
 msgstr "Пераключэнне профілю PRIME…"
 
-#: vanilla_prime_utility/gtk/window-switch.ui:23
-msgid "This may take a while."
-msgstr "Гэта можа заняць некаторы час."
-
-#: vanilla_prime_utility/gtk/window-switch.ui:52
-msgid "Profile Switched"
-msgstr "Профіль пераключаны"
-
-#: vanilla_prime_utility/gtk/window-switch.ui:53
-msgid "Restart your device to apply the changes."
-msgstr "Перазагрузіце прыладу, каб прымяніць змены."
-
-#: vanilla_prime_utility/utils/wrapper.py:42
+#: vanilla_prime_utility/utils/wrapper.py:45
 msgid "PRIME module disabled"
 msgstr "Модуль PRIME адключаны"
 
-#: vanilla_prime_utility/utils/wrapper.py:46
+#: vanilla_prime_utility/utils/wrapper.py:49
 msgid "prime-select not found"
 msgstr "просты выбар не знойдзены"
 
-#: vanilla_prime_utility/utils/wrapper.py:50
+#: vanilla_prime_utility/utils/wrapper.py:53
 msgid "prime-select not supported for this device"
 msgstr "просты выбар не падтрымліваецца для гэтай прылады"
 
-#: vanilla_prime_utility/utils/wrapper.py:56
+#: vanilla_prime_utility/utils/wrapper.py:59
 msgid "prime-select is not supported for this setup"
 msgstr "Prime-select не падтрымліваецца для гэтай налады"
 
-#: vanilla_prime_utility/utils/wrapper.py:66
+#: vanilla_prime_utility/utils/wrapper.py:69
 msgid "Discrete GPU"
 msgstr "Дыскрэтны графічны працэсар"
 
-#: vanilla_prime_utility/utils/wrapper.py:67
+#: vanilla_prime_utility/utils/wrapper.py:70
 msgid "Use the discrete GPU for all applications."
 msgstr "Выкарыстоўвайце дыскрэтны графічны працэсар для ўсіх прыкладанняў."
 
-#: vanilla_prime_utility/utils/wrapper.py:71
+#: vanilla_prime_utility/utils/wrapper.py:74
 msgid "Integrated GPU"
 msgstr "Убудаваны графічны працэсар"
 
-#: vanilla_prime_utility/utils/wrapper.py:72
+#: vanilla_prime_utility/utils/wrapper.py:75
 msgid "Use the integrated GPU for all applications."
 msgstr "Выкарыстоўвайце інтэграваны графічны працэсар для ўсіх прыкладанняў."
 
-#: vanilla_prime_utility/utils/wrapper.py:76
+#: vanilla_prime_utility/utils/wrapper.py:79
 msgid "On-demand"
 msgstr "Па патрабаванню"
 
-#: vanilla_prime_utility/utils/wrapper.py:77
+#: vanilla_prime_utility/utils/wrapper.py:81
 msgid ""
 "Use the integrated GPU for all applications, and the discrete GPU on demand."
 msgstr ""
 "Выкарыстоўвайце ўбудаваны графічны працэсар для ўсіх прыкладанняў і "
 "дыскрэтны графічны працэсар па патрабаванні."
 
-#: vanilla_prime_utility/utils/wrapper.py:105
+#: vanilla_prime_utility/utils/wrapper.py:110
 msgid "Invalid profile name"
 msgstr "Няправільнае імя профілю"
 
-#: vanilla_prime_utility/utils/wrapper.py:128
-#: vanilla_prime_utility/utils/wrapper.py:131
-#: vanilla_prime_utility/utils/wrapper.py:134
+#: vanilla_prime_utility/utils/wrapper.py:130
+#: vanilla_prime_utility/utils/wrapper.py:133
+#: vanilla_prime_utility/utils/wrapper.py:136
 msgid "integrated"
 msgstr "інтэграваны"
 
-#: vanilla_prime_utility/utils/wrapper.py:129
-#: vanilla_prime_utility/utils/wrapper.py:132
-#: vanilla_prime_utility/utils/wrapper.py:135
+#: vanilla_prime_utility/utils/wrapper.py:131
+#: vanilla_prime_utility/utils/wrapper.py:134
+#: vanilla_prime_utility/utils/wrapper.py:137
 msgid "discrete"
 msgstr "дыскрэтны"
 
@@ -205,3 +155,42 @@ msgstr "Збой пераключэння"
 #: vanilla_prime_utility/windows/switch_window.py:112
 msgid "Something went wrong. Please try again later."
 msgstr "Нешта пайшло не так. Калі ласка паспрабуйце зноў пазней."
+
+#~ msgctxt "shortcut window"
+#~ msgid "General"
+#~ msgstr "Галоўная"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Show Shortcuts"
+#~ msgstr "Паказаць ярлыкі"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Quit"
+#~ msgstr "Выйсці"
+
+#~ msgid "Restart Now"
+#~ msgstr "Перазапусціць"
+
+#~ msgid "Cancel"
+#~ msgstr "Скасаваць"
+
+#~ msgid ""
+#~ "Transactions are locked. Please try again later or restart your device."
+#~ msgstr ""
+#~ "Транзакцыі заблакіраваны. Паўтарыце спробу пазней або перазапусціце "
+#~ "прыладу."
+
+#~ msgid "Not Supported"
+#~ msgstr "Не падтрымліваецца"
+
+#~ msgid "Your device does not support PRIME switching."
+#~ msgstr "Ваша прылада не падтрымлівае пераключэнне PRIME."
+
+#~ msgid "This may take a while."
+#~ msgstr "Гэта можа заняць некаторы час."
+
+#~ msgid "Profile Switched"
+#~ msgstr "Профіль пераключаны"
+
+#~ msgid "Restart your device to apply the changes."
+#~ msgstr "Перазагрузіце прыладу, каб прымяніць змены."

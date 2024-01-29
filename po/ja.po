@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: prime_utility\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-19 10:20+0100\n"
+"POT-Creation-Date: 2024-01-29 22:19+0530\n"
 "PO-Revision-Date: 2023-03-19 07:37+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/vanilla-os/"
@@ -26,43 +26,6 @@ msgstr "PRIMEユーティリティ"
 #: data/org.vanillaos.PrimeUtility.appdata.xml.in:7
 msgid "No description"
 msgstr "説明なし"
-
-#: vanilla_prime_utility/gtk/help-overlay.ui:11
-msgctxt "shortcut window"
-msgid "General"
-msgstr "全般"
-
-#: vanilla_prime_utility/gtk/help-overlay.ui:14
-msgctxt "shortcut window"
-msgid "Show Shortcuts"
-msgstr "ショートカットを表示"
-
-#: vanilla_prime_utility/gtk/help-overlay.ui:20
-msgctxt "shortcut window"
-msgid "Quit"
-msgstr "終了"
-
-#: vanilla_prime_utility/gtk/profile.ui:17
-#: vanilla_prime_utility/gtk/window-switch.ui:60
-msgid "Restart Now"
-msgstr "今すぐ再起動"
-
-#: vanilla_prime_utility/gtk/window-main.ui:16
-msgid "Cancel"
-msgstr "キャンセル"
-
-#: vanilla_prime_utility/gtk/window-main.ui:30
-msgid "Transactions are locked. Please try again later or restart your device."
-msgstr "トランザクションがロックされています。あとでもう一度試すかデバイスを再起動し"
-"てください。"
-
-#: vanilla_prime_utility/gtk/window-main.ui:47
-msgid "Not Supported"
-msgstr "サポートされていません"
-
-#: vanilla_prime_utility/gtk/window-main.ui:48
-msgid "Your device does not support PRIME switching."
-msgstr "あなたのデバイスはPRIME切り替えをサポートしていません。"
 
 #: vanilla_prime_utility/gtk/window-main.ui:55
 msgid "Active Profile"
@@ -85,77 +48,65 @@ msgid "_About prime_utility"
 msgstr "prime_utilityについて(_A)"
 
 #: vanilla_prime_utility/gtk/window-switch.ui:6
-#: vanilla_prime_utility/gtk/window-switch.ui:22
 msgid "Switching PRIME Profile…"
 msgstr "PRIME プロファイルを切り替えています…"
 
-#: vanilla_prime_utility/gtk/window-switch.ui:23
-msgid "This may take a while."
-msgstr "これにはしばらく時間がかかる場合があります。"
-
-#: vanilla_prime_utility/gtk/window-switch.ui:52
-msgid "Profile Switched"
-msgstr "プロファイルが切り替えられました"
-
-#: vanilla_prime_utility/gtk/window-switch.ui:53
-msgid "Restart your device to apply the changes."
-msgstr "変更を適用するにはデバイスを再起動してください。"
-
-#: vanilla_prime_utility/utils/wrapper.py:42
+#: vanilla_prime_utility/utils/wrapper.py:45
 msgid "PRIME module disabled"
 msgstr "PRIME モジュールが無効化されました"
 
-#: vanilla_prime_utility/utils/wrapper.py:46
+#: vanilla_prime_utility/utils/wrapper.py:49
 msgid "prime-select not found"
 msgstr "prime-selectが存在しません"
 
-#: vanilla_prime_utility/utils/wrapper.py:50
+#: vanilla_prime_utility/utils/wrapper.py:53
 msgid "prime-select not supported for this device"
 msgstr "prime-selectはこのデバイスをサポートしていません"
 
-#: vanilla_prime_utility/utils/wrapper.py:56
+#: vanilla_prime_utility/utils/wrapper.py:59
 msgid "prime-select is not supported for this setup"
 msgstr "prime-selectはこのセットアップをサポートしていません"
 
-#: vanilla_prime_utility/utils/wrapper.py:66
+#: vanilla_prime_utility/utils/wrapper.py:69
 msgid "Discrete GPU"
 msgstr "ディスクリートGPU"
 
-#: vanilla_prime_utility/utils/wrapper.py:67
+#: vanilla_prime_utility/utils/wrapper.py:70
 msgid "Use the discrete GPU for all applications."
 msgstr "すべてのアプリケーションにディスクリートGPUを使用する。"
 
-#: vanilla_prime_utility/utils/wrapper.py:71
+#: vanilla_prime_utility/utils/wrapper.py:74
 msgid "Integrated GPU"
 msgstr "統合GPU"
 
-#: vanilla_prime_utility/utils/wrapper.py:72
+#: vanilla_prime_utility/utils/wrapper.py:75
 msgid "Use the integrated GPU for all applications."
 msgstr "すべてのアプリケーションに統合GPUを使用する。"
 
-#: vanilla_prime_utility/utils/wrapper.py:76
+#: vanilla_prime_utility/utils/wrapper.py:79
 msgid "On-demand"
 msgstr "必要に応じて"
 
-#: vanilla_prime_utility/utils/wrapper.py:77
+#: vanilla_prime_utility/utils/wrapper.py:81
 msgid ""
 "Use the integrated GPU for all applications, and the discrete GPU on demand."
-msgstr "すべてのアプリケーションに統合GPUを使用して、ディスクリートGPUを必要に応じて"
+msgstr ""
+"すべてのアプリケーションに統合GPUを使用して、ディスクリートGPUを必要に応じて"
 "使用する。"
 
-#: vanilla_prime_utility/utils/wrapper.py:105
+#: vanilla_prime_utility/utils/wrapper.py:110
 msgid "Invalid profile name"
 msgstr "プロファイル名が無効です"
 
-#: vanilla_prime_utility/utils/wrapper.py:128
-#: vanilla_prime_utility/utils/wrapper.py:131
-#: vanilla_prime_utility/utils/wrapper.py:134
+#: vanilla_prime_utility/utils/wrapper.py:130
+#: vanilla_prime_utility/utils/wrapper.py:133
+#: vanilla_prime_utility/utils/wrapper.py:136
 msgid "integrated"
 msgstr "統合された"
 
-#: vanilla_prime_utility/utils/wrapper.py:129
-#: vanilla_prime_utility/utils/wrapper.py:132
-#: vanilla_prime_utility/utils/wrapper.py:135
+#: vanilla_prime_utility/utils/wrapper.py:131
+#: vanilla_prime_utility/utils/wrapper.py:134
+#: vanilla_prime_utility/utils/wrapper.py:137
 msgid "discrete"
 msgstr "ディスクリート"
 
@@ -163,7 +114,8 @@ msgstr "ディスクリート"
 msgid ""
 "It is not possible to switch the PRIME profile now. Please restart your "
 "device and try again."
-msgstr "現在、PRIMEプロファイルを切り替えできません。デバイスを再起動してからもう一度"
+msgstr ""
+"現在、PRIMEプロファイルを切り替えできません。デバイスを再起動してからもう一度"
 "お試しください。"
 
 #: vanilla_prime_utility/windows/main_window.py:95
@@ -202,3 +154,42 @@ msgstr "切り替えに失敗しました"
 #: vanilla_prime_utility/windows/switch_window.py:112
 msgid "Something went wrong. Please try again later."
 msgstr "問題が発生しました。あとでもう一度お試しください。"
+
+#~ msgctxt "shortcut window"
+#~ msgid "General"
+#~ msgstr "全般"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Show Shortcuts"
+#~ msgstr "ショートカットを表示"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Quit"
+#~ msgstr "終了"
+
+#~ msgid "Restart Now"
+#~ msgstr "今すぐ再起動"
+
+#~ msgid "Cancel"
+#~ msgstr "キャンセル"
+
+#~ msgid ""
+#~ "Transactions are locked. Please try again later or restart your device."
+#~ msgstr ""
+#~ "トランザクションがロックされています。あとでもう一度試すかデバイスを再起動"
+#~ "してください。"
+
+#~ msgid "Not Supported"
+#~ msgstr "サポートされていません"
+
+#~ msgid "Your device does not support PRIME switching."
+#~ msgstr "あなたのデバイスはPRIME切り替えをサポートしていません。"
+
+#~ msgid "This may take a while."
+#~ msgstr "これにはしばらく時間がかかる場合があります。"
+
+#~ msgid "Profile Switched"
+#~ msgstr "プロファイルが切り替えられました"
+
+#~ msgid "Restart your device to apply the changes."
+#~ msgstr "変更を適用するにはデバイスを再起動してください。"

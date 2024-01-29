@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: prime_utility\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-02-19 10:20+0100\n"
+"POT-Creation-Date: 2024-01-29 22:19+0530\n"
 "PO-Revision-Date: 2023-12-22 13:50+0000\n"
 "Last-Translator: lmj0927 <lmjj0927@naver.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/vanilla-os/"
@@ -26,42 +26,6 @@ msgstr "PRIME 유틸리티"
 #: data/org.vanillaos.PrimeUtility.appdata.xml.in:7
 msgid "No description"
 msgstr "설명 없음"
-
-#: vanilla_prime_utility/gtk/help-overlay.ui:11
-msgctxt "shortcut window"
-msgid "General"
-msgstr "일반"
-
-#: vanilla_prime_utility/gtk/help-overlay.ui:14
-msgctxt "shortcut window"
-msgid "Show Shortcuts"
-msgstr "바로가기 표시하기"
-
-#: vanilla_prime_utility/gtk/help-overlay.ui:20
-msgctxt "shortcut window"
-msgid "Quit"
-msgstr "끝내기"
-
-#: vanilla_prime_utility/gtk/profile.ui:17
-#: vanilla_prime_utility/gtk/window-switch.ui:60
-msgid "Restart Now"
-msgstr "지금 재시작"
-
-#: vanilla_prime_utility/gtk/window-main.ui:16
-msgid "Cancel"
-msgstr "취소"
-
-#: vanilla_prime_utility/gtk/window-main.ui:30
-msgid "Transactions are locked. Please try again later or restart your device."
-msgstr "트랜잭션이 잠겨 있습니다. 나중에 다시 시도하거나 장치를 재시작하세요."
-
-#: vanilla_prime_utility/gtk/window-main.ui:47
-msgid "Not Supported"
-msgstr "지원되지 않음"
-
-#: vanilla_prime_utility/gtk/window-main.ui:48
-msgid "Your device does not support PRIME switching."
-msgstr "귀하의 장치는 PRIME 전환을 지원하지 않습니다."
 
 #: vanilla_prime_utility/gtk/window-main.ui:55
 msgid "Active Profile"
@@ -84,77 +48,65 @@ msgid "_About prime_utility"
 msgstr "Prime_utility 정보(A키)"
 
 #: vanilla_prime_utility/gtk/window-switch.ui:6
-#: vanilla_prime_utility/gtk/window-switch.ui:22
 msgid "Switching PRIME Profile…"
 msgstr "PRIME 프로필 전환 중…"
 
-#: vanilla_prime_utility/gtk/window-switch.ui:23
-msgid "This may take a while."
-msgstr "시간이 소요될 수 있습니다."
-
-#: vanilla_prime_utility/gtk/window-switch.ui:52
-msgid "Profile Switched"
-msgstr "프로필이 전환"
-
-#: vanilla_prime_utility/gtk/window-switch.ui:53
-msgid "Restart your device to apply the changes."
-msgstr "변경 사항을 적용하려면 장치를 재시작하세요."
-
-#: vanilla_prime_utility/utils/wrapper.py:42
+#: vanilla_prime_utility/utils/wrapper.py:45
 msgid "PRIME module disabled"
 msgstr "PRIME 모듈이 비활성화되었습니다"
 
-#: vanilla_prime_utility/utils/wrapper.py:46
+#: vanilla_prime_utility/utils/wrapper.py:49
 msgid "prime-select not found"
 msgstr "prime-select를 찾을 수 없습니다"
 
-#: vanilla_prime_utility/utils/wrapper.py:50
+#: vanilla_prime_utility/utils/wrapper.py:53
 msgid "prime-select not supported for this device"
 msgstr "이 장치에서는 prime-select가 지원되지 않습니다"
 
-#: vanilla_prime_utility/utils/wrapper.py:56
+#: vanilla_prime_utility/utils/wrapper.py:59
 msgid "prime-select is not supported for this setup"
 msgstr "이 설정에서는 prime-select가 지원되지 않습니다"
 
-#: vanilla_prime_utility/utils/wrapper.py:66
+#: vanilla_prime_utility/utils/wrapper.py:69
 msgid "Discrete GPU"
 msgstr "독립 GPU"
 
-#: vanilla_prime_utility/utils/wrapper.py:67
+#: vanilla_prime_utility/utils/wrapper.py:70
 msgid "Use the discrete GPU for all applications."
 msgstr "모든 응용 프로그램에 대해 독립 GPU를 사용합니다."
 
-#: vanilla_prime_utility/utils/wrapper.py:71
+#: vanilla_prime_utility/utils/wrapper.py:74
 msgid "Integrated GPU"
 msgstr "통합 GPU"
 
-#: vanilla_prime_utility/utils/wrapper.py:72
+#: vanilla_prime_utility/utils/wrapper.py:75
 msgid "Use the integrated GPU for all applications."
 msgstr "모든 응용 프로그램에 대해 통합 GPU를 사용합니다."
 
-#: vanilla_prime_utility/utils/wrapper.py:76
+#: vanilla_prime_utility/utils/wrapper.py:79
 msgid "On-demand"
 msgstr "요청에 따라"
 
-#: vanilla_prime_utility/utils/wrapper.py:77
+#: vanilla_prime_utility/utils/wrapper.py:81
 msgid ""
 "Use the integrated GPU for all applications, and the discrete GPU on demand."
-msgstr "모든 응용 프로그램에 대해 통합 GPU를 사용하고, 필요할 때 독립 GPU를 "
-"사용합니다."
+msgstr ""
+"모든 응용 프로그램에 대해 통합 GPU를 사용하고, 필요할 때 독립 GPU를 사용합니"
+"다."
 
-#: vanilla_prime_utility/utils/wrapper.py:105
+#: vanilla_prime_utility/utils/wrapper.py:110
 msgid "Invalid profile name"
 msgstr "잘못된 프로필 이름"
 
-#: vanilla_prime_utility/utils/wrapper.py:128
-#: vanilla_prime_utility/utils/wrapper.py:131
-#: vanilla_prime_utility/utils/wrapper.py:134
+#: vanilla_prime_utility/utils/wrapper.py:130
+#: vanilla_prime_utility/utils/wrapper.py:133
+#: vanilla_prime_utility/utils/wrapper.py:136
 msgid "integrated"
 msgstr "통합"
 
-#: vanilla_prime_utility/utils/wrapper.py:129
-#: vanilla_prime_utility/utils/wrapper.py:132
-#: vanilla_prime_utility/utils/wrapper.py:135
+#: vanilla_prime_utility/utils/wrapper.py:131
+#: vanilla_prime_utility/utils/wrapper.py:134
+#: vanilla_prime_utility/utils/wrapper.py:137
 msgid "discrete"
 msgstr "독립"
 
@@ -162,8 +114,9 @@ msgstr "독립"
 msgid ""
 "It is not possible to switch the PRIME profile now. Please restart your "
 "device and try again."
-msgstr "지금은 PRIME 프로필을 전환할 수 없습니다. 장치를 다시 시작하고 다시 "
-"시도하세요."
+msgstr ""
+"지금은 PRIME 프로필을 전환할 수 없습니다. 장치를 다시 시작하고 다시 시도하세"
+"요."
 
 #: vanilla_prime_utility/windows/main_window.py:95
 msgid "Do you want to switch to the '{}' profile?"
@@ -201,3 +154,41 @@ msgstr "전환 실패"
 #: vanilla_prime_utility/windows/switch_window.py:112
 msgid "Something went wrong. Please try again later."
 msgstr "문제가 발생했습니다. 나중에 다시 시도하세요."
+
+#~ msgctxt "shortcut window"
+#~ msgid "General"
+#~ msgstr "일반"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Show Shortcuts"
+#~ msgstr "바로가기 표시하기"
+
+#~ msgctxt "shortcut window"
+#~ msgid "Quit"
+#~ msgstr "끝내기"
+
+#~ msgid "Restart Now"
+#~ msgstr "지금 재시작"
+
+#~ msgid "Cancel"
+#~ msgstr "취소"
+
+#~ msgid ""
+#~ "Transactions are locked. Please try again later or restart your device."
+#~ msgstr ""
+#~ "트랜잭션이 잠겨 있습니다. 나중에 다시 시도하거나 장치를 재시작하세요."
+
+#~ msgid "Not Supported"
+#~ msgstr "지원되지 않음"
+
+#~ msgid "Your device does not support PRIME switching."
+#~ msgstr "귀하의 장치는 PRIME 전환을 지원하지 않습니다."
+
+#~ msgid "This may take a while."
+#~ msgstr "시간이 소요될 수 있습니다."
+
+#~ msgid "Profile Switched"
+#~ msgstr "프로필이 전환"
+
+#~ msgid "Restart your device to apply the changes."
+#~ msgstr "변경 사항을 적용하려면 장치를 재시작하세요."
