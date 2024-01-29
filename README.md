@@ -13,7 +13,9 @@
 </div>
 
 ## Build
+
 ### Dependencies
+
 - build-essential
 - meson
 - libadwaita-1-dev
@@ -22,17 +24,20 @@
 - nvidia-prime
 
 ### Build
+
 ```bash
 meson build
 ninja -C build
 ```
 
 ### Install
+
 ```bash
 sudo ninja -C build install
 ```
 
 ## Run
+
 ```bash
 vanilla-prime-utility
 
@@ -41,7 +46,8 @@ vanilla-prime-utility --embedded
 ```
 
 ## Other distributions
-This utility works on any Ubuntu-based distribution, just note that `NoDisplay=true` is set
+
+This utility works on any Debian-based distribution, just note that `NoDisplay=true` is set
 in the desktop file, since Vanilla OS uses the embedded mode. If you want to use the
 standalone mode, you can remove this line and the icon will be shown in the applications
 menu of your distribution.
