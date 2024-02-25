@@ -2,13 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the prime_utility package.
 # Murattut <tutmurattut@outlook.com>, 2023.
+# Emin Tufan Çetin <etcetin@gmail.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: prime_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-29 22:19+0530\n"
-"PO-Revision-Date: 2023-03-26 04:29+0000\n"
-"Last-Translator: Murattut <tutmurattut@outlook.com>\n"
+"PO-Revision-Date: 2024-02-19 11:02+0000\n"
+"Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-prime-utility/tr/>\n"
 "Language: tr\n"
@@ -16,11 +17,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.17-dev\n"
+"X-Generator: Weblate 5.4\n"
 
 #: data/org.vanillaos.PrimeUtility.desktop.in:3
 msgid "PRIME Utility"
-msgstr "PRIME Yardımcı Programı"
+msgstr "PRIME Aracı"
 
 #: data/org.vanillaos.PrimeUtility.appdata.xml.in:7
 msgid "No description"
@@ -32,7 +33,7 @@ msgstr "Aktif Profil"
 
 #: vanilla_prime_utility/gtk/window-main.ui:56
 msgid "Select the PRIME profile to use."
-msgstr "Kullanılacak PRIME profilini seçin."
+msgstr "Kullanılacak PRIME profilini seç."
 
 #: vanilla_prime_utility/gtk/window-main.ui:71
 msgid "_Preferences"
@@ -44,7 +45,7 @@ msgstr "_Klavye Kısayolları"
 
 #: vanilla_prime_utility/gtk/window-main.ui:79
 msgid "_About prime_utility"
-msgstr "_Prime_Aracı hakkında"
+msgstr "Prime Aracı _Hakkında"
 
 #: vanilla_prime_utility/gtk/window-switch.ui:6
 msgid "Switching PRIME Profile…"
@@ -60,7 +61,7 @@ msgstr "prime-select bulunamadı"
 
 #: vanilla_prime_utility/utils/wrapper.py:53
 msgid "prime-select not supported for this device"
-msgstr "prime-select bu cihaz için desteklenmiyor"
+msgstr "prime-select bu aygıt için desteklenmiyor"
 
 #: vanilla_prime_utility/utils/wrapper.py:59
 msgid "prime-select is not supported for this setup"
@@ -72,15 +73,15 @@ msgstr "Ayrık GPU"
 
 #: vanilla_prime_utility/utils/wrapper.py:70
 msgid "Use the discrete GPU for all applications."
-msgstr "Tüm uygulamalar için ayrı GPU kullanın."
+msgstr "Tüm uygulamalar için ayrık GPU kullan."
 
 #: vanilla_prime_utility/utils/wrapper.py:74
 msgid "Integrated GPU"
-msgstr "Entegre GPU"
+msgstr "Tümleşik GPU"
 
 #: vanilla_prime_utility/utils/wrapper.py:75
 msgid "Use the integrated GPU for all applications."
-msgstr "Tüm uygulamalar için entegre GPU'yu kullanın."
+msgstr "Tüm uygulamalar için tümleşik GPU'yu kullan."
 
 #: vanilla_prime_utility/utils/wrapper.py:79
 msgid "On-demand"
@@ -90,7 +91,7 @@ msgstr "İsteğe bağlı"
 msgid ""
 "Use the integrated GPU for all applications, and the discrete GPU on demand."
 msgstr ""
-"Tüm uygulamalar için entegre GPU'yu, ve ihtiyaç halinde ayrı GPU'yu kullan."
+"Tüm uygulamalar için tümleşik GPU'yu ve gerektiğinde ayrık GPU'yu kullan."
 
 #: vanilla_prime_utility/utils/wrapper.py:110
 msgid "Invalid profile name"
@@ -100,7 +101,7 @@ msgstr "Geçersiz profil adı"
 #: vanilla_prime_utility/utils/wrapper.py:133
 #: vanilla_prime_utility/utils/wrapper.py:136
 msgid "integrated"
-msgstr "entegre"
+msgstr "tümleşik"
 
 #: vanilla_prime_utility/utils/wrapper.py:131
 #: vanilla_prime_utility/utils/wrapper.py:134
@@ -113,8 +114,8 @@ msgid ""
 "It is not possible to switch the PRIME profile now. Please restart your "
 "device and try again."
 msgstr ""
-"Şu anda PRIME profilini değiştirmek mümkün değil. Lütfen cihazınızı yeniden "
-"başlatın ve tekrar deneyin."
+"Şu anda PRIME profilini değiştirilemiyor. Lütfen aygıtınızı yeniden başlatın "
+"ve yeniden deneyin."
 
 #: vanilla_prime_utility/windows/main_window.py:95
 msgid "Do you want to switch to the '{}' profile?"
@@ -142,7 +143,7 @@ msgstr "Profil değiştirme başarısız oldu!"
 
 #: vanilla_prime_utility/windows/switch_window.py:38
 msgid "Switching to '{}'…"
-msgstr "'{}' geçiyorum…"
+msgstr "Şuna geçiliyor: '{}'…"
 
 #: vanilla_prime_utility/windows/switch_window.py:110
 #: vanilla_prime_utility/windows/switch_window.py:111
@@ -151,7 +152,7 @@ msgstr "Geçiş Başarısız"
 
 #: vanilla_prime_utility/windows/switch_window.py:112
 msgid "Something went wrong. Please try again later."
-msgstr "Bir şeyler yanlış gitti. Lütfen daha sonra tekrar deneyin."
+msgstr "Bir şeyler yanlış gitti. Lütfen daha sonra yeniden deneyin."
 
 #~ msgctxt "shortcut window"
 #~ msgid "General"
