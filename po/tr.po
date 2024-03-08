@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: prime_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-29 22:19+0530\n"
-"PO-Revision-Date: 2024-02-19 11:02+0000\n"
+"PO-Revision-Date: 2024-03-08 15:01+0000\n"
 "Last-Translator: Emin Tufan Çetin <etcetin@gmail.com>\n"
 "Language-Team: Turkish <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-prime-utility/tr/>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.4\n"
+"X-Generator: Weblate 5.5-dev\n"
 
 #: data/org.vanillaos.PrimeUtility.desktop.in:3
 msgid "PRIME Utility"
@@ -29,7 +29,7 @@ msgstr "Açıklama yok"
 
 #: vanilla_prime_utility/gtk/window-main.ui:55
 msgid "Active Profile"
-msgstr "Aktif Profil"
+msgstr "Etkin Profil"
 
 #: vanilla_prime_utility/gtk/window-main.ui:56
 msgid "Select the PRIME profile to use."
@@ -85,7 +85,7 @@ msgstr "Tüm uygulamalar için tümleşik GPU'yu kullan."
 
 #: vanilla_prime_utility/utils/wrapper.py:79
 msgid "On-demand"
-msgstr "İsteğe bağlı"
+msgstr "Gerektiğinde"
 
 #: vanilla_prime_utility/utils/wrapper.py:81
 msgid ""
@@ -135,7 +135,7 @@ msgstr "'{}' olarak değiştir"
 
 #: vanilla_prime_utility/windows/main_window.py:106
 msgid "Profile switched to {}!"
-msgstr "Profil {} olarak değiştirildi!"
+msgstr "Profil, {} olarak değiştirildi!"
 
 #: vanilla_prime_utility/windows/main_window.py:111
 msgid "Profile switch failed!"
