@@ -2,13 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the prime_utility package.
 # Jen Kung-chih <Kaitul@outlook.com>, 2023.
+# lakejason0 <sunliyuan200402@outlook.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: prime_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-29 22:19+0530\n"
-"PO-Revision-Date: 2023-02-28 19:26+0000\n"
-"Last-Translator: Jen Kung-chih <Kaitul@outlook.com>\n"
+"PO-Revision-Date: 2024-03-26 18:52+0000\n"
+"Last-Translator: lakejason0 <sunliyuan200402@outlook.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
 "vanilla-os/vanilla-prime-utility/zh_Hant/>\n"
 "Language: zh_Hant\n"
@@ -16,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.16-rc\n"
+"X-Generator: Weblate 5.5-dev\n"
 
 #: data/org.vanillaos.PrimeUtility.desktop.in:3
 msgid "PRIME Utility"
@@ -44,7 +45,7 @@ msgstr "鍵盤快速鍵(_K)"
 
 #: vanilla_prime_utility/gtk/window-main.ui:79
 msgid "_About prime_utility"
-msgstr "專於 PRIME 工具(_A)"
+msgstr "關於 PRIME 工具(_A)"
 
 #: vanilla_prime_utility/gtk/window-switch.ui:6
 msgid "Switching PRIME Profile…"
@@ -64,7 +65,7 @@ msgstr "此裝置不支援 prime-select"
 
 #: vanilla_prime_utility/utils/wrapper.py:59
 msgid "prime-select is not supported for this setup"
-msgstr "此安裝程式不支援 prime-select"
+msgstr "此設定不支援 prime-select"
 
 #: vanilla_prime_utility/utils/wrapper.py:69
 msgid "Discrete GPU"
