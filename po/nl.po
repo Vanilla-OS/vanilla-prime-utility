@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: prime_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-29 22:19+0530\n"
-"PO-Revision-Date: 2024-05-19 07:56+0000\n"
+"PO-Revision-Date: 2024-05-30 05:44+0000\n"
 "Last-Translator: Philip Goto <philip.goto@gmail.com>\n"
 "Language-Team: Dutch <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-prime-utility/nl/>\n"
@@ -114,7 +114,7 @@ msgid ""
 "It is not possible to switch the PRIME profile now. Please restart your "
 "device and try again."
 msgstr ""
-"Het is niet mogelijk om nu het PRIME-profiel te wisselen. Start uw apparaat "
+"Het is niet mogelĳk om nu het PRIME-profiel te wisselen. Start uw apparaat "
 "opnieuw op en probeer opnieuw."
 
 #: vanilla_prime_utility/windows/main_window.py:95
@@ -123,7 +123,7 @@ msgstr "Wilt u naar het profiel ‘{}’ wisselen?"
 
 #: vanilla_prime_utility/windows/main_window.py:96
 msgid "This will require a restart to apply the changes."
-msgstr "Dit zal een herstart vereisen voor het doorvoeren van de wijzigingen."
+msgstr "Dit zal een herstart vereisen voor het doorvoeren van de wĳzigingen."
 
 #: vanilla_prime_utility/windows/main_window.py:98
 msgid "_Cancel"
