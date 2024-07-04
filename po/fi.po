@@ -2,13 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the prime_utility package.
 # "Tinde (Joke)" <jouko.tiilikainen@gmail.com>, 2023.
+# Niila Magga <niila@runbox.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: prime_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-01-29 22:19+0530\n"
-"PO-Revision-Date: 2023-06-10 20:51+0000\n"
-"Last-Translator: \"Tinde (Joke)\" <jouko.tiilikainen@gmail.com>\n"
+"PO-Revision-Date: 2024-07-04 18:11+0000\n"
+"Last-Translator: Niila Magga <niila@runbox.com>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-prime-utility/fi/>\n"
 "Language: fi\n"
@@ -16,11 +17,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.18-dev\n"
+"X-Generator: Weblate 5.7-dev\n"
 
 #: data/org.vanillaos.PrimeUtility.desktop.in:3
 msgid "PRIME Utility"
-msgstr ""
+msgstr "PRIME-työkalu"
 
 #: data/org.vanillaos.PrimeUtility.appdata.xml.in:7
 msgid "No description"
@@ -28,127 +29,131 @@ msgstr "Ei kuvausta"
 
 #: vanilla_prime_utility/gtk/window-main.ui:55
 msgid "Active Profile"
-msgstr ""
+msgstr "Aktiivinen profiili"
 
 #: vanilla_prime_utility/gtk/window-main.ui:56
 msgid "Select the PRIME profile to use."
-msgstr ""
+msgstr "Valitse käytettävä PRIME-profiili."
 
 #: vanilla_prime_utility/gtk/window-main.ui:71
 msgid "_Preferences"
-msgstr ""
+msgstr "_Valinnat"
 
 #: vanilla_prime_utility/gtk/window-main.ui:75
 msgid "_Keyboard Shortcuts"
-msgstr ""
+msgstr "_Pikanäppäimet"
 
 #: vanilla_prime_utility/gtk/window-main.ui:79
 msgid "_About prime_utility"
-msgstr ""
+msgstr "_Tietoja PRIME-työkalusta"
 
 #: vanilla_prime_utility/gtk/window-switch.ui:6
 msgid "Switching PRIME Profile…"
-msgstr ""
+msgstr "Vaihdetaan PRIME-profiilia…"
 
 #: vanilla_prime_utility/utils/wrapper.py:45
 msgid "PRIME module disabled"
-msgstr ""
+msgstr "PRIME-moduuli ei käytössä"
 
 #: vanilla_prime_utility/utils/wrapper.py:49
 msgid "prime-select not found"
-msgstr ""
+msgstr "prime-select ei löytynyt"
 
 #: vanilla_prime_utility/utils/wrapper.py:53
 msgid "prime-select not supported for this device"
-msgstr ""
+msgstr "prime-select ei ole tuettu tässä laitteessa"
 
 #: vanilla_prime_utility/utils/wrapper.py:59
 msgid "prime-select is not supported for this setup"
-msgstr ""
+msgstr "prime-select ei ole yhteensopiva näiden asetusten kanssa"
 
 #: vanilla_prime_utility/utils/wrapper.py:69
 msgid "Discrete GPU"
-msgstr ""
+msgstr "Erillinen näytönohjain"
 
 #: vanilla_prime_utility/utils/wrapper.py:70
 msgid "Use the discrete GPU for all applications."
-msgstr ""
+msgstr "Käytä erillistä näytönohjainta kaikissa sovelluksissa."
 
 #: vanilla_prime_utility/utils/wrapper.py:74
 msgid "Integrated GPU"
-msgstr ""
+msgstr "Integroitu näytönohjain"
 
 #: vanilla_prime_utility/utils/wrapper.py:75
 msgid "Use the integrated GPU for all applications."
-msgstr ""
+msgstr "Käytä integroitua näytönohjainta kaikissa sovelluksissa."
 
 #: vanilla_prime_utility/utils/wrapper.py:79
 msgid "On-demand"
-msgstr ""
+msgstr "Tarpeen mukaan"
 
 #: vanilla_prime_utility/utils/wrapper.py:81
 msgid ""
 "Use the integrated GPU for all applications, and the discrete GPU on demand."
 msgstr ""
+"Käytä integroitua näytönohjainta kaikissa sovelluksissa, ja erillistä "
+"näytönohjainta tarpeen mukaan."
 
 #: vanilla_prime_utility/utils/wrapper.py:110
 msgid "Invalid profile name"
-msgstr ""
+msgstr "Epäkelpo profiilin nimi"
 
 #: vanilla_prime_utility/utils/wrapper.py:130
 #: vanilla_prime_utility/utils/wrapper.py:133
 #: vanilla_prime_utility/utils/wrapper.py:136
 msgid "integrated"
-msgstr ""
+msgstr "integroitu"
 
 #: vanilla_prime_utility/utils/wrapper.py:131
 #: vanilla_prime_utility/utils/wrapper.py:134
 #: vanilla_prime_utility/utils/wrapper.py:137
 msgid "discrete"
-msgstr ""
+msgstr "erillinen"
 
 #: vanilla_prime_utility/widgets/profile.py:52
 msgid ""
 "It is not possible to switch the PRIME profile now. Please restart your "
 "device and try again."
 msgstr ""
+"PRIME-profiilia ei voi vaihtaa nyt. Käynnistä laite uudelleen ja yritä "
+"uudelleen."
 
 #: vanilla_prime_utility/windows/main_window.py:95
 msgid "Do you want to switch to the '{}' profile?"
-msgstr ""
+msgstr "Haluatko vaihtaa '{}' -profiiliin?"
 
 #: vanilla_prime_utility/windows/main_window.py:96
 msgid "This will require a restart to apply the changes."
-msgstr ""
+msgstr "Muutosten käyttöönotto edellyttää uudelleenkäynnistyksen."
 
 #: vanilla_prime_utility/windows/main_window.py:98
 msgid "_Cancel"
-msgstr ""
+msgstr "_Peruuta"
 
 #: vanilla_prime_utility/windows/main_window.py:99
 msgid "Switch to '{}'"
-msgstr ""
+msgstr "Vaihda profiiliin '{}'"
 
 #: vanilla_prime_utility/windows/main_window.py:106
 msgid "Profile switched to {}!"
-msgstr ""
+msgstr "Vaihdettu profiiliin {}!"
 
 #: vanilla_prime_utility/windows/main_window.py:111
 msgid "Profile switch failed!"
-msgstr ""
+msgstr "Profiilin vaihto epäonnistui!"
 
 #: vanilla_prime_utility/windows/switch_window.py:38
 msgid "Switching to '{}'…"
-msgstr ""
+msgstr "Vaihdetaan profiiliin '{}'…"
 
 #: vanilla_prime_utility/windows/switch_window.py:110
 #: vanilla_prime_utility/windows/switch_window.py:111
 msgid "Switch Failed"
-msgstr ""
+msgstr "Vaihto epäonnistui"
 
 #: vanilla_prime_utility/windows/switch_window.py:112
 msgid "Something went wrong. Please try again later."
-msgstr ""
+msgstr "Jokin meni vikaan. Ole hyvä ja yritä myöhemmin uudelleen."
 
 #~ msgctxt "shortcut window"
 #~ msgid "General"
