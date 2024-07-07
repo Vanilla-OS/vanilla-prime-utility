@@ -1,5 +1,5 @@
 [Desktop Entry]
-Name=PRIME Utility
+Name=GPU Profile Management (PRIME) Utility
 Exec=vanilla-prime-utility
 Icon=org.vanillaos.PrimeUtility
 Terminal=false
