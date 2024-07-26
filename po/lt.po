@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: prime_utility\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-29 22:19+0530\n"
+"POT-Creation-Date: 2024-07-07 22:19+0530\n"
 "PO-Revision-Date: 2023-10-11 18:00+0000\n"
 "Last-Translator: ~nz <kristupmaker@gmail.com>\n"
 "Language-Team: Lithuanian <https://hosted.weblate.org/projects/vanilla-os/"
@@ -21,7 +21,7 @@ msgstr ""
 "X-Generator: Weblate 5.1-dev\n"
 
 #: data/org.vanillaos.PrimeUtility.desktop.in:3
-msgid "PRIME Utility"
+msgid "GPU Profile Management (PRIME) Utility"
 msgstr ""
 
 #: data/org.vanillaos.PrimeUtility.appdata.xml.in:7

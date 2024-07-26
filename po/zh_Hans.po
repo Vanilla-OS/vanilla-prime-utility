@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: prime_utility\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-29 22:19+0530\n"
+"POT-Creation-Date: 2024-07-07 22:19+0530\n"
 "PO-Revision-Date: 2023-08-05 09:03+0000\n"
 "Last-Translator: GT-610 <myddz1005@163.com>\n"
 "Language-Team: Chinese (Simplified) <https://hosted.weblate.org/projects/"
@@ -20,8 +20,8 @@ msgstr ""
 "X-Generator: Weblate 5.0-dev\n"
 
 #: data/org.vanillaos.PrimeUtility.desktop.in:3
-msgid "PRIME Utility"
-msgstr "PRIME 工具"
+msgid "GPU Profile Management (PRIME) Utility"
+msgstr ""
 
 #: data/org.vanillaos.PrimeUtility.appdata.xml.in:7
 msgid "No description"
@@ -150,6 +150,9 @@ msgstr "切换失败"
 #: vanilla_prime_utility/windows/switch_window.py:112
 msgid "Something went wrong. Please try again later."
 msgstr "出了点问题。请稍后重试。"
+
+#~ msgid "PRIME Utility"
+#~ msgstr "PRIME 工具"
 
 #~ msgctxt "shortcut window"
 #~ msgid "General"
