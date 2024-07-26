@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: prime_utility\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-29 22:19+0530\n"
+"POT-Creation-Date: 2024-07-07 22:19+0530\n"
 "PO-Revision-Date: 2023-07-16 04:33+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://hosted.weblate.org/projects/vanilla-os/"
@@ -19,8 +19,8 @@ msgstr ""
 "X-Generator: Weblate 5.0-dev\n"
 
 #: data/org.vanillaos.PrimeUtility.desktop.in:3
-msgid "PRIME Utility"
-msgstr "პროგრამა PRIME"
+msgid "GPU Profile Management (PRIME) Utility"
+msgstr ""
 
 #: data/org.vanillaos.PrimeUtility.appdata.xml.in:7
 msgid "No description"
@@ -153,6 +153,9 @@ msgstr "გადართვის შეცდომა"
 #: vanilla_prime_utility/windows/switch_window.py:112
 msgid "Something went wrong. Please try again later."
 msgstr "რაღაც არასწორია. მოგვიანებით სცადეთ."
+
+#~ msgid "PRIME Utility"
+#~ msgstr "პროგრამა PRIME"
 
 #~ msgctxt "shortcut window"
 #~ msgid "General"

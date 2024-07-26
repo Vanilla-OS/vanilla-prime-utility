@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: prime_utility\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-01-29 22:19+0530\n"
+"POT-Creation-Date: 2024-07-07 22:19+0530\n"
 "PO-Revision-Date: 2024-05-09 14:07+0000\n"
 "Last-Translator: guylamar2006 <guychronister@outlook.com>\n"
 "Language-Team: Danish <https://hosted.weblate.org/projects/vanilla-os/"
@@ -20,8 +20,8 @@ msgstr ""
 "X-Generator: Weblate 5.5.4-rc\n"
 
 #: data/org.vanillaos.PrimeUtility.desktop.in:3
-msgid "PRIME Utility"
-msgstr "PRIME-Værktøj"
+msgid "GPU Profile Management (PRIME) Utility"
+msgstr ""
 
 #: data/org.vanillaos.PrimeUtility.appdata.xml.in:7
 #, fuzzy
@@ -153,6 +153,9 @@ msgstr "Skift Slog Fejl"
 #: vanilla_prime_utility/windows/switch_window.py:112
 msgid "Something went wrong. Please try again later."
 msgstr "Noget gik galt. Prøv venligst igen senere."
+
+#~ msgid "PRIME Utility"
+#~ msgstr "PRIME-Værktøj"
 
 #~ msgctxt "shortcut window"
 #~ msgid "General"
