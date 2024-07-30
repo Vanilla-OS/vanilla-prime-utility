@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: prime_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-07 22:19+0530\n"
-"PO-Revision-Date: 2024-03-26 18:52+0000\n"
+"PO-Revision-Date: 2024-07-27 10:09+0000\n"
 "Last-Translator: lakejason0 <sunliyuan200402@outlook.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
 "vanilla-os/vanilla-prime-utility/zh_Hant/>\n"
@@ -17,11 +17,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.5-dev\n"
+"X-Generator: Weblate 5.7-dev\n"
 
 #: data/org.vanillaos.PrimeUtility.desktop.in:3
 msgid "GPU Profile Management (PRIME) Utility"
-msgstr ""
+msgstr "GPU 設定檔管理（PRIME）工具"
 
 #: data/org.vanillaos.PrimeUtility.appdata.xml.in:7
 msgid "No description"
