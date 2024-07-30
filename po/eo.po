@@ -1,0 +1,153 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the prime_utility package.
+# phlostically <phlostically@mailinator.com>, 2024.
+msgid ""
+msgstr ""
+"Project-Id-Version: prime_utility\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-07-07 22:19+0530\n"
+"PO-Revision-Date: 2024-07-30 02:09+0000\n"
+"Last-Translator: phlostically <phlostically@mailinator.com>\n"
+"Language-Team: Esperanto <https://hosted.weblate.org/projects/vanilla-os/"
+"vanilla-prime-utility/eo/>\n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.7-dev\n"
+
+#: data/org.vanillaos.PrimeUtility.desktop.in:3
+msgid "GPU Profile Management (PRIME) Utility"
+msgstr "Administrilo por grafikprocesoraj profiloj (PRIME)"
+
+#: data/org.vanillaos.PrimeUtility.appdata.xml.in:7
+msgid "No description"
+msgstr "Neniu priskribo"
+
+#: vanilla_prime_utility/gtk/window-main.ui:55
+msgid "Active Profile"
+msgstr "Aktiva profilo"
+
+#: vanilla_prime_utility/gtk/window-main.ui:56
+msgid "Select the PRIME profile to use."
+msgstr "Elektu la uzotan profilon por PRIME."
+
+#: vanilla_prime_utility/gtk/window-main.ui:71
+msgid "_Preferences"
+msgstr "_Agordoj"
+
+#: vanilla_prime_utility/gtk/window-main.ui:75
+msgid "_Keyboard Shortcuts"
+msgstr "Fulmo_klavoj"
+
+#: vanilla_prime_utility/gtk/window-main.ui:79
+msgid "_About prime_utility"
+msgstr "_Pri prime_utility"
+
+#: vanilla_prime_utility/gtk/window-switch.ui:6
+msgid "Switching PRIME Profile…"
+msgstr "Ŝanĝante profilon por PRIME…"
+
+#: vanilla_prime_utility/utils/wrapper.py:45
+msgid "PRIME module disabled"
+msgstr "PRIME-modulo malŝaltita"
+
+#: vanilla_prime_utility/utils/wrapper.py:49
+msgid "prime-select not found"
+msgstr "prime-select ne troviĝis"
+
+#: vanilla_prime_utility/utils/wrapper.py:53
+msgid "prime-select not supported for this device"
+msgstr "prime-select ne estas subtenata por ĉi tiu aparato"
+
+#: vanilla_prime_utility/utils/wrapper.py:59
+msgid "prime-select is not supported for this setup"
+msgstr "prime-select ne estas subtenata por ĉi tiu agordo"
+
+#: vanilla_prime_utility/utils/wrapper.py:69
+msgid "Discrete GPU"
+msgstr "Aparta grafika procesoro"
+
+#: vanilla_prime_utility/utils/wrapper.py:70
+msgid "Use the discrete GPU for all applications."
+msgstr "Uzi la apartan grafikan procesoron por ĉiuj programoj."
+
+#: vanilla_prime_utility/utils/wrapper.py:74
+msgid "Integrated GPU"
+msgstr "Integrita grafika procesoro"
+
+#: vanilla_prime_utility/utils/wrapper.py:75
+msgid "Use the integrated GPU for all applications."
+msgstr "Uzi la integritan grafikan procesoron por ĉiuj programoj."
+
+#: vanilla_prime_utility/utils/wrapper.py:79
+msgid "On-demand"
+msgstr "Laŭpete"
+
+#: vanilla_prime_utility/utils/wrapper.py:81
+msgid ""
+"Use the integrated GPU for all applications, and the discrete GPU on demand."
+msgstr ""
+"Uzi la integritan grafikan procesoron por ĉiuj programoj, kaj la apartan "
+"grafikan procesoron laŭpete."
+
+#: vanilla_prime_utility/utils/wrapper.py:110
+msgid "Invalid profile name"
+msgstr "Nevalida nomo de profilo"
+
+#: vanilla_prime_utility/utils/wrapper.py:130
+#: vanilla_prime_utility/utils/wrapper.py:133
+#: vanilla_prime_utility/utils/wrapper.py:136
+msgid "integrated"
+msgstr "integrita"
+
+#: vanilla_prime_utility/utils/wrapper.py:131
+#: vanilla_prime_utility/utils/wrapper.py:134
+#: vanilla_prime_utility/utils/wrapper.py:137
+msgid "discrete"
+msgstr "aparta"
+
+#: vanilla_prime_utility/widgets/profile.py:52
+msgid ""
+"It is not possible to switch the PRIME profile now. Please restart your "
+"device and try again."
+msgstr ""
+
+#: vanilla_prime_utility/windows/main_window.py:95
+msgid "Do you want to switch to the '{}' profile?"
+msgstr "Ĉu ŝanĝi al la profilo «{}»?"
+
+#: vanilla_prime_utility/windows/main_window.py:96
+msgid "This will require a restart to apply the changes."
+msgstr ""
+
+#: vanilla_prime_utility/windows/main_window.py:98
+msgid "_Cancel"
+msgstr "_Nuligi"
+
+#: vanilla_prime_utility/windows/main_window.py:99
+msgid "Switch to '{}'"
+msgstr "Ŝanĝi al «{}»"
+
+#: vanilla_prime_utility/windows/main_window.py:106
+msgid "Profile switched to {}!"
+msgstr "Profilo ŝanĝita al «{}»!"
+
+#: vanilla_prime_utility/windows/main_window.py:111
+msgid "Profile switch failed!"
+msgstr ""
+
+#: vanilla_prime_utility/windows/switch_window.py:38
+msgid "Switching to '{}'…"
+msgstr "Ŝanĝante al «{}»…"
+
+#: vanilla_prime_utility/windows/switch_window.py:110
+#: vanilla_prime_utility/windows/switch_window.py:111
+msgid "Switch Failed"
+msgstr "Ŝanĝo malsukcesis"
+
+#: vanilla_prime_utility/windows/switch_window.py:112
+msgid "Something went wrong. Please try again later."
+msgstr ""
