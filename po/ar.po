@@ -2,7 +2,7 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the prime_utility package.
 # Ibrahim Kaikaa <ibrahimkaikaa@protonmail.com>, 2023.
-# Muhammad Bahaa <muhammad.bahaa1@gmail.com>, 2023.
+# Muhammad Bahaa <muhammad.bahaa1@gmail.com>, 2023, 2024.
 # Moumn Almunawy <moumnalmunawy2006@gmail.com>, 2023.
 # Majed Alghoul <jedgh9@gmail.com>, 2023.
 # Mohammed Al Otaibi <mopes.03.belle@icloud.com>, 2024.
@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: prime_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-07 22:19+0530\n"
-"PO-Revision-Date: 2024-01-31 16:42+0000\n"
-"Last-Translator: Mohammed Al Otaibi <mopes.03.belle@icloud.com>\n"
+"PO-Revision-Date: 2024-07-27 10:09+0000\n"
+"Last-Translator: Muhammad Bahaa <muhammad.bahaa1@gmail.com>\n"
 "Language-Team: Arabic <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-prime-utility/ar/>\n"
 "Language: ar\n"
@@ -21,11 +21,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;\n"
-"X-Generator: Weblate 5.4-dev\n"
+"X-Generator: Weblate 5.7-dev\n"
 
 #: data/org.vanillaos.PrimeUtility.desktop.in:3
 msgid "GPU Profile Management (PRIME) Utility"
-msgstr ""
+msgstr "إدارة ملفات تعريف وحدة معالجة الرسومات (PRIME)"
 
 #: data/org.vanillaos.PrimeUtility.appdata.xml.in:7
 msgid "No description"
