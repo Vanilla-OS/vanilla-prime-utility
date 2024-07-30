@@ -4,13 +4,14 @@
 # Matt C <matei.gurzu@gmail.com>, 2023.
 # Gabriel Cozma <me@gabs.eu.org>, 2023.
 # "K.B.Dharun Krishna" <kbdharunkrishna@gmail.com>, 2023.
+# supernova <76390419+driedpampas@users.noreply.github.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: prime_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-07 22:19+0530\n"
-"PO-Revision-Date: 2023-07-29 14:06+0000\n"
-"Last-Translator: Matt C <matei.gurzu@gmail.com>\n"
+"PO-Revision-Date: 2024-07-29 01:20+0000\n"
+"Last-Translator: supernova <76390419+driedpampas@users.noreply.github.com>\n"
 "Language-Team: Romanian <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-prime-utility/ro/>\n"
 "Language: ro\n"
@@ -19,11 +20,11 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
 "20)) ? 1 : 2;\n"
-"X-Generator: Weblate 5.0-dev\n"
+"X-Generator: Weblate 5.7-dev\n"
 
 #: data/org.vanillaos.PrimeUtility.desktop.in:3
 msgid "GPU Profile Management (PRIME) Utility"
-msgstr ""
+msgstr "Utilitar de gestionare a profilului GPU (PRIME)"
 
 #: data/org.vanillaos.PrimeUtility.appdata.xml.in:7
 msgid "No description"
