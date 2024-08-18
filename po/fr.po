@@ -9,13 +9,14 @@
 # "K.B.Dharun Krishna" <kbdharunkrishna@gmail.com>, 2023.
 # tachyglossues <tachyglossues@gmail.com>, 2023.
 # Gabin <quagligabin.praud@gmail.com>, 2024.
+# Xabi GOITY <xabigoity@gmail.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: prime_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-07 22:19+0530\n"
-"PO-Revision-Date: 2024-01-03 15:07+0000\n"
-"Last-Translator: Gabin <quagligabin.praud@gmail.com>\n"
+"PO-Revision-Date: 2024-08-11 19:55+0000\n"
+"Last-Translator: Xabi GOITY <xabigoity@gmail.com>\n"
 "Language-Team: French <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-prime-utility/fr/>\n"
 "Language: fr\n"
@@ -23,11 +24,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.4-dev\n"
+"X-Generator: Weblate 5.7-dev\n"
 
 #: data/org.vanillaos.PrimeUtility.desktop.in:3
 msgid "GPU Profile Management (PRIME) Utility"
-msgstr ""
+msgstr "Gestionnaire de profils GPU (PRIME)"
 
 #: data/org.vanillaos.PrimeUtility.appdata.xml.in:7
 msgid "No description"
