@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the prime_utility package.
 # Zee <efzeee@pm.me>, 2023.
 # Reza Almanda <rezaalmanda27@gmail.com>, 2023, 2024.
+# Arif Budiman <arifpedia@gmail.com>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: prime_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-07 22:19+0530\n"
-"PO-Revision-Date: 2024-09-09 01:09+0000\n"
-"Last-Translator: Reza Almanda <rezaalmanda27@gmail.com>\n"
+"PO-Revision-Date: 2024-10-05 17:22+0000\n"
+"Last-Translator: Arif Budiman <arifpedia@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-prime-utility/id/>\n"
 "Language: id\n"
@@ -41,115 +42,119 @@ msgstr "_Preferensi"
 
 #: vanilla_prime_utility/gtk/window-main.ui:75
 msgid "_Keyboard Shortcuts"
-msgstr "_Pintasan Keyboard"
+msgstr "Pintasan Papan Ketik"
 
 #: vanilla_prime_utility/gtk/window-main.ui:79
 msgid "_About prime_utility"
-msgstr ""
+msgstr "Tentang prime_utility"
 
 #: vanilla_prime_utility/gtk/window-switch.ui:6
 msgid "Switching PRIME Profile…"
-msgstr ""
+msgstr "Mengganti Profil PRIME…"
 
 #: vanilla_prime_utility/utils/wrapper.py:45
 msgid "PRIME module disabled"
-msgstr ""
+msgstr "Modul PRIME dinonaktifkan"
 
 #: vanilla_prime_utility/utils/wrapper.py:49
 msgid "prime-select not found"
-msgstr ""
+msgstr "prime-select tidak ditemukan"
 
 #: vanilla_prime_utility/utils/wrapper.py:53
 msgid "prime-select not supported for this device"
-msgstr ""
+msgstr "prime-select tidak didukung untuk perangkat ini"
 
 #: vanilla_prime_utility/utils/wrapper.py:59
 msgid "prime-select is not supported for this setup"
-msgstr ""
+msgstr "prime-select tidak didukung untuk pengaturan ini"
 
 #: vanilla_prime_utility/utils/wrapper.py:69
 msgid "Discrete GPU"
-msgstr ""
+msgstr "GPU diskrit"
 
 #: vanilla_prime_utility/utils/wrapper.py:70
 msgid "Use the discrete GPU for all applications."
-msgstr ""
+msgstr "Gunakan GPU diskrit untuk semua aplikasi."
 
 #: vanilla_prime_utility/utils/wrapper.py:74
 msgid "Integrated GPU"
-msgstr ""
+msgstr "GPU terintegrasi"
 
 #: vanilla_prime_utility/utils/wrapper.py:75
 msgid "Use the integrated GPU for all applications."
-msgstr ""
+msgstr "Gunakan GPU terintegrasi untuk semua aplikasi."
 
 #: vanilla_prime_utility/utils/wrapper.py:79
 msgid "On-demand"
-msgstr ""
+msgstr "Sesuai permintaan"
 
 #: vanilla_prime_utility/utils/wrapper.py:81
 msgid ""
 "Use the integrated GPU for all applications, and the discrete GPU on demand."
 msgstr ""
+"Menggunakan GPU terintegrasi untuk semua aplikasi, dan GPU diskrit sesuai "
+"permintaan."
 
 #: vanilla_prime_utility/utils/wrapper.py:110
 msgid "Invalid profile name"
-msgstr ""
+msgstr "Nama profil tidak valid"
 
 #: vanilla_prime_utility/utils/wrapper.py:130
 #: vanilla_prime_utility/utils/wrapper.py:133
 #: vanilla_prime_utility/utils/wrapper.py:136
 msgid "integrated"
-msgstr ""
+msgstr "terintegrasi"
 
 #: vanilla_prime_utility/utils/wrapper.py:131
 #: vanilla_prime_utility/utils/wrapper.py:134
 #: vanilla_prime_utility/utils/wrapper.py:137
 msgid "discrete"
-msgstr ""
+msgstr "diskrit"
 
 #: vanilla_prime_utility/widgets/profile.py:52
 msgid ""
 "It is not possible to switch the PRIME profile now. Please restart your "
 "device and try again."
 msgstr ""
+"Tidak mungkin mengganti profil PRIME sekarang. Hidupkan ulang perangkat Anda "
+"dan coba lagi."
 
 #: vanilla_prime_utility/windows/main_window.py:95
 msgid "Do you want to switch to the '{}' profile?"
-msgstr ""
+msgstr "Apakah Anda ingin beralih ke profil '{}'?"
 
 #: vanilla_prime_utility/windows/main_window.py:96
 msgid "This will require a restart to apply the changes."
-msgstr ""
+msgstr "Ini akan memerlukan restart untuk menerapkan perubahan."
 
 #: vanilla_prime_utility/windows/main_window.py:98
 msgid "_Cancel"
-msgstr ""
+msgstr "Batal"
 
 #: vanilla_prime_utility/windows/main_window.py:99
 msgid "Switch to '{}'"
-msgstr ""
+msgstr "Beralih ke '{}'"
 
 #: vanilla_prime_utility/windows/main_window.py:106
 msgid "Profile switched to {}!"
-msgstr ""
+msgstr "Profil beralih ke {}!"
 
 #: vanilla_prime_utility/windows/main_window.py:111
 msgid "Profile switch failed!"
-msgstr ""
+msgstr "Pengalihan profil gagal!"
 
 #: vanilla_prime_utility/windows/switch_window.py:38
 msgid "Switching to '{}'…"
-msgstr ""
+msgstr "Beralih ke '{}'…"
 
 #: vanilla_prime_utility/windows/switch_window.py:110
 #: vanilla_prime_utility/windows/switch_window.py:111
 msgid "Switch Failed"
-msgstr ""
+msgstr "Gagal beralih"
 
 #: vanilla_prime_utility/windows/switch_window.py:112
 msgid "Something went wrong. Please try again later."
-msgstr ""
+msgstr "Ada yang tidak beres. Silakan coba lagi nanti."
 
 #~ msgid "PRIME Utility"
 #~ msgstr "Utilitas Utama"
