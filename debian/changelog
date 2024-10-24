@@ -1,8 +1,14 @@
+vanilla-prime-utility (1.0.4) unstable; urgency=medium
+
+  * Updated translations
+
+ -- Dharun Krishna <mail@kbdharun.dev> Thu, 24 Oct 2024  23:07:00 +0000
+
 vanilla-prime-utility (1.0.3) unstable; urgency=medium
 
   * Updated translations
 
- -- Mirko Brombin <send@mirko.pm> Sat, 27 July 2024  23:07:00 +0000
+ -- Mirko Brombin <send@mirko.pm> Sat, 27 Jul 2024  23:07:00 +0000
 
 vanilla-prime-utility (1.0.2) unstable; urgency=medium
 
@@ -21,4 +27,3 @@ vanilla-prime-utility (1.0.0-1) kinetic; urgency=medium
   * First release
 
  -- Mirko Brombin <send@mirko.pm>  Sun, 12 Feb 2023 23:43:00 +0000
-
