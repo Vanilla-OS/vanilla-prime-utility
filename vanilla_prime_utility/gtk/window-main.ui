@@ -4,7 +4,6 @@
   <requires lib="Adw" version="1.0"/>
   <template class="PrimeUtilityWindow" parent="AdwApplicationWindow">
     <property name="default-width">600</property>
-    <property name="default-height">600</property>
     <property name="title">GPU Profile Management (PRIME) Utility</property>
     <child>
       <object class="GtkBox">
