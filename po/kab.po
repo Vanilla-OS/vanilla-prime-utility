@@ -2,13 +2,14 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the prime_utility package.
 # ButterflyOfFire <boffire@users.noreply.hosted.weblate.org>, 2024.
+# Amadɣas <massiin@proton.me>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: prime_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-07 22:19+0530\n"
-"PO-Revision-Date: 2024-12-07 10:53+0000\n"
-"Last-Translator: ButterflyOfFire <boffire@users.noreply.hosted.weblate.org>\n"
+"PO-Revision-Date: 2026-02-13 20:09+0000\n"
+"Last-Translator: Amadɣas <massiin@proton.me>\n"
 "Language-Team: Kabyle <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-prime-utility/kab/>\n"
 "Language: kab\n"
@@ -16,11 +17,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.9-dev\n"
+"X-Generator: Weblate 5.16-dev\n"
 
 #: data/org.vanillaos.PrimeUtility.desktop.in:3
 msgid "GPU Profile Management (PRIME) Utility"
-msgstr ""
+msgstr "Afecku umsefrak n umaɣnu GPU (PRIME)"
 
 #: data/org.vanillaos.PrimeUtility.appdata.xml.in:7
 msgid "No description"
@@ -28,15 +29,15 @@ msgstr "Ulac aglam"
 
 #: vanilla_prime_utility/gtk/window-main.ui:55
 msgid "Active Profile"
-msgstr ""
+msgstr "Amaɣnu urmid"
 
 #: vanilla_prime_utility/gtk/window-main.ui:56
 msgid "Select the PRIME profile to use."
-msgstr ""
+msgstr "Fren amaɣnu PIMRE i useqdec."
 
 #: vanilla_prime_utility/gtk/window-main.ui:71
 msgid "_Preferences"
-msgstr ""
+msgstr "_Ismenyifen"
 
 #: vanilla_prime_utility/gtk/window-main.ui:75
 msgid "_Keyboard Shortcuts"
@@ -48,78 +49,80 @@ msgstr "Ɣe_f prime_utility"
 
 #: vanilla_prime_utility/gtk/window-switch.ui:6
 msgid "Switching PRIME Profile…"
-msgstr ""
+msgstr "Asenfel n umaɣnu PRIME…"
 
 #: vanilla_prime_utility/utils/wrapper.py:45
 msgid "PRIME module disabled"
-msgstr ""
+msgstr "Azegrir PRIME yensa"
 
 #: vanilla_prime_utility/utils/wrapper.py:49
 msgid "prime-select not found"
-msgstr ""
+msgstr "prime-select ur yettwaf ara"
 
 #: vanilla_prime_utility/utils/wrapper.py:53
 msgid "prime-select not supported for this device"
-msgstr ""
+msgstr "prime-select ur tetteddu ara i yibenk-agi"
 
 #: vanilla_prime_utility/utils/wrapper.py:59
 msgid "prime-select is not supported for this setup"
-msgstr ""
+msgstr "prime-select ur tetteddu ara i usebded-agi"
 
 #: vanilla_prime_utility/utils/wrapper.py:69
 msgid "Discrete GPU"
-msgstr ""
+msgstr "GPU azɣaray"
 
 #: vanilla_prime_utility/utils/wrapper.py:70
 msgid "Use the discrete GPU for all applications."
-msgstr ""
+msgstr "Seqdec aGPU azɣaray i meṛṛa isnansen."
 
 #: vanilla_prime_utility/utils/wrapper.py:74
 msgid "Integrated GPU"
-msgstr ""
+msgstr "GPU yettwaselɣen"
 
 #: vanilla_prime_utility/utils/wrapper.py:75
 msgid "Use the integrated GPU for all applications."
-msgstr ""
+msgstr "Seqdec aGPU yettwaselɣen i meṛṛa isnansen."
 
 #: vanilla_prime_utility/utils/wrapper.py:79
 msgid "On-demand"
-msgstr ""
+msgstr "S usuter"
 
 #: vanilla_prime_utility/utils/wrapper.py:81
 msgid ""
 "Use the integrated GPU for all applications, and the discrete GPU on demand."
-msgstr ""
+msgstr "Seqdec aGPU yettwaselɣen i meṛṛa isnansen, u aGPU azɣaray s usuter."
 
 #: vanilla_prime_utility/utils/wrapper.py:110
 msgid "Invalid profile name"
-msgstr ""
+msgstr "Isem n umaɣnu d armeɣtu"
 
 #: vanilla_prime_utility/utils/wrapper.py:130
 #: vanilla_prime_utility/utils/wrapper.py:133
 #: vanilla_prime_utility/utils/wrapper.py:136
 msgid "integrated"
-msgstr ""
+msgstr "yettwaselɣen"
 
 #: vanilla_prime_utility/utils/wrapper.py:131
 #: vanilla_prime_utility/utils/wrapper.py:134
 #: vanilla_prime_utility/utils/wrapper.py:137
 msgid "discrete"
-msgstr ""
+msgstr "azɣaray"
 
 #: vanilla_prime_utility/widgets/profile.py:52
 msgid ""
 "It is not possible to switch the PRIME profile now. Please restart your "
 "device and try again."
 msgstr ""
+"Ur tezmireḍ ara ad tbeddleḍ amaɣnu PRIME tura. Ttxil-k·m senker tikkelt-"
+"nniḍen Ibenk-ik·im sakin ɛreḍ tikelt nniḍen."
 
 #: vanilla_prime_utility/windows/main_window.py:95
 msgid "Do you want to switch to the '{}' profile?"
-msgstr ""
+msgstr "Tebɣiḍ ad tbeddleḍ ɣer umaɣnu '{}' ?"
 
 #: vanilla_prime_utility/windows/main_window.py:96
 msgid "This will require a restart to apply the changes."
-msgstr ""
+msgstr "Aya yesra asenker tikelt nniḍen Ilmend n usnas n isenfal."
 
 #: vanilla_prime_utility/windows/main_window.py:98
 msgid "_Cancel"
@@ -127,25 +130,27 @@ msgstr "_Semmet"
 
 #: vanilla_prime_utility/windows/main_window.py:99
 msgid "Switch to '{}'"
-msgstr ""
+msgstr "Senfel ɣer '{]'"
 
 #: vanilla_prime_utility/windows/main_window.py:106
 msgid "Profile switched to {}!"
-msgstr ""
+msgstr "Amaɣnu yettwasenfel ɣer {}!"
 
 #: vanilla_prime_utility/windows/main_window.py:111
 msgid "Profile switch failed!"
-msgstr ""
+msgstr "Asenfel n umaɣnu yecceḍ!"
 
 #: vanilla_prime_utility/windows/switch_window.py:38
 msgid "Switching to '{}'…"
-msgstr ""
+msgstr "Asenfel ɣer '{]'…"
 
 #: vanilla_prime_utility/windows/switch_window.py:110
 #: vanilla_prime_utility/windows/switch_window.py:111
 msgid "Switch Failed"
-msgstr ""
+msgstr "Asenfel ur yeddi ara"
 
 #: vanilla_prime_utility/windows/switch_window.py:112
 msgid "Something went wrong. Please try again later."
 msgstr ""
+"Yella wayen ur neddi ara akken ilaq. Ma ulac aɣilif, ɛreḍ tikelt nniḍen "
+"ticki."
