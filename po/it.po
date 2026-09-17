@@ -4,14 +4,14 @@
 # EncryptedEasty <c.zullo08@gmail.com>, 2023.
 # Fedorov Alexei <aleksejfedorov963@gmail.com>, 2023.
 # EncryptedEasty <95353984+EncryptedEasty@users.noreply.github.com>, 2023.
+# Federico G <fefefico69@gmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: prime_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-07 22:19+0530\n"
-"PO-Revision-Date: 2023-08-07 14:09+0000\n"
-"Last-Translator: EncryptedEasty <95353984+EncryptedEasty@users.noreply."
-"github.com>\n"
+"PO-Revision-Date: 2025-03-05 21:37+0000\n"
+"Last-Translator: Federico G <fefefico69@gmail.com>\n"
 "Language-Team: Italian <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-prime-utility/it/>\n"
 "Language: it\n"
@@ -19,11 +19,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.0-dev\n"
+"X-Generator: Weblate 5.10.3-dev\n"
 
 #: data/org.vanillaos.PrimeUtility.desktop.in:3
 msgid "GPU Profile Management (PRIME) Utility"
-msgstr ""
+msgstr "Utility di gestion del profilo GPU (PRIME)"
 
 #: data/org.vanillaos.PrimeUtility.appdata.xml.in:7
 msgid "No description"
