@@ -4,13 +4,14 @@
 # Zee <efzeee@pm.me>, 2023.
 # Reza Almanda <rezaalmanda27@gmail.com>, 2023, 2024.
 # Arif Budiman <arifpedia@gmail.com>, 2024.
+# Zahid Rizky Fakhri <zahidrizkyfakhri@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: prime_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-07 22:19+0530\n"
-"PO-Revision-Date: 2024-10-05 17:22+0000\n"
-"Last-Translator: Arif Budiman <arifpedia@gmail.com>\n"
+"PO-Revision-Date: 2026-03-07 07:09+0000\n"
+"Last-Translator: Zahid Rizky Fakhri <zahidrizkyfakhri@gmail.com>\n"
 "Language-Team: Indonesian <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-prime-utility/id/>\n"
 "Language: id\n"
@@ -18,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.8-dev\n"
+"X-Generator: Weblate 5.17-dev\n"
 
 #: data/org.vanillaos.PrimeUtility.desktop.in:3
 msgid "GPU Profile Management (PRIME) Utility"
@@ -42,15 +43,15 @@ msgstr "_Preferensi"
 
 #: vanilla_prime_utility/gtk/window-main.ui:75
 msgid "_Keyboard Shortcuts"
-msgstr "Pintasan Papan Ketik"
+msgstr "_Pintasan Papan Ketik"
 
 #: vanilla_prime_utility/gtk/window-main.ui:79
 msgid "_About prime_utility"
-msgstr "Tentang prime_utility"
+msgstr "Tentang utilitas utama"
 
 #: vanilla_prime_utility/gtk/window-switch.ui:6
 msgid "Switching PRIME Profile…"
-msgstr "Mengganti Profil PRIME…"
+msgstr "Mengalihkan Profil Utama…"
 
 #: vanilla_prime_utility/utils/wrapper.py:45
 msgid "PRIME module disabled"
@@ -92,7 +93,7 @@ msgstr "Sesuai permintaan"
 msgid ""
 "Use the integrated GPU for all applications, and the discrete GPU on demand."
 msgstr ""
-"Menggunakan GPU terintegrasi untuk semua aplikasi, dan GPU diskrit sesuai "
+"Gunakan GPU terintegrasi untuk semua aplikasi, dan GPU diskrit sesuai "
 "permintaan."
 
 #: vanilla_prime_utility/utils/wrapper.py:110
@@ -116,7 +117,7 @@ msgid ""
 "It is not possible to switch the PRIME profile now. Please restart your "
 "device and try again."
 msgstr ""
-"Tidak mungkin mengganti profil PRIME sekarang. Hidupkan ulang perangkat Anda "
+"Tidak mungkin mengganti profil PRIME sekarang. Nyalakan ulang perangkat Anda "
 "dan coba lagi."
 
 #: vanilla_prime_utility/windows/main_window.py:95
@@ -129,7 +130,7 @@ msgstr "Ini akan memerlukan restart untuk menerapkan perubahan."
 
 #: vanilla_prime_utility/windows/main_window.py:98
 msgid "_Cancel"
-msgstr "Batal"
+msgstr "_Batal"
 
 #: vanilla_prime_utility/windows/main_window.py:99
 msgid "Switch to '{}'"
@@ -141,7 +142,7 @@ msgstr "Profil beralih ke {}!"
 
 #: vanilla_prime_utility/windows/main_window.py:111
 msgid "Profile switch failed!"
-msgstr "Pengalihan profil gagal!"
+msgstr "Peralihan profil gagal!"
 
 #: vanilla_prime_utility/windows/switch_window.py:38
 msgid "Switching to '{}'…"
@@ -150,7 +151,7 @@ msgstr "Beralih ke '{}'…"
 #: vanilla_prime_utility/windows/switch_window.py:110
 #: vanilla_prime_utility/windows/switch_window.py:111
 msgid "Switch Failed"
-msgstr "Gagal beralih"
+msgstr "Sakelar Gagal"
 
 #: vanilla_prime_utility/windows/switch_window.py:112
 msgid "Something went wrong. Please try again later."
