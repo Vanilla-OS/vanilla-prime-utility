@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the prime_utility package.
 # "Tinde (Joke)" <jouko.tiilikainen@gmail.com>, 2023.
 # Niila Magga <niila@runbox.com>, 2024.
+# Ricky Tigg <ricky.tigg@gmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: prime_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-07 22:19+0530\n"
-"PO-Revision-Date: 2024-07-04 18:11+0000\n"
-"Last-Translator: Niila Magga <niila@runbox.com>\n"
+"PO-Revision-Date: 2025-03-11 12:18+0000\n"
+"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-prime-utility/fi/>\n"
 "Language: fi\n"
@@ -17,11 +18,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.7-dev\n"
+"X-Generator: Weblate 5.10.3-dev\n"
 
 #: data/org.vanillaos.PrimeUtility.desktop.in:3
 msgid "GPU Profile Management (PRIME) Utility"
-msgstr ""
+msgstr "GPU-profiilin hallinta (PRIME) -apuohjelma"
 
 #: data/org.vanillaos.PrimeUtility.appdata.xml.in:7
 msgid "No description"
@@ -41,7 +42,7 @@ msgstr "_Valinnat"
 
 #: vanilla_prime_utility/gtk/window-main.ui:75
 msgid "_Keyboard Shortcuts"
-msgstr "_Pikanäppäimet"
+msgstr "_Näppäimistön pikanäppäimet"
 
 #: vanilla_prime_utility/gtk/window-main.ui:79
 msgid "_About prime_utility"
