@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the prime_utility package.
 # Nguyen Minh Thai <thaimeo200389@gmail.com>, 2023.
 # Notch Apple <Gapple1703@gmail.com>, 2024.
+# akarihito <thiendat5506@gmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: prime_utility\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-07-07 22:19+0530\n"
-"PO-Revision-Date: 2024-06-04 07:40+0000\n"
-"Last-Translator: Notch Apple <Gapple1703@gmail.com>\n"
+"PO-Revision-Date: 2025-05-14 18:53+0000\n"
+"Last-Translator: akarihito <thiendat5506@gmail.com>\n"
 "Language-Team: Vietnamese <https://hosted.weblate.org/projects/vanilla-os/"
 "vanilla-prime-utility/vi/>\n"
 "Language: vi\n"
@@ -17,11 +18,11 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.6-dev\n"
+"X-Generator: Weblate 5.12-dev\n"
 
 #: data/org.vanillaos.PrimeUtility.desktop.in:3
 msgid "GPU Profile Management (PRIME) Utility"
-msgstr ""
+msgstr "Tiện ích Quản lý Hồ sơ GPU (PRIME)"
 
 #: data/org.vanillaos.PrimeUtility.appdata.xml.in:7
 msgid "No description"
@@ -37,60 +38,60 @@ msgstr "Chọn hồ sơ PRIME để sử dụng."
 
 #: vanilla_prime_utility/gtk/window-main.ui:71
 msgid "_Preferences"
-msgstr ""
+msgstr "_Các tùy chọn ưu tiên"
 
 #: vanilla_prime_utility/gtk/window-main.ui:75
 msgid "_Keyboard Shortcuts"
-msgstr "_Keyboard Phím tắt"
+msgstr "_Phím tắt bàn phím"
 
 #: vanilla_prime_utility/gtk/window-main.ui:79
 msgid "_About prime_utility"
-msgstr ""
+msgstr "_Về prime_utility"
 
 #: vanilla_prime_utility/gtk/window-switch.ui:6
 msgid "Switching PRIME Profile…"
-msgstr "Đang chuyển đổi hồ sơ PRIME…"
+msgstr "Đang chuyển hồ sơ PRIME…"
 
 #: vanilla_prime_utility/utils/wrapper.py:45
 msgid "PRIME module disabled"
-msgstr ""
+msgstr "Mô-đun PRIME bị vô hiệu hóa"
 
 #: vanilla_prime_utility/utils/wrapper.py:49
 msgid "prime-select not found"
-msgstr ""
+msgstr "không tìm thấy prime-select"
 
 #: vanilla_prime_utility/utils/wrapper.py:53
 msgid "prime-select not supported for this device"
-msgstr ""
+msgstr "prime-select không được hỗ trợ cho thiết bị này"
 
 #: vanilla_prime_utility/utils/wrapper.py:59
 msgid "prime-select is not supported for this setup"
-msgstr ""
+msgstr "prime-select không được hỗ trợ cho thiết lập này"
 
 #: vanilla_prime_utility/utils/wrapper.py:69
 msgid "Discrete GPU"
-msgstr ""
+msgstr "GPU rời"
 
 #: vanilla_prime_utility/utils/wrapper.py:70
 msgid "Use the discrete GPU for all applications."
-msgstr ""
+msgstr "Sử dụng GPU rời cho mọi ứng dụng."
 
 #: vanilla_prime_utility/utils/wrapper.py:74
 msgid "Integrated GPU"
-msgstr ""
+msgstr "GPU tích hợp"
 
 #: vanilla_prime_utility/utils/wrapper.py:75
 msgid "Use the integrated GPU for all applications."
-msgstr ""
+msgstr "Sử dụng GPU tích hợp cho mọi ứng dụng."
 
 #: vanilla_prime_utility/utils/wrapper.py:79
 msgid "On-demand"
-msgstr ""
+msgstr "Theo yêu cầu"
 
 #: vanilla_prime_utility/utils/wrapper.py:81
 msgid ""
 "Use the integrated GPU for all applications, and the discrete GPU on demand."
-msgstr ""
+msgstr "Sử dụng GPU tích hợp cho mọi ứng dụng và GPU rời khi cần."
 
 #: vanilla_prime_utility/utils/wrapper.py:110
 msgid "Invalid profile name"
@@ -100,13 +101,13 @@ msgstr "Tên hồ sơ không hợp lệ"
 #: vanilla_prime_utility/utils/wrapper.py:133
 #: vanilla_prime_utility/utils/wrapper.py:136
 msgid "integrated"
-msgstr ""
+msgstr "tích hợp"
 
 #: vanilla_prime_utility/utils/wrapper.py:131
 #: vanilla_prime_utility/utils/wrapper.py:134
 #: vanilla_prime_utility/utils/wrapper.py:137
 msgid "discrete"
-msgstr ""
+msgstr "rời"
 
 #: vanilla_prime_utility/widgets/profile.py:52
 msgid ""
